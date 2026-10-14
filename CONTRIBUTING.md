@@ -11,7 +11,7 @@ Use [Docker Compose](docs/docker.md) for a packaged local run, or the native set
 - Generate migrations through Drizzle; include generated SQL and metadata together.
 - Update documentation when changing behavior, models, data or setup.
 
-Run the relevant type/build and focused acceptance checks. Run existing tests when requested or required by the task. Identify paid API, native-language and actual-device checks separately. Describe what changed, why, the evidence checked and remaining work.
+Run `pnpm check` for the shared typecheck/test/build gate, plus focused acceptance checks for changed behavior. Run existing tests when requested or required by the task. Identify paid API, native-language and actual-device checks separately. Describe what changed, why, the evidence checked and remaining work.
 
 Use `codex/` as the default branch prefix for Codex work. Keep credentials, dependencies, private recordings and local SQLite data out of commits. `pnpm package:source` creates a ZIP handoff from an allowlist. Hosting or publishing is a separate action.
 

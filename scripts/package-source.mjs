@@ -5,7 +5,7 @@ import { deflateRawSync } from 'node:zlib';
 import { createHash } from 'node:crypto';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
-const directories = ['apps', 'packages', 'docs', 'tests', 'scripts', 'docker'];
+const directories = ['apps', 'packages', 'docs', 'tests', 'scripts', 'docker', '.github'];
 const rootFiles = ['README.md', 'CONTRIBUTING.md', 'AGENTS.md', '.env.example', '.env.docker.example', '.gitignore', '.dockerignore', '.nvmrc', 'Dockerfile', 'compose.yaml', 'package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', 'tsconfig.base.json', 'playwright.config.ts'];
 const media = ['deliverables/README.md', 'deliverables/oye-demo-v2.mp4', 'deliverables/oye-demo.vtt', 'deliverables/oye-demo-script.md', 'deliverables/oye-demo-poster.jpg'];
 const excluded = new Set(['node_modules', 'dist', '.git', '.data', 'test-results', 'playwright-report', '__pycache__', 'coverage', '.cache', '.pnpm-store']);

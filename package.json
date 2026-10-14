@@ -9,6 +9,7 @@
     "typecheck": "pnpm -r typecheck",
     "build": "pnpm -r build",
     "test": "pnpm -r --if-present test",
+    "check": "pnpm typecheck && pnpm test && pnpm build",
     "db:generate": "pnpm --filter @oye/db generate",
     "db:migrate": "pnpm --filter @oye/db migrate",
     "check:browser": "playwright test",

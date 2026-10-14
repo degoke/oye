@@ -71,8 +71,7 @@ No login is required. An anonymous session resumes learning in the same browser.
 ## Build and preview
 
 ```sh
-pnpm typecheck
-pnpm build
+pnpm check
 pnpm --filter @oye/api start
 ```
 

@@ -259,3 +259,13 @@ Added at the user's request after M18. Outcome: the cleaned project is available
 - [x] Record the repository URL, visibility and completed handoff.
 
 M19 complete: [degoke/oye](https://github.com/degoke/oye) is private, `main` is pushed, and the initial remote tree/blob hashes match the cleaned local commit. [Repository evidence](evidence/m19-github.json) records the checks.
+
+
+## M20 · GitHub CI and local check command
+
+Added at the user's request after M19. Outcome: one repeatable gate locally and in GitHub Actions.
+
+- [x] Add `pnpm check` for sequential typecheck, existing package tests and build.
+- [x] Add CI on main pushes, pull requests and manual dispatch with pinned actions, Node/pnpm configuration, frozen install and caching.
+- [x] Include workflow files in the source handoff and document check scope.
+- [ ] Run the local check, push the workflow and verify a GitHub CI run.

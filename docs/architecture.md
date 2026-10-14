@@ -87,3 +87,7 @@ Local presentation sources in `.data/demo-production/` and `.data/demo-assets/` 
 `Dockerfile` builds from the pinned Node patch and frozen pnpm lockfile. The API image includes native dependencies, FFmpeg/FFprobe and Noto fonts; the web image serves the built Vite output through NGINX. Compose runs a generated-migration job before API health checks and web startup. Both migration/API use `/data` in one named volume, and the API runs as the Node user.
 
 `API_HOST` defaults to loopback for native development and is explicitly `0.0.0.0` inside the container network. Only the web's loopback host port is published. `VIDEO_FONT_FAMILY` defaults to Arial natively and Noto Sans in Docker. `.env.docker` configures the API at runtime and is excluded from build context, images and source packages. Proxying preserves SSE and voice WebSocket upgrades. See [Docker guide](docker.md).
+
+## CI and local validation
+
+The root `pnpm check` runs workspace type checks, package tests and production builds in order. `.github/workflows/ci.yml` invokes the same command after frozen installation on Node 24 with cached pnpm dependencies. Existing package tests use temporary SQLite databases and no provider calls. The workflow has read-only repository permissions and immutable action pins. Browser and live provider/device checks retain separate procedures.

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-14",
+  "command": "pnpm check",
+  "order": [
+    "pnpm typecheck",
+    "pnpm test",
+    "pnpm build"
+  ],
+  "local": {
+    "typecheck": "passed",
+    "testFiles": 2,
+    "testsPassed": 11,
+    "testsFailed": 0,
+    "build": "passed",
+    "warning": "Existing approximately 879 kB realtime chunk"
+  },
+  "workflow": ".github/workflows/ci.yml",
+  "triggers": [
+    "push main",
+    "pull_request",
+    "workflow_dispatch"
+  ],
+  "nodeVersionFile": ".nvmrc",
+  "pnpmVersionSource": "packageManager",
+  "requiresProviderSecrets": false,
+  "hostedVerification": "pending"
+}

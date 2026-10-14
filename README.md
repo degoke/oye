@@ -82,9 +82,14 @@ One pnpm workspace and one lockfile keep installation reproducible.
 ## Development commands
 
 ```sh
-pnpm typecheck
-pnpm build
-pnpm test
+pnpm check
+```
+
+`pnpm check` runs typecheck, package tests and production build in order, stopping on failure. [GitHub CI](https://github.com/degoke/oye/actions/workflows/ci.yml) runs the same command on pushes to `main` and pull requests. It uses the root lockfile and needs no provider secrets.
+
+Browser checks remain a separate command:
+
+```sh
 pnpm exec playwright install chromium
 pnpm check:browser
 ```

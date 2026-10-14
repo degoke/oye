@@ -67,3 +67,7 @@ Before GitHub publishing, remove redundant presentation copies from Git candidat
 ## M19 GitHub handoff
 
 At the user's request, create the project's repository in the authenticated personal GitHub account and push the cleaned source. Use the brand's ASCII slug `oye`, initial private visibility and the existing `main` branch. Check staged content, remote ownership and commit synchronization. This publishes source and documentation, not the hosted app.
+
+## M20 CI and local checks
+
+At the user's request, add a shared `pnpm check` command for typecheck, package tests and build. GitHub Actions installs pinned dependencies and runs that same gate on main pushes and PRs. Verify the local command and a hosted workflow run before completing this milestone.

@@ -4,7 +4,7 @@ Last updated: 14 October 2026, Africa/Lagos.
 
 Current phase: the original demo is complete for the accepted scope. M00–M12 are complete; M13 adds the user-requested spoken objective and visible 4:50 presentation flow. A local Git repository and pnpm workspace are initialized.
 
-Current milestone: M19 is complete, including GitHub repository creation and initial push. M18 is complete, including GitHub repository cleanup. M17 is complete, including Docker Compose local handoff. M16 is complete, including the reusable handoff and static screenshot walkthrough. M15 is complete. M13 is complete for the accepted separate demo-asset scope. Fresh learning/adaptation, four-language text, recorded voice, captioned video, saved offline text, retention, usage bounds, keyboard checks, type checks and production build have recorded evidence. D033 accepts experimental Yoruba/Igbo audio with text fallback. D037 accepts unverified human microphone conversation, physical-phone keyboard behavior and real screen-reader checks as documented demo limitations. No device certification or deployment is claimed. See [final audit](evidence/m12.md), [handoff](handoff.md) and [demo script](demo-script.md).
+Current milestone: M20, GitHub CI and the local check command, is in progress. M19 is complete, including GitHub repository creation and initial push. M18 is complete, including GitHub repository cleanup. M17 is complete, including Docker Compose local handoff. M16 is complete, including the reusable handoff and static screenshot walkthrough. M15 is complete. M13 is complete for the accepted separate demo-asset scope. Fresh learning/adaptation, four-language text, recorded voice, captioned video, saved offline text, retention, usage bounds, keyboard checks, type checks and production build have recorded evidence. D033 accepts experimental Yoruba/Igbo audio with text fallback. D037 accepts unverified human microphone conversation, physical-phone keyboard behavior and real screen-reader checks as documented demo limitations. No device certification or deployment is claimed. See [final audit](evidence/m12.md), [handoff](handoff.md) and [demo script](demo-script.md).
 
 | Milestone | Status |
 | --- | --- |
@@ -305,3 +305,10 @@ The user explicitly requested creating a repository in their GitHub account and 
 Created [degoke/oye](https://github.com/degoke/oye) in the authenticated personal account with initial private visibility. Committed the cleaned project on the existing `main` branch and pushed it to `origin`. The initial remote commit and all 255 remote blob hashes match the local commit. Only blank environment templates are uploaded; credentials, databases, dependency/build/runtime folders, local archives and source ZIPs are excluded. Added the repository link and clone instructions to current documentation.
 
 [Repository evidence](evidence/m19-github.json) records ownership, visibility, branch and initial commit/tree verification. The source repository is uploaded; no hosted application deployment or application test run was part of this task.
+
+
+## M20 in progress
+
+Added `pnpm check` to run typecheck, package tests and production build sequentially. GitHub Actions uses the same command with frozen dependency installation, Node from `.nvmrc`, pnpm from `packageManager`, cached dependencies and immutable action pins. It runs without provider secrets on main pushes, PRs and manual dispatch. Local and hosted acceptance are pending.
+
+M20 local acceptance: `pnpm check` passed all workspace type checks, both Vitest test files with eleven passing tests, and the production build. The existing realtime chunk-size warning remains. Hosted CI verification is pending the workflow push.

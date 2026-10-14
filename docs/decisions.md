@@ -481,3 +481,12 @@ Date: 14 October 2026. Status: completed under the user's explicit authorization
 The user asked to create a repository in their account and push the project. The authenticated personal account is `degoke`; use the available ASCII brand slug `oye`, preserve the existing `main` branch and initially create a private repository. Public visibility was not specified. Upload the cleaned source/documentation/container setup and curated demo assets, preserving runtime/credential/archive exclusions. No hosted application deployment is included. Verify remote ownership and commit synchronization before reporting completion.
 
 D054 result: [degoke/oye](https://github.com/degoke/oye) was created privately, with `main` pushed and the initial remote tree/blob hashes matched to the local commit. Ownership is `degoke`. Runtime/credential files remain excluded.
+
+
+## D055 · One check command locally and in CI
+
+Date: 14 October 2026. Status: implemented, local/hosted acceptance pending.
+
+The user requested GitHub CI for typecheck/tests/build and a local command doing all three. Define `pnpm check` as sequential `pnpm typecheck`, `pnpm test`, `pnpm build`, stopping at the first failure. Reuse that exact command in the workflow rather than maintaining a separate task order. Existing package tests use Vitest; browser checks remain their separate opt-in command and paid/device checks retain separate evidence.
+
+Use Ubuntu 24.04, Node from `.nvmrc`, pnpm's manifest-pinned version, frozen installation and dependency-store caching. Pin third-party actions to verified release commits, keep read-only repository permissions, bound run time and cancel superseded runs. Trigger main pushes, PRs and manual dispatch. No provider keys, live databases or migration generation are used in CI. Add `.github` to source packaging so an extracted handoff retains the same check configuration.

@@ -37,6 +37,7 @@ Jobs retain input versions, ownership, status and retry counts. Narration is pub
 | Command | Purpose |
 | --- | --- |
 | `pnpm dev` | Run API and web development servers |
+| `pnpm check` | Typecheck, package tests and production build, stopping on failure |
 | `pnpm typecheck` | Type-check the workspace |
 | `pnpm build` | Compile the API and web client |
 | `pnpm test` | Existing package test suites |
@@ -63,3 +64,10 @@ Commit app/package source, existing tests, generated Drizzle migrations/metadata
 `deliverables/` uses an explicit Git allowlist for those current presentation files. Local archives, trial media, cached production frames/audio, `.env` files, learner databases, backup archives, dependencies, builds, coverage, logs and source ZIPs are excluded. The source packager follows the same curated presentation list and skips generated caches. Its ZIP is a local handoff, not a file to commit.
 
 Before staging, inspect `git status --short` and `git ls-files --cached --others --exclude-standard`. Review changes and the files included; do not add ignored runtime folders with force. Keep dated verification and failed-review records in docs.
+
+
+## Continuous integration
+
+[GitHub CI](https://github.com/degoke/oye/actions/workflows/ci.yml), configured in `.github/workflows/ci.yml`, runs the same `pnpm check` used locally. It runs on pushes to `main`, pull requests and manual dispatch. The job uses Node from `.nvmrc`, pnpm from `packageManager`, dependency-store caching and frozen lockfile installation. Action versions are pinned to immutable commits and the job has read-only repository access.
+
+The package test phase runs existing Vitest API/session and microphone-helper tests. They use temporary databases and generated migrations, require no provider keys, and make no paid AI calls. Browser checks, paid provider quality and device/native-language verification retain their separate procedures. CI neither generates migrations nor uses live learner storage.
