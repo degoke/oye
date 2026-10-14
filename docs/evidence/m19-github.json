@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-14",
+  "repository": "https://github.com/degoke/oye",
+  "owner": "degoke",
+  "visibility": "private",
+  "branch": "main",
+  "initialCommit": "774c635c49a0952c3eb1331ae8dfd627cbd212a1",
+  "verifiedInitialFiles": 255,
+  "remoteBlobHashesMatchLocalCommit": true,
+  "excludedRuntimeAndCredentials": true,
+  "uploadedEnvironmentFiles": [
+    ".env.docker.example",
+    ".env.example"
+  ],
+  "applicationDeployment": false,
+  "applicationTestsRerun": false
+}

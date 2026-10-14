@@ -254,6 +254,8 @@ Added at the user's request after M17. Outcome: a curated source repository with
 Added at the user's request after M18. Outcome: the cleaned project is available in the user's GitHub account.
 
 - [x] Confirm the authenticated account, available repository name and cleaned files.
-- [ ] Create `degoke/oye` with initial private visibility and configure origin.
-- [ ] Commit/push `main` and verify remote commit/file contents.
-- [ ] Record the repository URL, visibility and completed handoff.
+- [x] Create `degoke/oye` with initial private visibility and configure origin.
+- [x] Commit/push `main` and verify remote commit/file contents.
+- [x] Record the repository URL, visibility and completed handoff.
+
+M19 complete: [degoke/oye](https://github.com/degoke/oye) is private, `main` is pushed, and the initial remote tree/blob hashes match the cleaned local commit. [Repository evidence](evidence/m19-github.json) records the checks.

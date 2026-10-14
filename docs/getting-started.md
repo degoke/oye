@@ -2,6 +2,17 @@
 
 [← Project home](../README.md) · [Screenshot walkthrough](walkthrough.md)
 
+## Get the source
+
+The repository is [degoke/oye](https://github.com/degoke/oye), initially private. Clone it using a GitHub account with access:
+
+```sh
+git clone https://github.com/degoke/oye.git
+cd oye
+```
+
+An extracted source ZIP works with the same setup.
+
 ## Choose your setup
 
 For the simplest local run, use [Docker Compose](docker.md). It packages the runtime, media tools and fonts, and applies generated migrations on startup. The steps below are for native development without Docker.

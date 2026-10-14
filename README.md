@@ -4,6 +4,8 @@
 >
 > Learn anything. In your language. In your way.
 
+[GitHub repository](https://github.com/degoke/oye)
+
 ## Start here
 
 **[Walk through the app with screenshots →](docs/walkthrough.md)**
