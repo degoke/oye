@@ -1,0 +1,632 @@
+{
+  "observedAt": "2026-10-14T05:18:33.524Z",
+  "inputKind": "Synthetic recorded Yoruba request, not human microphone capture",
+  "language": "yo",
+  "transcription": {
+    "id": "5bbae673-822f-4a8f-9e21-27009a71ac76",
+    "language": "yo",
+    "text": "Mo fẹ́ kọ́ nípa photosynthesis. Báwo ni àwọn ohun ọ̀gbìn ṣe ń ṣe oúnjẹ wọn?",
+    "confirmedText": null,
+    "confirmedAt": null,
+    "duration": 10,
+    "createdAt": 1791952469081
+  },
+  "confirmed": {
+    "id": "5bbae673-822f-4a8f-9e21-27009a71ac76",
+    "language": "yo",
+    "text": "Mo fẹ́ kọ́ nípa photosynthesis. Báwo ni àwọn ohun ọ̀gbìn ṣe ń ṣe oúnjẹ wọn?",
+    "confirmedText": "Mo fẹ́ kọ́ nípa photosynthesis. Báwo ni àwọn ohun ọ̀gbìn ṣe ń ṣe oúnjẹ wọn?",
+    "confirmedAt": 1791952475466,
+    "duration": 10,
+    "createdAt": 1791952469081
+  },
+  "journey": {
+    "id": "39eed919-11a6-4a5a-b8f3-6ef670f42cdb",
+    "objective": "Mo fẹ́ kọ́ nípa photosynthesis. Báwo ni àwọn ohun ọ̀gbìn ṣe ń ṣe oúnjẹ wọn?",
+    "title": "Àwọn ohun ọ̀gbìn ṣe oúnjẹ wọn",
+    "scope": "topic",
+    "language": "yo",
+    "mode": "live",
+    "status": "learning",
+    "createdAt": 1791952475471,
+    "updatedAt": 1791952487535,
+    "lastConceptId": null,
+    "contentLanguage": "yo",
+    "contentVersion": "7ddf68707d8c4692919f1a9e3354610355046ae0f7e6d1b352756cd97c82ca5c",
+    "languageReady": true,
+    "concepts": [
+      {
+        "id": "9d642dd5-1c15-486f-bc39-2a858cd52228",
+        "title": "Ìmọ́lẹ̀ Sunlight",
+        "objective": "Lati ní òye ìdí tí ìmọ́lẹ̀ oòrùn ṣe ṣe pàtàkì fún photosynthesis láti wáyé.",
+        "position": 0,
+        "understanding": "unknown"
+      },
+      {
+        "id": "01badd75-36fe-4108-92dd-e38a735c2563",
+        "title": "Carbon Dioxide àti Omi",
+        "objective": "Lati ní òye báwo ni carbon dioxide àti omi ṣe ń ṣiṣẹ́ pọ̀ láti ṣe carbohydrates àti oxygen nípasẹ̀ photosynthesis.",
+        "position": 1,
+        "understanding": "unknown"
+      },
+      {
+        "id": "f70c52ad-ee3e-40a5-9e8d-a07a812f3d7b",
+        "title": "Carbohydrates àti Oxygen",
+        "objective": "Lati ní òye báwo ni carbohydrates àti oxygen ṣe jẹ́ àwọn ọjà ìparí photosynthesis.",
+        "position": 2,
+        "understanding": "unknown"
+      }
+    ]
+  },
+  "assessment": {
+    "journeyId": "39eed919-11a6-4a5a-b8f3-6ef670f42cdb",
+    "language": "yo",
+    "questions": [
+      {
+        "id": "q1",
+        "conceptIndex": 0,
+        "prompt": "Kí ni ipa ìmọ́lẹ̀ oòrùn nínú photosynthesis?",
+        "options": [
+          {
+            "id": "q1o1",
+            "text": "Ó jẹ́ ohun tí a yí padà sí ara ọ̀gbìn."
+          },
+          {
+            "id": "q1o2",
+            "text": "Ó jẹ́ orísun agbára fún photosynthesis."
+          },
+          {
+            "id": "q1o3",
+            "text": "Ó jẹ́ èròjà tí a fi ń kọ́ ara ọ̀gbìn."
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "conceptIndex": 1,
+        "prompt": "Èròjà wo ni àwọn ohun ọ̀gbìn lò pẹ̀lú carbon dioxide láti ṣe carbohydrates?",
+        "options": [
+          {
+            "id": "q2o1",
+            "text": "Oxygen"
+          },
+          {
+            "id": "q2o2",
+            "text": "Omi"
+          },
+          {
+            "id": "q2o3",
+            "text": "Suga"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "conceptIndex": 2,
+        "prompt": "Kí ni ó jẹ́ ọjà ìparí photosynthesis, yàtọ̀ sí carbohydrates?",
+        "options": [
+          {
+            "id": "q3o1",
+            "text": "Carbon dioxide"
+          },
+          {
+            "id": "q3o2",
+            "text": "Ìmọ́lẹ̀ oòrùn"
+          },
+          {
+            "id": "q3o3",
+            "text": "Oxygen"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "conceptIndex": 2,
+        "prompt": "Kí ni àwọn ohun ọ̀gbìn ń ṣe pẹ̀lú carbon dioxide àti omi fún agbára?",
+        "options": [
+          {
+            "id": "q4o1",
+            "text": "Wọ́n tú carbon dioxide àti omi sílẹ̀."
+          },
+          {
+            "id": "q4o2",
+            "text": "Wọ́n yí wọn padà sí carbohydrates àti oxygen."
+          },
+          {
+            "id": "q4o3",
+            "text": "Wọ́n fi wọ́n pamọ́ sínú ilẹ̀."
+          }
+        ]
+      }
+    ],
+    "answers": {},
+    "spokenAnswers": {},
+    "status": "draft",
+    "score": null,
+    "total": 4
+  },
+  "selectedConceptId": "01badd75-36fe-4108-92dd-e38a735c2563",
+  "lesson": {
+    "id": "14d1652d-1d38-4608-b755-e2d128dec978",
+    "conceptId": "01badd75-36fe-4108-92dd-e38a735c2563",
+    "language": "yo",
+    "readingSupport": "simple",
+    "createdAt": 1791954980574,
+    "content": {
+      "title": "Carbon Dioxide àti Omi Nínú Photosynthesis",
+      "summary": "Àwọn ohun ọ̀gbìn ń lo carbon dioxide àti omi papọ̀ láti ṣe carbohydrates àti oxygen. Ìmọ́lẹ̀ oòrùn ń pèsè agbára fún ìṣe yìí. [s1]",
+      "sections": [
+        {
+          "heading": "Àwọn ohun èlò àti àwọn ọjà",
+          "body": "Nínú photosynthesis, àwọn ohun ọ̀gbìn lo carbon dioxide àti omi láti ṣe carbohydrates—oúnjẹ—àti oxygen. [s1]",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "heading": "Ipa ìmọ́lẹ̀ oòrùn",
+          "body": "Ìmọ́lẹ̀ oòrùn ń pèsè agbára láti so carbon dioxide àti omi pọ̀. Kì í ṣe ohun èlò tí a ń yí padà sí ìye ohun èlò ara ohun ọ̀gbìn. [s1]",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Àpẹẹrẹ ìrònú",
+          "explanation": "Fojú inú wo photosynthesis gẹ́gẹ́ bí ìlànà tó ń gba carbon dioxide àti omi, tó sì ń ṣe carbohydrates àti oxygen; ìmọ́lẹ̀ oòrùn ló ń pèsè agbára fún un. [s1]",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Carbon dioxide",
+          "meaning": "Ọ̀kan lára àwọn ohun èlò tí àwọn ohun ọ̀gbìn ń darapọ̀ mọ́ omi nínú photosynthesis. [s1]"
+        },
+        {
+          "term": "Omi",
+          "meaning": "Ohun èlò tí àwọn ohun ọ̀gbìn ń lò papọ̀ mọ́ carbon dioxide láti ṣe carbohydrates àti oxygen. [s1]"
+        },
+        {
+          "term": "Àwọn carbohydrates",
+          "meaning": "Àwọn ọjà tí photosynthesis ń ṣe; wọ́n lè ní sugars nínú. [s1]"
+        },
+        {
+          "term": "Atẹ́gùn (oxygen)",
+          "meaning": "Ọ̀kan lára àwọn ọjà tí photosynthesis ń ṣe. [s1]"
+        },
+        {
+          "term": "Photosynthesis",
+          "meaning": "Ìlànà tí àwọn ohun ọ̀gbìn fi ń lo agbára ìmọ́lẹ̀ oòrùn láti so carbon dioxide àti omi pọ̀, kí wọ́n sì ṣe carbohydrates àti oxygen. [s1]"
+        }
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "Àkópọ̀ ìlànà náà",
+        "items": [
+          {
+            "label": "1. Àwọn ohun èlò",
+            "detail": "Carbon dioxide àti omi ni a lò. [s1]"
+          },
+          {
+            "label": "2. Agbára",
+            "detail": "Ìmọ́lẹ̀ oòrùn ń pèsè agbára láti so àwọn ohun èlò náà pọ̀. [s1]"
+          },
+          {
+            "label": "3. Àwọn ọjà",
+            "detail": "A ṣe carbohydrates àti oxygen. [s1]"
+          }
+        ],
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      "practice": [
+        {
+          "id": "q1",
+          "conceptIndex": 0,
+          "prompt": "Àwọn ohun èlò wo ni àwọn ohun ọ̀gbìn ń lò láti ṣe carbohydrates nínú photosynthesis?",
+          "options": [
+            {
+              "id": "q1a",
+              "text": "Carbon dioxide àti omi"
+            },
+            {
+              "id": "q1b",
+              "text": "Carbohydrates àti oxygen"
+            },
+            {
+              "id": "q1c",
+              "text": "Ìmọ́lẹ̀ oòrùn nìkan"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "conceptIndex": 0,
+          "prompt": "Kí ni photosynthesis ń ṣe láti inú carbon dioxide àti omi?",
+          "options": [
+            {
+              "id": "q2a",
+              "text": "Carbohydrates àti oxygen"
+            },
+            {
+              "id": "q2b",
+              "text": "Carbon dioxide àti omi"
+            },
+            {
+              "id": "q2c",
+              "text": "Ìmọ́lẹ̀ oòrùn àti omi"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "conceptIndex": 0,
+          "prompt": "Kí ni ipa ìmọ́lẹ̀ oòrùn nínú ìlànà náà?",
+          "options": [
+            {
+              "id": "q3a",
+              "text": "Ó ń pèsè agbára."
+            },
+            {
+              "id": "q3b",
+              "text": "Ó di carbohydrate fúnra rẹ̀."
+            },
+            {
+              "id": "q3c",
+              "text": "Ó rọ́pò carbon dioxide àti omi."
+            }
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "NASA: The carbon cycle",
+        "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+        "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+        "retrievedAt": 1791849600000
+      }
+    ]
+  },
+  "video": {
+    "id": "f5712ff4-33a9-4b0f-ad34-46ff7c812f96",
+    "lessonId": "14d1652d-1d38-4608-b755-e2d128dec978",
+    "language": "yo",
+    "transcript": "Carbon Dioxide àti Omi Nínú Photosynthesis\n\nÀwọn ohun ọ̀gbìn ń lo carbon dioxide àti omi papọ̀ láti ṣe carbohydrates àti oxygen. Ìmọ́lẹ̀ oòrùn ń pèsè agbára fún ìṣe yìí. [s1]\n\nÀwọn ohun èlò àti àwọn ọjà\n\nNínú photosynthesis, àwọn ohun ọ̀gbìn lo carbon dioxide àti omi láti ṣe carbohydrates—oúnjẹ—àti oxygen. [s1]\n\nIpa ìmọ́lẹ̀ oòrùn\n\nÌmọ́lẹ̀ oòrùn ń pèsè agbára láti so carbon dioxide àti omi pọ̀. Kì í ṣe ohun èlò tí a ń yí padà sí ìye ohun èlò ara ohun ọ̀gbìn. [s1]\n\nÀpẹẹrẹ ìrònú\n\nFojú inú wo photosynthesis gẹ́gẹ́ bí ìlànà tó ń gba carbon dioxide àti omi, tó sì ń ṣe carbohydrates àti oxygen; ìmọ́lẹ̀ oòrùn ló ń pèsè agbára fún un. [s1]\n\nÀkópọ̀ ìlànà náà\n\n1. Àwọn ohun èlò\n\nCarbon dioxide àti omi ni a lò. [s1]\n\n2. Agbára\n\nÌmọ́lẹ̀ oòrùn ń pèsè agbára láti so àwọn ohun èlò náà pọ̀. [s1]\n\n3. Àwọn ọjà\n\nA ṣe carbohydrates àti oxygen. [s1]\n\nCarbon dioxide. Ọ̀kan lára àwọn ohun èlò tí àwọn ohun ọ̀gbìn ń darapọ̀ mọ́ omi nínú photosynthesis. [s1]\n\nOmi. Ohun èlò tí àwọn ohun ọ̀gbìn ń lò papọ̀ mọ́ carbon dioxide láti ṣe carbohydrates àti oxygen. [s1]\n\nÀwọn carbohydrates. Àwọn ọjà tí photosynthesis ń ṣe; wọ́n lè ní sugars nínú. [s1]\n\nAtẹ́gùn (oxygen). Ọ̀kan lára àwọn ọjà tí photosynthesis ń ṣe. [s1]\n\nPhotosynthesis. Ìlànà tí àwọn ohun ọ̀gbìn fi ń lo agbára ìmọ́lẹ̀ oòrùn láti so carbon dioxide àti omi pọ̀, kí wọ́n sì ṣe carbohydrates àti oxygen. [s1]",
+    "storyboard": [
+      {
+        "text": "Carbon Dioxide àti Omi Nínú Photosynthesis\n\nÀwọn ohun ọ̀gbìn ń lo carbon dioxide àti omi papọ̀ láti ṣe carbohydrates àti oxygen. Ìmọ́lẹ̀ oòrùn ń pèsè agbára fún ìṣe yìí. [s1]\n\nÀwọn ohun èlò àti àwọn ọjà",
+        "sourceIds": [
+          "s1"
+        ],
+        "start": 0,
+        "end": 19.02543284271284
+      },
+      {
+        "text": "Nínú photosynthesis, àwọn ohun ọ̀gbìn lo carbon dioxide àti omi láti ṣe carbohydrates—oúnjẹ—àti oxygen. [s1]\n\nIpa ìmọ́lẹ̀ oòrùn",
+        "sourceIds": [
+          "s1"
+        ],
+        "start": 19.02543284271284,
+        "end": 31.115486225520506
+      },
+      {
+        "text": "Ìmọ́lẹ̀ oòrùn ń pèsè agbára láti so carbon dioxide àti omi pọ̀. Kì í ṣe ohun èlò tí a ń yí padà sí ìye ohun èlò ara ohun ọ̀gbìn. [s1]\n\nÀpẹẹrẹ ìrònú",
+        "sourceIds": [
+          "s1"
+        ],
+        "start": 31.115486225520506,
+        "end": 45.07996648938362
+      },
+      {
+        "text": "Fojú inú wo photosynthesis gẹ́gẹ́ bí ìlànà tó ń gba carbon dioxide àti omi, tó sì ń ṣe carbohydrates àti oxygen; ìmọ́lẹ̀ oòrùn ló ń pèsè agbára fún un. [s1]\n\nÀkópọ̀ ìlànà náà\n\n1. Àwọn ohun èlò",
+        "sourceIds": [
+          "s1"
+        ],
+        "start": 45.07996648938362,
+        "end": 63.26190723562151
+      },
+      {
+        "text": "Carbon dioxide àti omi ni a lò. [s1]\n\n2. Agbára\n\nÌmọ́lẹ̀ oòrùn ń pèsè agbára láti so àwọn ohun èlò náà pọ̀. [s1]\n\n3. Àwọn ọjà\n\nA ṣe carbohydrates àti oxygen. [s1]",
+        "sourceIds": [
+          "s1"
+        ],
+        "start": 63.261907235621514,
+        "end": 76.1285412287649
+      },
+      {
+        "text": "Carbon dioxide. Ọ̀kan lára àwọn ohun èlò tí àwọn ohun ọ̀gbìn ń darapọ̀ mọ́ omi nínú photosynthesis. [s1]\n\nOmi. Ohun èlò tí àwọn ohun ọ̀gbìn ń lò papọ̀ mọ́ carbon dioxide láti ṣe carbohydrates àti oxygen. [s1]",
+        "sourceIds": [
+          "s1"
+        ],
+        "start": 76.1285412287649,
+        "end": 92.60410914681435
+      },
+      {
+        "text": "Àwọn carbohydrates. Àwọn ọjà tí photosynthesis ń ṣe; wọ́n lè ní sugars nínú. [s1]\n\nAtẹ́gùn (oxygen). Ọ̀kan lára àwọn ọjà tí photosynthesis ń ṣe. [s1]",
+        "sourceIds": [
+          "s1"
+        ],
+        "start": 92.60410914681435,
+        "end": 104.45082703074516
+      },
+      {
+        "text": "Photosynthesis. Ìlànà tí àwọn ohun ọ̀gbìn fi ń lo agbára ìmọ́lẹ̀ oòrùn láti so carbon dioxide àti omi pọ̀, kí wọ́n sì ṣe carbohydrates àti oxygen. [s1]",
+        "sourceIds": [
+          "s1"
+        ],
+        "start": 104.45082703074516,
+        "end": 116.376
+      }
+    ],
+    "sourceIds": [
+      "s1"
+    ],
+    "duration": 117,
+    "bytes": 954394,
+    "captionTiming": "chunk",
+    "createdAt": 1791955101192
+  },
+  "narration": {
+    "id": "2ef340c7-3b44-4b89-a06c-f66f181dd4fd",
+    "language": "yo"
+  },
+  "withheldEarlierLesson": {
+    "id": "971bfbd1-11e7-423a-95c4-f1c650e81938",
+    "conceptId": "9d642dd5-1c15-486f-bc39-2a858cd52228",
+    "language": "yo",
+    "readingSupport": "simple",
+    "createdAt": 1791952526048,
+    "content": {
+      "title": "Ìmọ́lẹ̀ Oòrùn àti Photosynthesis",
+      "summary": "Ìmọ́lẹ̀ oòrùn ń pèsè agbára fún photosynthesis, ṣùgbọ́n a kì í yí ìmọ́lẹ̀ padà sí ìye ohun èlò ara ohun ọ̀gbìn.",
+      "sections": [
+        {
+          "heading": "Àlàyé ìpìlẹ̀",
+          "body": "Ìmọ́lẹ̀ oòrùn ń pèsè agbára tí photosynthesis nílò. Nínú ìlànà yìí, ohun ọ̀gbìn máa ń lo carbon dioxide àti omi, pẹ̀lú agbára ìmọ́lẹ̀, láti ṣe carbohydrates àti oxygen. [s1]",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "heading": "Ohun pàtàkì láti rántí",
+          "body": "Ìmọ́lẹ̀ jẹ́ orísun agbára; kì í ṣe ohun èlò tí a yí padà sí ìye ohun èlò ara ohun ọ̀gbìn (plant mass). Nítorí náà, ìmọ́lẹ̀ kì í di ara ohun ọ̀gbìn. [s1]",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Títẹ̀lé ohun tí ń wọlé àti ohun tí ń jáde",
+          "explanation": "Nínú àpẹẹrẹ ìlànà náà, ìmọ́lẹ̀ ń pèsè agbára; carbon dioxide àti omi ni a so pọ̀; carbohydrates àti oxygen sì ni a ṣe. Ìmọ́lẹ̀ fúnra rẹ̀ kì í di ìye ohun èlò ara ohun ọ̀gbìn. [s1]",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Photosynthesis",
+          "meaning": "Ìlànà tí ohun ọ̀gbìn fi agbára ìmọ́lẹ̀ oòrùn so carbon dioxide àti omi pọ̀ láti ṣe carbohydrates àti oxygen. [s1]"
+        },
+        {
+          "term": "Orísun agbára",
+          "meaning": "Ohun tó ń pèsè agbára fún ìlànà kan; nínú photosynthesis, ìmọ́lẹ̀ oòrùn ni orísun agbára. [s1]"
+        },
+        {
+          "term": "Ìye ohun èlò ara ohun ọ̀gbìn (plant mass)",
+          "meaning": "Ohun èlò tí ó para pọ̀ di ara ohun ọ̀gbìn; ìmọ́lẹ̀ kì í ṣe ohun èlò tí a yí padà sí i. [s1]"
+        }
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "Ìpa ìmọ́lẹ̀ nínú photosynthesis",
+        "items": [
+          {
+            "label": "Ìmọ́lẹ̀ oòrùn",
+            "detail": "Ó ń pèsè agbára; kì í di ìye ohun èlò ara ohun ọ̀gbìn."
+          },
+          {
+            "label": "Ohun tí a so pọ̀",
+            "detail": "A lo carbon dioxide àti omi pẹ̀lú agbára ìmọ́lẹ̀."
+          },
+          {
+            "label": "Ohun tí a ṣe",
+            "detail": "Carbohydrates àti oxygen."
+          }
+        ],
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      "practice": [
+        {
+          "id": "q1",
+          "conceptIndex": 0,
+          "prompt": "Kí ni ipa ìmọ́lẹ̀ oòrùn nínú photosynthesis?",
+          "options": [
+            {
+              "id": "q1a",
+              "text": "Ó ń pèsè agbára."
+            },
+            {
+              "id": "q1b",
+              "text": "Ó di oxygen."
+            },
+            {
+              "id": "q1c",
+              "text": "Ó rọ́pò omi."
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "conceptIndex": 0,
+          "prompt": "Èwo ni ó tọ́ nípa ìmọ́lẹ̀ àti ìye ohun èlò ara ohun ọ̀gbìn?",
+          "options": [
+            {
+              "id": "q2a",
+              "text": "A yí ìmọ́lẹ̀ padà sí ìye ohun èlò ara ohun ọ̀gbìn."
+            },
+            {
+              "id": "q2b",
+              "text": "Ìmọ́lẹ̀ ń pèsè agbára, ṣùgbọ́n kì í di ohun èlò ara ohun ọ̀gbìn."
+            },
+            {
+              "id": "q2c",
+              "text": "Ìmọ́lẹ̀ ni carbohydrate."
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "conceptIndex": 0,
+          "prompt": "Kí ni ohun ọ̀gbìn lè ṣe láti inú carbon dioxide àti omi nígbà photosynthesis?",
+          "options": [
+            {
+              "id": "q3a",
+              "text": "Carbohydrates àti oxygen."
+            },
+            {
+              "id": "q3b",
+              "text": "Ìmọ́lẹ̀ àti omi."
+            },
+            {
+              "id": "q3c",
+              "text": "Carbon dioxide àti ìmọ́lẹ̀."
+            }
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "NASA: The carbon cycle",
+        "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+        "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+        "retrievedAt": 1791849600000
+      }
+    ]
+  },
+  "jobs": [
+    {
+      "id": "02de37dc-d9e5-4749-b39f-08929d3dc6fc",
+      "journeyId": "39eed919-11a6-4a5a-b8f3-6ef670f42cdb",
+      "conceptId": "01badd75-36fe-4108-92dd-e38a735c2563",
+      "language": "yo",
+      "readingSupport": "simple",
+      "generationVersion": 3,
+      "type": "lesson",
+      "status": "succeeded",
+      "attempts": 2,
+      "message": null,
+      "outputId": "14d1652d-1d38-4608-b755-e2d128dec978",
+      "createdAt": 1791954904658,
+      "updatedAt": 1791954980574
+    },
+    {
+      "id": "8606f5b6-7dde-4f42-984e-6e93cb233538",
+      "journeyId": "39eed919-11a6-4a5a-b8f3-6ef670f42cdb",
+      "conceptId": "9d642dd5-1c15-486f-bc39-2a858cd52228",
+      "language": "yo",
+      "readingSupport": "simple",
+      "generationVersion": 3,
+      "type": "lesson",
+      "status": "succeeded",
+      "attempts": 1,
+      "message": null,
+      "outputId": "971bfbd1-11e7-423a-95c4-f1c650e81938",
+      "createdAt": 1791952487540,
+      "updatedAt": 1791952526048
+    },
+    {
+      "id": "0e6b24c4-1be0-443a-89dc-1fa976f09fd3",
+      "journeyId": "39eed919-11a6-4a5a-b8f3-6ef670f42cdb",
+      "conceptId": "9d642dd5-1c15-486f-bc39-2a858cd52228",
+      "language": "yo",
+      "readingSupport": "simple",
+      "generationVersion": 2,
+      "type": "narration",
+      "status": "failed",
+      "attempts": 3,
+      "message": "We could not prepare supported learning content. Please retry or try a more specific objective.",
+      "outputId": null,
+      "createdAt": 1791952606041,
+      "updatedAt": 1791952813160
+    },
+    {
+      "id": "2cd14dae-c092-4084-abaf-480e4100c2af",
+      "journeyId": "39eed919-11a6-4a5a-b8f3-6ef670f42cdb",
+      "conceptId": "01badd75-36fe-4108-92dd-e38a735c2563",
+      "language": "yo",
+      "readingSupport": "simple",
+      "generationVersion": 2,
+      "type": "narration",
+      "status": "succeeded",
+      "attempts": 1,
+      "message": null,
+      "outputId": "2ef340c7-3b44-4b89-a06c-f66f181dd4fd",
+      "createdAt": 1791955017900,
+      "updatedAt": 1791955092291
+    },
+    {
+      "id": "38bfc766-1bce-4082-97ce-b12eb8b1331a",
+      "journeyId": "39eed919-11a6-4a5a-b8f3-6ef670f42cdb",
+      "conceptId": null,
+      "language": "yo",
+      "readingSupport": "simple",
+      "generationVersion": 1,
+      "type": "plan",
+      "status": "succeeded",
+      "attempts": 1,
+      "message": null,
+      "outputId": "39eed919-11a6-4a5a-b8f3-6ef670f42cdb",
+      "createdAt": 1791952475476,
+      "updatedAt": 1791952487024
+    },
+    {
+      "id": "a5026175-07c8-4ae8-8f0c-4024ab69ccf0",
+      "journeyId": "39eed919-11a6-4a5a-b8f3-6ef670f42cdb",
+      "conceptId": "01badd75-36fe-4108-92dd-e38a735c2563",
+      "language": "yo",
+      "readingSupport": "simple",
+      "generationVersion": 1,
+      "type": "video",
+      "status": "succeeded",
+      "attempts": 1,
+      "message": null,
+      "outputId": "f5712ff4-33a9-4b0f-ad34-46ff7c812f96",
+      "createdAt": 1791955017905,
+      "updatedAt": 1791955101193
+    },
+    {
+      "id": "35e40450-36ad-4499-8503-6991ea8f9637",
+      "journeyId": "39eed919-11a6-4a5a-b8f3-6ef670f42cdb",
+      "conceptId": "9d642dd5-1c15-486f-bc39-2a858cd52228",
+      "language": "yo",
+      "readingSupport": "simple",
+      "generationVersion": 1,
+      "type": "video",
+      "status": "failed",
+      "attempts": 1,
+      "message": "Narration is unavailable. Retry audio preparation first, then retry video, or read the lesson.",
+      "outputId": null,
+      "createdAt": 1791952606048,
+      "updatedAt": 1791952814030
+    }
+  ],
+  "matchingVideoAvailable": true,
+  "narrationTranscriptMatchesVideo": true,
+  "duplicateRequestReused": true,
+  "foreignRecordingStatus": 404,
+  "ownedVideoStatus": 200,
+  "browserWalkthroughVerified": false,
+  "browserBlock": "Automatic browser URL security policy rejected access to the local app tab"
+}

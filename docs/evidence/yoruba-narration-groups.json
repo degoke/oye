@@ -1,0 +1,18 @@
+{
+  "observedAt": "2026-10-14T06:09:28.047Z",
+  "lessonId": "1496cb03-fb03-4816-959b-8c874b434aaa",
+  "deliveryVersion": 4,
+  "groups": 7,
+  "groupLengths": [
+    232,
+    231,
+    251,
+    294,
+    211,
+    257,
+    94
+  ],
+  "maxCharacters": 300,
+  "concatenationMatchesImmutableScript": true,
+  "providerCalls": 0
+}

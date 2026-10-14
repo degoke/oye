@@ -1,0 +1,44 @@
+import type { Server } from 'node:http';
+import { createVoice } from './services/voice.js';
+import { serve } from '@hono/node-server';
+import { createApplication } from './app.js';
+import { config, projectRoot } from './config.js';
+import { openDatabase } from '@oye/db';
+import { resolve } from 'node:path';
+import { createGeneration } from './services/generation.js';
+import { createTutor } from './services/tutor.js';
+import { createExplain } from './services/explain.js';
+import { createSpeech } from './services/speech.js';
+import { createLocalization } from './services/localization.js';
+import { createVideo } from './services/video.js';
+import { backfillUsage, reserveUsage } from './services/usage.js';
+import { configureProviderUsage } from './services/ai.js';
+import { createRetention } from './services/retention.js';
+import { mediaRoot } from './services/audio.js';
+import { reconcileMedia } from './services/media-integrity.js';
+
+const database = openDatabase(resolve(projectRoot, config.DATABASE_PATH));
+backfillUsage(database.db);
+configureProviderUsage(kind => database.db.transaction(tx => reserveUsage(tx, kind)));
+const speech = createSpeech(database.db);
+await speech.start();
+await reconcileMedia(database.db, mediaRoot);
+const explain = createExplain(database.db);
+const localization = createLocalization(database.db);
+const video = createVideo(database.db, speech);
+const generation = createGeneration(database.db, { video: video.execute, narration: speech.execute, explain: explain.execute, localize: localization.execute, prepareLanguage: localization.prepare });
+const tutor = createTutor(database.db);
+tutor.start();
+const voice = createVoice(database.db, tutor, speech);
+voice.start();
+const retention = createRetention(database.db, { voice, tutor, generation, speech }, mediaRoot);
+await retention.sweep(); retention.start(); generation.start();
+const app = createApplication({ db: database.db, origin: config.WEB_ORIGIN, fixturesEnabled: config.ENABLE_FIXTURES === 'true', generation, tutor, explain, speech, voice, video });
+
+const server = serve({ fetch: app.fetch, port: config.API_PORT, hostname: config.API_HOST }, info => {
+  console.log(`òye. API http://localhost:${info.port}`);
+});
+voice.attach(server as Server);
+const shutdown = () => { voice.stop(); speech.stop(); void Promise.all([generation.stop(), tutor.stop(), retention.stop()]).then(() => server.close(() => { database.close(); process.exit(0); })); };
+process.once('SIGINT', shutdown);
+process.once('SIGTERM', shutdown);

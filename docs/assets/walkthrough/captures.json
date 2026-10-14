@@ -1,0 +1,43 @@
+{
+  "capturedAt": "2026-10-13 and 2026-10-14",
+  "kind": "Actual app screenshots",
+  "examples": "Synthetic learning walkthrough inputs, not real learner research",
+  "primaryJourney": "c07e9660-d7f5-4501-b94d-27c5af832863",
+  "primaryConcept": "095ec7ae-dd93-4b96-8ce1-bd92d8808a59",
+  "capturedProvider": "OpenRouter through OpenAI Agents SDK; repository default subsequently changed to OpenAI",
+  "additionalExamples": "Yoruba questions/settings and photosynthesis video; compound interest video/offline reading",
+  "files": {
+    "01-request.jpg": ".data/demo-production/captures/english-home.jpg",
+    "02-starting-point.jpg": ".data/demo-production/captures/english-assessment.jpg",
+    "03-lesson.jpg": ".data/demo-production/captures/english-lesson.jpg",
+    "04-explain-back.jpg": ".data/demo-production/captures/english-misconception.jpg",
+    "05-follow-up.jpg": ".data/demo-production/captures/english-followup.jpg",
+    "06-feedback.jpg": ".data/demo-production/captures/english-findings.jpg",
+    "07-repair.jpg": ".data/demo-production/captures/english-repair.jpg",
+    "08-improved-explanation.jpg": ".data/demo-production/captures/english-improved.jpg",
+    "09-understanding.jpg": ".data/demo-production/captures/english-application-final.jpg",
+    "10-language.png": ".data/screenshots/m08-yo-settings.png",
+    "11-spoken-question.jpg": ".data/demo-assets/02-quiz-playing.jpg",
+    "12-video.png": ".data/screenshots/m12-video-recovered.png",
+    "13-offline.png": ".data/screenshots/m12-saved-mobile.png",
+    "14-yoruba-video.png": "Frame at 22 seconds from .data/demo-assets/04-yoruba-explainer-full.mp4"
+  },
+  "videoAssets": {
+    "yoruba-explainer.mp4": {
+      "source": ".data/demo-assets/04-yoruba-explainer-full.mp4",
+      "durationSeconds": 116.4,
+      "publishedMedia": "Previously reviewed generated Yoruba explainer, preserved without new generation"
+    },
+    "yoruba-explainer.vtt": ".data/demo-assets/04-yoruba-explainer-full.vtt"
+  },
+  "walkthroughRevision": {
+    "request": "Make the video explainer visible as a key product feature",
+    "changes": [
+      "Dedicated video section near the lesson",
+      "Larger app screenshot showing playback and captions",
+      "Standard Markdown images instead of HTML image tags",
+      "Yoruba video frame and playable full-video link"
+    ],
+    "imageCount": 14
+  }
+}

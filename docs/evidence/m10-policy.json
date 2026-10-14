@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-10-13T15:48:01.730Z",
+  "productionImplementation": true,
+  "isolatedMemoryDatabase": true,
+  "generatedMigrationsApplied": true,
+  "policyBoundaryFixtures": true,
+  "tenMinuteWallClockWaitClaimed": false,
+  "providerCalls": 0,
+  "evidence": [
+    {
+      "check": "turn-limit-before-recognition",
+      "boundarySeeded": 12,
+      "code": 1000,
+      "reason": "Session limit",
+      "elapsedMilliseconds": 43,
+      "events": [
+        {
+          "type": "ready"
+        },
+        {
+          "type": "state",
+          "state": "listening"
+        },
+        {
+          "type": "error",
+          "message": "This voice session reached its limit. Use text or start another session."
+        }
+      ]
+    },
+    {
+      "check": "input-limit-before-recognition",
+      "boundarySeededMilliseconds": 179950,
+      "submittedMilliseconds": 300,
+      "code": 1000,
+      "reason": "Session limit",
+      "elapsedMilliseconds": 10,
+      "events": [
+        {
+          "type": "ready"
+        },
+        {
+          "type": "state",
+          "state": "listening"
+        },
+        {
+          "type": "error",
+          "message": "This voice session reached its limit. Use text or start another session."
+        }
+      ]
+    },
+    {
+      "check": "absolute-deadline-closes-socket",
+      "createdDurationMilliseconds": 600000,
+      "shortenedFixtureDeadlineMilliseconds": 600,
+      "code": 1000,
+      "reason": "Session deadline",
+      "elapsedMilliseconds": 601,
+      "events": [
+        {
+          "type": "ready"
+        },
+        {
+          "type": "state",
+          "state": "listening"
+        }
+      ]
+    },
+    {
+      "check": "owner-daily-cap",
+      "status": 429,
+      "rows": 8
+    },
+    {
+      "check": "global-daily-cap",
+      "status": 429,
+      "rows": 20
+    }
+  ]
+}

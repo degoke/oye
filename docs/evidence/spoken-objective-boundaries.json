@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-14T04:35:40.118Z",
+  "isolatedDatabase": true,
+  "generatedMigrations": true,
+  "filesystemCleanupNotInvoked": true,
+  "providerCalls": 0,
+  "unconfirmedRejected": true,
+  "wrongContextRejected": true,
+  "changedTextRejected": true,
+  "foreignRejected": true,
+  "reusedReceiptRejected": true,
+  "staleRequestPayloadRejected": true,
+  "oversizedConfirmationRejected": true,
+  "changedLanguageRejected": true,
+  "duplicateRequestReused": true,
+  "receiptAttachedToSavedJourney": true
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-13T06:13:44.080Z",
+  "language": "yo",
+  "model": "openai/gpt-6-luna",
+  "method": "Automated representative review; synthetic learner responses; native-speaker review pending",
+  "result": {
+    "valid": true,
+    "summary": "No material meaning, teaching, or source-support errors found. The assessment, lesson, glossary, and tutor reply consistently explain the role of sunlight, photosynthesis inputs and outputs, and carbon moving from the atmosphere into living organisms. This review does not certify native-quality Yoruba.",
+    "issues": []
+  }
+}

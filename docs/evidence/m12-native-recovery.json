@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-13T20:10:54.688Z",
+  "explicitBrowserRetry": true,
+  "automaticPaidRegeneration": false,
+  "originalFilesRecovered": false,
+  "newNarrationId": "896529b8-7451-41d3-a2dd-b1a0c06e4a0f",
+  "newVideoId": "c98c21a4-2e12-4992-8196-1bc80fae4a43",
+  "approvedChunks": 3,
+  "transcriptMatchesImmutableLesson": true,
+  "videoUsesNewApprovedNarration": true,
+  "videoDuration": 107.4,
+  "videoBytes": 919243,
+  "captionsAvailable": true,
+  "narrationAttempts": 2,
+  "videoAttempts": 2,
+  "nativePlayback": {
+    "ended": true,
+    "duration": 107.4,
+    "currentTime": 107.4,
+    "readyState": 4,
+    "paused": true,
+    "error": null
+  },
+  "screenshot": ".data/screenshots/m12-video-recovered.png"
+}

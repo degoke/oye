@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-13T06:16:53.242Z",
+  "language": "ha",
+  "model": "openai/gpt-6-luna",
+  "method": "Automated representative review; synthetic learner responses; native-speaker review pending",
+  "result": {
+    "valid": true,
+    "summary": "The assessment, lesson, source support, tutor reply, learner explanation, and feedback preserve the relevant scientific meaning. No material language or teaching errors found.",
+    "issues": []
+  }
+}

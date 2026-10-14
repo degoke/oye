@@ -1,0 +1,22 @@
+export const demoMessages: Record<string, { yo: string; ha: string; ig: string }> = {
+  "The demo usage limit has been reached. Read saved text for now.": {
+    "yo": "Iye lílo ìdánwò ti dé ààlà rẹ̀. Ka ọ̀rọ̀ tí o ti fipamọ́ fún ìsinsìnyí.",
+    "ha": "An kai iyakar amfani da demo. Ka karanta rubutun da ka adana a yanzu.",
+    "ig": "Eruola oke ojiji ngosi. Gụọ ederede echekwara ugbu a."
+  },
+  "Your learning history and locally saved lessons will be removed. Files you downloaded separately stay on your device.": {
+    "yo": "Ìtàn ẹ̀kọ́ rẹ àti àwọn ẹ̀kọ́ tí o ti fipamọ́ sí ẹ̀rọ rẹ ni a óò yọ kúrò. Àwọn fáìlì tí o ṣe ìgbàsílẹ̀ lọ́tọ̀ yóò dúró lórí ẹ̀rọ rẹ.",
+    "ha": "Za a cire tarihin koyonka da darussan da aka adana a na'urarka. Fayilolin da ka sauke daban za su ci gaba da kasancewa a na'urarka.",
+    "ig": "A ga-ewepụ akụkọ mmụta gị na nkuzi echekwara na ngwaọrụ gị. Faịlụ ndị i budatara iche ga-anọgide na ngwaọrụ gị."
+  },
+  "Anonymous usage counts remain for 31 days to enforce demo limits. They contain no learning text or recordings.": {
+    "yo": "Àwọn ìṣirò lílo aláìlórúkọ yóò wà fún ọjọ́ 31 láti fi mú àwọn ààlà ìdánwò ṣẹ. Wọn kò ní ọ̀rọ̀ ẹ̀kọ́ tàbí àkọsílẹ̀ ohùn kankan.",
+    "ha": "Ƙididdigar amfani marasa suna za su kasance na kwanaki 31 domin aiwatar da iyakokin demo. Ba su ƙunshi rubutun koyo ko rikodin sauti ba.",
+    "ig": "Ọnụọgụ ojiji na-enweghị aha ga-adịru ụbọchị 31 iji hụ na a na-edebe oke ngosi. Ha enweghị ederede mmụta ma ọ bụ ndekọ olu ọ bụla."
+  },
+  "Your learning is removed after 30 days of inactivity.": {
+    "yo": "A óò yọ data ẹ̀kọ́ rẹ kúrò lẹ́yìn ọjọ́ 30 láìsí ìṣe kankan.",
+    "ha": "Za a share bayanan koyonka bayan kwanaki 30 ba tare da amfani ba.",
+    "ig": "A ga-ehichapụ data mmụta gị mgbe ụbọchị 30 nke enweghị ọrụ gasịrị."
+  }
+};

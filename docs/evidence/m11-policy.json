@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-13T16:31:29.801Z",
+  "isolatedGeneratedMigrations": true,
+  "reusedApprovedNarration": true,
+  "providerCalls": 0,
+  "dependencyWaitPreservedAttempts": true,
+  "cancelStatus": "cancelled",
+  "failedNarrationWithheldVideoAndKeptText": true,
+  "retrySucceededWithApprovedNarration": true,
+  "outputBytes": 934582
+}

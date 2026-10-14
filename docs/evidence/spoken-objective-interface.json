@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-14T04:26:50.940Z",
+  "model": "openai/gpt-6-luna",
+  "review": {
+    "valid": true,
+    "issues": []
+  },
+  "nativeSpeakerCertified": false,
+  "translations": [
+    {
+      "key": "Speak your request",
+      "yo": "Sọ ìbéèrè rẹ",
+      "ha": "Faɗi buƙatarka",
+      "ig": "Kwuo arịrịọ gị"
+    },
+    {
+      "key": "Record request",
+      "yo": "Gba ìbéèrè rẹ sílẹ̀",
+      "ha": "Yi rikodin buƙatarka",
+      "ig": "Dekọọ arịrịọ gị"
+    },
+    {
+      "key": "Type your request instead",
+      "yo": "Kọ ìbéèrè rẹ dípò kí o sọ ọ",
+      "ha": "A maimakon haka, rubuta buƙatarka",
+      "ig": "Kama nke ahụ, pịnye arịrịọ gị"
+    },
+    {
+      "key": "Record up to 30 seconds. Confirm the words, then start learning.",
+      "yo": "Gba ohùn sílẹ̀ fún ìṣẹ́jú-àáyá tó tó 30. Jẹ́rìí sí àwọn ọ̀rọ̀ náà, lẹ́yìn náà bẹ̀rẹ̀ sí kọ́ ẹ̀kọ́.",
+      "ha": "Yi rikodi na tsawon da bai wuce daƙiƙa 30 ba. Tabbatar da kalmomin, sannan ka fara koyo.",
+      "ig": "Dekọọ ruo sekọnd 30. Kwenye okwu ndị ahụ, wee malite ịmụ ihe."
+    },
+    {
+      "key": "Keep your learning request under 600 characters.",
+      "yo": "Má ṣe jẹ́ kí ìbéèrè ẹ̀kọ́ rẹ ju àmì 600 lọ.",
+      "ha": "Kada buƙatar koyonka ta wuce haruffa 600.",
+      "ig": "Mee ka arịrịọ mmụta gị ghara ịkarị mkpụrụedemede 600."
+    },
+    {
+      "key": "This saved request contains a different objective.",
+      "yo": "Ìbéèrè tí o ti fipamọ́ yìí ní ète mìíràn nínú.",
+      "ha": "Wannan buƙatar da aka adana tana ɗauke da wata manufa dabam.",
+      "ig": "Arịrịọ a echekwara nwere ebumnuche dị iche."
+    }
+  ]
+}

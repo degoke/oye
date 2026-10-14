@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-10-13T15:11:36.565Z",
+  "paidCalls": 0,
+  "evidence": [
+    {
+      "check": "idempotent-session-credential-rotation",
+      "sameId": true,
+      "rotated": true
+    },
+    {
+      "check": "foreign-session-read",
+      "status": 404
+    },
+    {
+      "check": "foreign-context",
+      "status": 404
+    },
+    {
+      "check": "wrong-origin",
+      "status": 403
+    },
+    {
+      "check": "private-fields-omitted",
+      "fields": [
+        "id",
+        "context",
+        "language",
+        "transport",
+        "status",
+        "expiresAt",
+        "turns",
+        "inputMilliseconds",
+        "maxTurns",
+        "maxInputMilliseconds",
+        "createdAt",
+        "history"
+      ]
+    },
+    {
+      "check": "superseded-credential",
+      "code": 1008,
+      "events": []
+    },
+    {
+      "check": "foreign-cookie-connect",
+      "code": 1008,
+      "events": []
+    },
+    {
+      "check": "cross-origin-websocket",
+      "rejected": true,
+      "events": []
+    },
+    {
+      "check": "mute-interrupt-heartbeat",
+      "code": 1000,
+      "events": [
+        {
+          "type": "ready",
+          "session": {
+            "id": "92a34bdc-e77f-4434-b874-02565d0b84ad",
+            "context": {
+              "type": "tutor",
+              "conversationId": "97882b52-36f6-4244-86f3-623bb6293405"
+            },
+            "language": "en",
+            "transport": "pipeline",
+            "status": "active",
+            "expiresAt": 1791904896478,
+            "turns": 0,
+            "inputMilliseconds": 0,
+            "maxTurns": 12,
+            "maxInputMilliseconds": 180000,
+            "createdAt": 1791904296478
+          }
+        },
+        {
+          "type": "state",
+          "state": "listening"
+        },
+        {
+          "type": "state",
+          "state": "muted"
+        },
+        {
+          "type": "interrupted"
+        },
+        {
+          "type": "state",
+          "state": "muted"
+        },
+        {
+          "type": "pong"
+        }
+      ]
+    },
+    {
+      "check": "single-use-replay",
+      "code": 1008,
+      "events": []
+    },
+    {
+      "check": "reconnect-deadline-retained",
+      "status": 200,
+      "unchanged": true
+    },
+    {
+      "check": "closed-session-reconnect",
+      "status": 410
+    }
+  ]
+}

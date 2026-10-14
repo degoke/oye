@@ -1,0 +1,29 @@
+[
+  {
+    "model": "openai/gpt-6-luna",
+    "language": "ha",
+    "review": {
+      "valid": true,
+      "issues": []
+    },
+    "reviewedAt": "2026-10-13T14:22:29.747Z"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "language": "ig",
+    "review": {
+      "valid": true,
+      "issues": []
+    },
+    "reviewedAt": "2026-10-13T14:22:31.388Z"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "language": "yo",
+    "review": {
+      "valid": true,
+      "issues": []
+    },
+    "reviewedAt": "2026-10-13T14:22:33.356Z"
+  }
+]

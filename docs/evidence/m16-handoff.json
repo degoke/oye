@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-14",
+  "milestone": "M16",
+  "environment": {
+    "node": "24.15.0",
+    "pnpm": "12.11.2"
+  },
+  "install": {
+    "freshNodeModules": true,
+    "frozenLockfile": true,
+    "offlineLocalCache": true,
+    "packages": 312
+  },
+  "typecheck": {
+    "root": "passed",
+    "extracted": "passed"
+  },
+  "build": {
+    "root": "passed",
+    "extracted": "passed",
+    "warning": "Existing approximately 879 kB realtime chunk"
+  },
+  "checks": {
+    "m16-source-boundaries.json": {
+      "scope": "Controlled response fixtures, no provider network calls or paid API verification",
+      "defaultProvider": "openai",
+      "defaultModel": "gpt-6-luna",
+      "fixtures": false,
+      "passed": [
+        "validated citations",
+        "duplicate removal",
+        "HTTPS and allowed-host checks",
+        "credential and port rejection",
+        "citation index bounds",
+        "completed response requirement",
+        "text length bound",
+        "three-source cap",
+        "OpenAI endpoint and search request configuration",
+        "usage reservations",
+        "missing-key guard",
+        "curated source bundle"
+      ]
+    },
+    "m16-startup.json": {
+      "startup": "passed",
+      "ports": {
+        "api": 3188,
+        "web": 5192
+      },
+      "capabilities": {
+        "text": {
+          "provider": "openai",
+          "model": "gpt-6-luna",
+          "configured": false
+        },
+        "fixtures": false
+      },
+      "anonymousSession": "created",
+      "freshJourneys": "empty",
+      "webApiProxy": "passed",
+      "spaDeepLink": "passed",
+      "webAssetCount": 9,
+      "serviceWorker": "served",
+      "generatedMigrationsApplied": 13,
+      "databaseTableCount": 20,
+      "paidCalls": 0
+    },
+    "m16-keyless-acceptance.json": {
+      "preferenceSaveAndRead": "passed",
+      "invalidOrigin": "403",
+      "keylessLiveGeneration": "503",
+      "optInFixtures": "403 when disabled",
+      "paidCalls": 0,
+      "initialCheckCorrection": "The fixture guard correctly returns 403; an initial acceptance assertion expected 400. No product change was needed."
+    }
+  },
+  "paidOpenAIValidated": false,
+  "paidCalls": 0,
+  "existingDemoConfiguration": "Explicit local OpenRouter override preserved",
+  "package": {
+    "path": "deliverables/oye-source.zip",
+    "checksumFile": "deliverables/oye-source.zip.sha256",
+    "includes": [
+      "source",
+      "generated migrations",
+      "one pnpm lockfile",
+      "documentation",
+      "walkthrough screenshots",
+      "current pitch"
+    ],
+    "excludes": [
+      "credentials",
+      "saved learner data",
+      "private recordings",
+      "node_modules",
+      "dist",
+      "Git metadata"
+    ],
+    "initialChecks": {
+      "integrity": "passed",
+      "manifestHashes": "passed",
+      "excludedPrivateRuntimeData": "passed",
+      "workspaceLockfiles": 1,
+      "entries": 243,
+      "bundledMarkdownLinks": 272,
+      "brokenLocalLinks": 0,
+      "walkthroughImages": 13,
+      "generatedMigrations": 13,
+      "providerCodeMatchesIsolatedBuild": true
+    },
+    "checks": {
+      "imageCount": 14,
+      "standardMarkdownImages": true,
+      "contentsAnchors": "passed",
+      "localDocumentLinks": 277,
+      "archiveEntries": 246,
+      "archiveIntegrity": "passed",
+      "manifestHashes": "passed",
+      "videoCopyMatchesApprovedAsset": true,
+      "fullVideoSeconds": 116.4,
+      "privateRuntimeExcluded": true,
+      "providerCodeMatchesIsolatedBuild": true,
+      "workspaceLockfiles": 1
+    }
+  },
+  "bareConfigDefaults": {
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "fixtures": false,
+    "keyConfigured": false,
+    "environmentTemplateLoaded": false,
+    "controlledSearch": "passed"
+  },
+  "walkthroughFollowup": {
+    "reason": "User could not see the video explainer in the walkthrough",
+    "dedicatedVideoSection": true,
+    "allImagesUseMarkdown": true,
+    "imageCount": 14,
+    "appPlaybackScreenshotSeconds": 51,
+    "yorubaFrameSeconds": 22,
+    "includedYorubaVideoSeconds": 116.4,
+    "newPaidCalls": 0,
+    "mediaSource": "Previously reviewed demo assets",
+    "packageRefreshed": true,
+    "checks": {
+      "imageCount": 14,
+      "standardMarkdownImages": true,
+      "contentsAnchors": "passed",
+      "localDocumentLinks": 277,
+      "archiveEntries": 246,
+      "archiveIntegrity": "passed",
+      "manifestHashes": "passed",
+      "videoCopyMatchesApprovedAsset": true,
+      "fullVideoSeconds": 116.4,
+      "privateRuntimeExcluded": true
+    }
+  }
+}

@@ -1,0 +1,1211 @@
+{
+  "checkedAt": "2026-10-13T19:58:46.593Z",
+  "syntheticLearner": true,
+  "freshGeneration": true,
+  "cookieExcluded": true,
+  "journeys": {
+    "concept": {
+      "journey": {
+        "id": "e46d9b3c-68e7-41af-a49e-310c9acb4de1",
+        "objective": "Understand photosynthesis: distinguish materials from the energy supplied by sunlight",
+        "title": "Photosynthesis Basics",
+        "scope": "concept",
+        "language": "en",
+        "mode": "live",
+        "status": "assessment",
+        "createdAt": 1791909978879,
+        "updatedAt": 1791909983287,
+        "lastConceptId": null,
+        "contentLanguage": "en",
+        "contentVersion": "4064b949bb7e1a1f6994e4539b7d6b73e9beaa9ace504f1ecc72ae23bbe288ae",
+        "languageReady": true,
+        "concepts": [
+          {
+            "id": "f8d5694a-abd6-4430-a160-5541c32dfc54",
+            "title": "Photosynthesis and Energy",
+            "objective": "Distinguish between the materials used and the energy supplied by sunlight during photosynthesis.",
+            "position": 0,
+            "understanding": "unknown"
+          }
+        ]
+      },
+      "assessment": {
+        "journeyId": "e46d9b3c-68e7-41af-a49e-310c9acb4de1",
+        "language": "en",
+        "questions": [
+          {
+            "id": "q1",
+            "conceptIndex": 0,
+            "prompt": "According to the provided text, what is the primary role of sunlight in photosynthesis?",
+            "options": [
+              {
+                "id": "o1a",
+                "text": "Sunlight is converted directly into plant mass."
+              },
+              {
+                "id": "o1b",
+                "text": "Sunlight provides the energy needed for the process."
+              },
+              {
+                "id": "o1c",
+                "text": "Sunlight is a material combined with carbon dioxide and water."
+              },
+              {
+                "id": "o1d",
+                "text": "Sunlight is a byproduct of photosynthesis."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "conceptIndex": 0,
+            "prompt": "Which of the following are materials used by plants and phytoplankton during photosynthesis, according to the NASA excerpt?",
+            "options": [
+              {
+                "id": "o2a",
+                "text": "Carbohydrates and oxygen"
+              },
+              {
+                "id": "o2b",
+                "text": "Carbon dioxide and water"
+              },
+              {
+                "id": "o2c",
+                "text": "Sugars and sunlight"
+              },
+              {
+                "id": "o2d",
+                "text": "Atmosphere and water"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "conceptIndex": 0,
+            "prompt": "What are the main products created when plants and phytoplankton combine carbon dioxide and water using sunlight's energy?",
+            "options": [
+              {
+                "id": "o3a",
+                "text": "Carbon dioxide and water"
+              },
+              {
+                "id": "o3b",
+                "text": "Sunlight and oxygen"
+              },
+              {
+                "id": "o3c",
+                "text": "Carbohydrates (sugars) and oxygen"
+              },
+              {
+                "id": "o3d",
+                "text": "Plant mass and energy"
+              }
+            ]
+          }
+        ],
+        "answers": {},
+        "spokenAnswers": {},
+        "status": "draft",
+        "score": null,
+        "total": 3
+      },
+      "lesson": {
+        "id": "b8ac2010-3efb-4198-880a-08dce9908925",
+        "conceptId": "f8d5694a-abd6-4430-a160-5541c32dfc54",
+        "language": "en",
+        "readingSupport": "simple",
+        "createdAt": 1791910001035,
+        "content": {
+          "title": "Photosynthesis: Materials and Energy",
+          "summary": "In photosynthesis, carbon dioxide and water are materials used, while sunlight supplies energy. The products include carbohydrates (such as sugars) and oxygen.",
+          "sections": [
+            {
+              "heading": "Start with the difference",
+              "body": "Carbon dioxide and water are materials used in photosynthesis. Sunlight supplies the energy for the process; it is not a material converted into plant mass.",
+              "sourceIds": [
+                "s1"
+              ]
+            },
+            {
+              "heading": "What is produced?",
+              "body": "Using energy from sunlight, plants and phytoplankton combine carbon dioxide and water to make carbohydrates, including sugars, and oxygen.",
+              "sourceIds": [
+                "s1"
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "title": "Sort the roles",
+              "explanation": "For a photosynthesis example, label carbon dioxide and water as materials, sunlight as the energy source, and carbohydrates and oxygen as products.",
+              "sourceIds": [
+                "s1"
+              ]
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Material",
+              "meaning": "A substance used in photosynthesis, such as carbon dioxide or water."
+            },
+            {
+              "term": "Energy",
+              "meaning": "What sunlight supplies for photosynthesis; sunlight is not a material converted into plant mass."
+            },
+            {
+              "term": "Carbohydrate",
+              "meaning": "A product of photosynthesis; sugars are included among carbohydrates."
+            }
+          ],
+          "visual": {
+            "type": "steps",
+            "title": "Photosynthesis: inputs, energy, and products",
+            "items": [
+              {
+                "label": "Materials used",
+                "detail": "Carbon dioxide + water"
+              },
+              {
+                "label": "Energy supplied",
+                "detail": "Sunlight provides energy; it is not a material converted into plant mass."
+              },
+              {
+                "label": "Products",
+                "detail": "Carbohydrates, including sugars, + oxygen"
+              }
+            ],
+            "sourceIds": [
+              "s1"
+            ]
+          },
+          "practice": [
+            {
+              "id": "q1",
+              "conceptIndex": 0,
+              "prompt": "What role does sunlight play in photosynthesis?",
+              "options": [
+                {
+                  "id": "q1a",
+                  "text": "It supplies energy."
+                },
+                {
+                  "id": "q1b",
+                  "text": "It is a material converted into plant mass."
+                },
+                {
+                  "id": "q1c",
+                  "text": "It is a product made by photosynthesis."
+                }
+              ]
+            },
+            {
+              "id": "q2",
+              "conceptIndex": 0,
+              "prompt": "Which pair lists the materials used in photosynthesis?",
+              "options": [
+                {
+                  "id": "q2a",
+                  "text": "Carbon dioxide and water"
+                },
+                {
+                  "id": "q2b",
+                  "text": "Sunlight and oxygen"
+                },
+                {
+                  "id": "q2c",
+                  "text": "Sugars and oxygen"
+                }
+              ]
+            },
+            {
+              "id": "q3",
+              "conceptIndex": 0,
+              "prompt": "Which pair includes products of photosynthesis?",
+              "options": [
+                {
+                  "id": "q3a",
+                  "text": "Carbon dioxide and water"
+                },
+                {
+                  "id": "q3b",
+                  "text": "Carbohydrates (including sugars) and oxygen"
+                },
+                {
+                  "id": "q3c",
+                  "text": "Sunlight and water"
+                }
+              ]
+            }
+          ]
+        },
+        "sources": [
+          {
+            "id": "s1",
+            "title": "NASA: The carbon cycle",
+            "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+            "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+            "retrievedAt": 1791849600000
+          }
+        ]
+      },
+      "before": [
+        {
+          "journeyId": "e46d9b3c-68e7-41af-a49e-310c9acb4de1",
+          "journeyTitle": "Photosynthesis Basics",
+          "conceptId": "f8d5694a-abd6-4430-a160-5541c32dfc54",
+          "conceptTitle": "Photosynthesis and Energy",
+          "understanding": "unknown",
+          "viewed": false,
+          "practiceCount": 0,
+          "attempts": [],
+          "nextStep": "Explain the idea in your own words."
+        }
+      ],
+      "history": [
+        {
+          "id": "8779d011-8e59-4996-8e18-7a6228d60044",
+          "lessonId": "b8ac2010-3efb-4198-880a-08dce9908925",
+          "conceptId": "f8d5694a-abd6-4430-a160-5541c32dfc54",
+          "language": "en",
+          "rubricVersion": "4353af9dd6e9c58e5c5b97b5c7b70077a4bfb1ef69ff43bc7d26c9f569794506",
+          "rubric": [
+            {
+              "id": "r1",
+              "criterion": "Explains that sunlight provides energy for photosynthesis, not a material converted into plant mass.",
+              "essential": true
+            },
+            {
+              "id": "r2",
+              "criterion": "Identifies carbon dioxide and water as materials used in photosynthesis.",
+              "essential": true
+            },
+            {
+              "id": "r3",
+              "criterion": "Identifies carbohydrates (sugars) and oxygen as products of photosynthesis.",
+              "essential": true
+            }
+          ],
+          "sources": [
+            {
+              "id": "s1",
+              "title": "NASA: The carbon cycle",
+              "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+              "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+              "retrievedAt": 1791849600000
+            }
+          ],
+          "explanation": "Photosynthesis uses carbon dioxide and water as materials. Sunlight supplies energy and does not turn into the material of the plant. Plants combine those materials to produce carbohydrates such as sugars and oxygen. This moves carbon from the atmosphere into living organisms.",
+          "answers": [
+            {
+              "question": "How would you explain the difference between a material used in a process and energy supplied to that process?",
+              "answer": "A material contributes matter to what is made, while energy makes the process possible without becoming that matter. Carbon dioxide and water supply the materials for carbohydrates. Sunlight supplies energy. Oxygen is produced, and sunlight does not become the plant material.",
+              "requestId": "b4bbb84e-4731-4d93-b98e-1e3d09ff9909"
+            }
+          ],
+          "revision": 2,
+          "status": "completed",
+          "question": null,
+          "evaluation": {
+            "findings": [
+              {
+                "criterionId": "r1",
+                "status": "met",
+                "answerIndex": 0,
+                "quote": "Sunlight supplies energy and does not turn into the material of the plant.",
+                "explanation": "The learner explicitly distinguishes sunlight as an energy source from material that becomes part of the plant.",
+                "certainty": "high"
+              },
+              {
+                "criterionId": "r2",
+                "status": "met",
+                "answerIndex": 0,
+                "quote": "Photosynthesis uses carbon dioxide and water as materials.",
+                "explanation": "Both materials used in photosynthesis are correctly identified.",
+                "certainty": "high"
+              },
+              {
+                "criterionId": "r3",
+                "status": "met",
+                "answerIndex": 0,
+                "quote": "Plants combine those materials to produce carbohydrates such as sugars and oxygen.",
+                "explanation": "The learner correctly identifies carbohydrates, including sugars, and oxygen as products.",
+                "certainty": "high"
+              }
+            ],
+            "summary": "The independent explanation clearly distinguishes the materials used in photosynthesis from the energy supplied by sunlight and identifies the products.",
+            "followup": null,
+            "repair": null,
+            "application": {
+              "question": "Algae are growing in an aquarium under an electric grow lamp. Sunlight is unavailable, but the lamp is on. Explain step by step which substances the algae use as materials, what supplies energy, what products photosynthesis forms, and whether the lamp contributes matter to the algae’s mass. Explain the distinction between the materials and the energy source.",
+              "sourceIds": [
+                "s1"
+              ]
+            }
+          },
+          "applicationAnswer": "The algae use carbon dioxide and water as materials and combine them to form carbohydrates such as sugars and oxygen. The electric grow lamp supplies light energy while sunlight is unavailable. The lamp does not supply matter that becomes the algae mass. Carbon dioxide and water contribute material; light supplies energy for photosynthesis without becoming that material.",
+          "applicationEvaluation": {
+            "correct": true,
+            "quote": "Carbon dioxide and water contribute material; light supplies energy for photosynthesis without becoming that material.",
+            "explanation": "The answer identifies carbon dioxide and water as materials, carbohydrates and oxygen as products, and the lamp as an energy source rather than matter added to the algae’s mass. It correctly applies the distinction to the electric grow lamp.",
+            "certainty": "high"
+          },
+          "understanding": "demonstrated",
+          "jobId": "37aeb4fb-18b6-4e40-a596-9806668f70ea",
+          "createdAt": 1791921353962,
+          "updatedAt": 1791921455609
+        },
+        {
+          "id": "f16e515a-d96c-441b-8398-0b742ec6336e",
+          "lessonId": "b8ac2010-3efb-4198-880a-08dce9908925",
+          "conceptId": "f8d5694a-abd6-4430-a160-5541c32dfc54",
+          "language": "en",
+          "rubricVersion": "4353af9dd6e9c58e5c5b97b5c7b70077a4bfb1ef69ff43bc7d26c9f569794506",
+          "rubric": [
+            {
+              "id": "r1",
+              "criterion": "Explains that sunlight provides energy for photosynthesis, not a material converted into plant mass.",
+              "essential": true
+            },
+            {
+              "id": "r2",
+              "criterion": "Identifies carbon dioxide and water as materials used in photosynthesis.",
+              "essential": true
+            },
+            {
+              "id": "r3",
+              "criterion": "Identifies carbohydrates (sugars) and oxygen as products of photosynthesis.",
+              "essential": true
+            }
+          ],
+          "sources": [
+            {
+              "id": "s1",
+              "title": "NASA: The carbon cycle",
+              "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+              "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+              "retrievedAt": 1791849600000
+            }
+          ],
+          "explanation": "Plants turn sunlight into the material in sugar. Carbon dioxide is only released as waste, and plants take in oxygen to make food.",
+          "answers": [
+            {
+              "question": "Could you walk me through what you think happens to each substance and to sunlight during photosynthesis?",
+              "answer": "Sunlight changes into sugar material. Plants take in oxygen to make sugar and release carbon dioxide. I do not think water supplies any material.",
+              "requestId": "2d75ab02-a874-4ff7-90ee-7e8f3c726a9e"
+            },
+            {
+              "question": "What do you mean by “turn sunlight into the material in sugar,” and which substances do you think the plant takes in or releases?",
+              "answer": "I mean the light itself becomes the substance of sugar. Oxygen is taken in and carbon dioxide is released. Water does not become part of the sugar.",
+              "requestId": "4b35e530-350f-483a-8e21-89ef300eaa80"
+            }
+          ],
+          "revision": 3,
+          "status": "completed",
+          "question": null,
+          "evaluation": {
+            "findings": [
+              {
+                "criterionId": "r1",
+                "status": "misconception",
+                "answerIndex": 2,
+                "quote": "I mean the light itself becomes the substance of sugar.",
+                "explanation": "You explicitly describe light as becoming sugar. In photosynthesis, light supplies energy; it is not material converted into plant mass.",
+                "certainty": "high"
+              },
+              {
+                "criterionId": "r2",
+                "status": "misconception",
+                "answerIndex": 2,
+                "quote": "Oxygen is taken in and carbon dioxide is released. Water does not become part of the sugar.",
+                "explanation": "This reverses the roles of oxygen and carbon dioxide and rejects water as a material used. Carbon dioxide and water are the materials used in photosynthesis.",
+                "certainty": "high"
+              },
+              {
+                "criterionId": "r3",
+                "status": "misconception",
+                "answerIndex": 2,
+                "quote": "Oxygen is taken in and carbon dioxide is released. Water does not become part of the sugar.",
+                "explanation": "You refer to sugar, but describe oxygen as taken in and carbon dioxide as released. Photosynthesis produces carbohydrates, including sugars, and oxygen.",
+                "certainty": "high"
+              }
+            ],
+            "summary": "Your answers consistently treat light as material and reverse the roles of carbon dioxide and oxygen. They also do not identify water as a material used.",
+            "followup": null,
+            "repair": {
+              "heading": "Separate materials, energy, and products",
+              "body": "In photosynthesis, carbon dioxide and water are the materials used. Sunlight supplies energy; it does not become plant material. The products include carbohydrates such as sugars, and oxygen. A useful way to check your explanation is to sort each substance by its role: material used, energy supplied, or product made.",
+              "example": "For a plant making food, carbon dioxide and water are materials used, sunlight supplies energy, and carbohydrates (including sugars) and oxygen are products.",
+              "sourceIds": [
+                "s1"
+              ]
+            },
+            "application": {
+              "question": "A seedling in a greenhouse receives sunlight, and no other kind of light is available. Explain what role the sunlight plays, which substances are materials used in photosynthesis, and which substances are products. Also explain whether sunlight is material that becomes part of the seedling’s sugar.",
+              "sourceIds": [
+                "s1"
+              ]
+            }
+          },
+          "applicationAnswer": "The sunlight becomes sugar material in the seedling. Oxygen is the material used, and carbon dioxide comes out. Water does not supply material.",
+          "applicationEvaluation": {
+            "correct": false,
+            "quote": "The sunlight becomes sugar material in the seedling. Oxygen is the material used, and carbon dioxide comes out. Water does not supply material.",
+            "explanation": "These claims contradict photosynthesis: sunlight supplies energy rather than becoming sugar material; carbon dioxide and water are materials used; and oxygen is a product, not a material used.",
+            "certainty": "high"
+          },
+          "understanding": "needs_practice",
+          "jobId": "a002a179-981a-4f92-b869-10a3db5bd9cd",
+          "createdAt": 1791921122921,
+          "updatedAt": 1791921309127
+        }
+      ],
+      "progress": [
+        {
+          "journeyId": "e46d9b3c-68e7-41af-a49e-310c9acb4de1",
+          "journeyTitle": "Photosynthesis Basics",
+          "conceptId": "f8d5694a-abd6-4430-a160-5541c32dfc54",
+          "conceptTitle": "Photosynthesis and Energy",
+          "understanding": "demonstrated",
+          "viewed": false,
+          "practiceCount": 0,
+          "attempts": [
+            {
+              "id": "8779d011-8e59-4996-8e18-7a6228d60044",
+              "lessonId": "b8ac2010-3efb-4198-880a-08dce9908925",
+              "conceptId": "f8d5694a-abd6-4430-a160-5541c32dfc54",
+              "language": "en",
+              "rubricVersion": "4353af9dd6e9c58e5c5b97b5c7b70077a4bfb1ef69ff43bc7d26c9f569794506",
+              "rubric": [
+                {
+                  "id": "r1",
+                  "criterion": "Explains that sunlight provides energy for photosynthesis, not a material converted into plant mass.",
+                  "essential": true
+                },
+                {
+                  "id": "r2",
+                  "criterion": "Identifies carbon dioxide and water as materials used in photosynthesis.",
+                  "essential": true
+                },
+                {
+                  "id": "r3",
+                  "criterion": "Identifies carbohydrates (sugars) and oxygen as products of photosynthesis.",
+                  "essential": true
+                }
+              ],
+              "sources": [
+                {
+                  "id": "s1",
+                  "title": "NASA: The carbon cycle",
+                  "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+                  "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+                  "retrievedAt": 1791849600000
+                }
+              ],
+              "explanation": "Photosynthesis uses carbon dioxide and water as materials. Sunlight supplies energy and does not turn into the material of the plant. Plants combine those materials to produce carbohydrates such as sugars and oxygen. This moves carbon from the atmosphere into living organisms.",
+              "answers": [
+                {
+                  "question": "How would you explain the difference between a material used in a process and energy supplied to that process?",
+                  "answer": "A material contributes matter to what is made, while energy makes the process possible without becoming that matter. Carbon dioxide and water supply the materials for carbohydrates. Sunlight supplies energy. Oxygen is produced, and sunlight does not become the plant material.",
+                  "requestId": "b4bbb84e-4731-4d93-b98e-1e3d09ff9909"
+                }
+              ],
+              "revision": 2,
+              "status": "completed",
+              "question": null,
+              "evaluation": {
+                "findings": [
+                  {
+                    "criterionId": "r1",
+                    "status": "met",
+                    "answerIndex": 0,
+                    "quote": "Sunlight supplies energy and does not turn into the material of the plant.",
+                    "explanation": "The learner explicitly distinguishes sunlight as an energy source from material that becomes part of the plant.",
+                    "certainty": "high"
+                  },
+                  {
+                    "criterionId": "r2",
+                    "status": "met",
+                    "answerIndex": 0,
+                    "quote": "Photosynthesis uses carbon dioxide and water as materials.",
+                    "explanation": "Both materials used in photosynthesis are correctly identified.",
+                    "certainty": "high"
+                  },
+                  {
+                    "criterionId": "r3",
+                    "status": "met",
+                    "answerIndex": 0,
+                    "quote": "Plants combine those materials to produce carbohydrates such as sugars and oxygen.",
+                    "explanation": "The learner correctly identifies carbohydrates, including sugars, and oxygen as products.",
+                    "certainty": "high"
+                  }
+                ],
+                "summary": "The independent explanation clearly distinguishes the materials used in photosynthesis from the energy supplied by sunlight and identifies the products.",
+                "followup": null,
+                "repair": null,
+                "application": {
+                  "question": "Algae are growing in an aquarium under an electric grow lamp. Sunlight is unavailable, but the lamp is on. Explain step by step which substances the algae use as materials, what supplies energy, what products photosynthesis forms, and whether the lamp contributes matter to the algae’s mass. Explain the distinction between the materials and the energy source.",
+                  "sourceIds": [
+                    "s1"
+                  ]
+                }
+              },
+              "applicationAnswer": "The algae use carbon dioxide and water as materials and combine them to form carbohydrates such as sugars and oxygen. The electric grow lamp supplies light energy while sunlight is unavailable. The lamp does not supply matter that becomes the algae mass. Carbon dioxide and water contribute material; light supplies energy for photosynthesis without becoming that material.",
+              "applicationEvaluation": {
+                "correct": true,
+                "quote": "Carbon dioxide and water contribute material; light supplies energy for photosynthesis without becoming that material.",
+                "explanation": "The answer identifies carbon dioxide and water as materials, carbohydrates and oxygen as products, and the lamp as an energy source rather than matter added to the algae’s mass. It correctly applies the distinction to the electric grow lamp.",
+                "certainty": "high"
+              },
+              "understanding": "demonstrated",
+              "jobId": "37aeb4fb-18b6-4e40-a596-9806668f70ea",
+              "createdAt": 1791921353962,
+              "updatedAt": 1791921455609
+            },
+            {
+              "id": "f16e515a-d96c-441b-8398-0b742ec6336e",
+              "lessonId": "b8ac2010-3efb-4198-880a-08dce9908925",
+              "conceptId": "f8d5694a-abd6-4430-a160-5541c32dfc54",
+              "language": "en",
+              "rubricVersion": "4353af9dd6e9c58e5c5b97b5c7b70077a4bfb1ef69ff43bc7d26c9f569794506",
+              "rubric": [
+                {
+                  "id": "r1",
+                  "criterion": "Explains that sunlight provides energy for photosynthesis, not a material converted into plant mass.",
+                  "essential": true
+                },
+                {
+                  "id": "r2",
+                  "criterion": "Identifies carbon dioxide and water as materials used in photosynthesis.",
+                  "essential": true
+                },
+                {
+                  "id": "r3",
+                  "criterion": "Identifies carbohydrates (sugars) and oxygen as products of photosynthesis.",
+                  "essential": true
+                }
+              ],
+              "sources": [
+                {
+                  "id": "s1",
+                  "title": "NASA: The carbon cycle",
+                  "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+                  "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+                  "retrievedAt": 1791849600000
+                }
+              ],
+              "explanation": "Plants turn sunlight into the material in sugar. Carbon dioxide is only released as waste, and plants take in oxygen to make food.",
+              "answers": [
+                {
+                  "question": "Could you walk me through what you think happens to each substance and to sunlight during photosynthesis?",
+                  "answer": "Sunlight changes into sugar material. Plants take in oxygen to make sugar and release carbon dioxide. I do not think water supplies any material.",
+                  "requestId": "2d75ab02-a874-4ff7-90ee-7e8f3c726a9e"
+                },
+                {
+                  "question": "What do you mean by “turn sunlight into the material in sugar,” and which substances do you think the plant takes in or releases?",
+                  "answer": "I mean the light itself becomes the substance of sugar. Oxygen is taken in and carbon dioxide is released. Water does not become part of the sugar.",
+                  "requestId": "4b35e530-350f-483a-8e21-89ef300eaa80"
+                }
+              ],
+              "revision": 3,
+              "status": "completed",
+              "question": null,
+              "evaluation": {
+                "findings": [
+                  {
+                    "criterionId": "r1",
+                    "status": "misconception",
+                    "answerIndex": 2,
+                    "quote": "I mean the light itself becomes the substance of sugar.",
+                    "explanation": "You explicitly describe light as becoming sugar. In photosynthesis, light supplies energy; it is not material converted into plant mass.",
+                    "certainty": "high"
+                  },
+                  {
+                    "criterionId": "r2",
+                    "status": "misconception",
+                    "answerIndex": 2,
+                    "quote": "Oxygen is taken in and carbon dioxide is released. Water does not become part of the sugar.",
+                    "explanation": "This reverses the roles of oxygen and carbon dioxide and rejects water as a material used. Carbon dioxide and water are the materials used in photosynthesis.",
+                    "certainty": "high"
+                  },
+                  {
+                    "criterionId": "r3",
+                    "status": "misconception",
+                    "answerIndex": 2,
+                    "quote": "Oxygen is taken in and carbon dioxide is released. Water does not become part of the sugar.",
+                    "explanation": "You refer to sugar, but describe oxygen as taken in and carbon dioxide as released. Photosynthesis produces carbohydrates, including sugars, and oxygen.",
+                    "certainty": "high"
+                  }
+                ],
+                "summary": "Your answers consistently treat light as material and reverse the roles of carbon dioxide and oxygen. They also do not identify water as a material used.",
+                "followup": null,
+                "repair": {
+                  "heading": "Separate materials, energy, and products",
+                  "body": "In photosynthesis, carbon dioxide and water are the materials used. Sunlight supplies energy; it does not become plant material. The products include carbohydrates such as sugars, and oxygen. A useful way to check your explanation is to sort each substance by its role: material used, energy supplied, or product made.",
+                  "example": "For a plant making food, carbon dioxide and water are materials used, sunlight supplies energy, and carbohydrates (including sugars) and oxygen are products.",
+                  "sourceIds": [
+                    "s1"
+                  ]
+                },
+                "application": {
+                  "question": "A seedling in a greenhouse receives sunlight, and no other kind of light is available. Explain what role the sunlight plays, which substances are materials used in photosynthesis, and which substances are products. Also explain whether sunlight is material that becomes part of the seedling’s sugar.",
+                  "sourceIds": [
+                    "s1"
+                  ]
+                }
+              },
+              "applicationAnswer": "The sunlight becomes sugar material in the seedling. Oxygen is the material used, and carbon dioxide comes out. Water does not supply material.",
+              "applicationEvaluation": {
+                "correct": false,
+                "quote": "The sunlight becomes sugar material in the seedling. Oxygen is the material used, and carbon dioxide comes out. Water does not supply material.",
+                "explanation": "These claims contradict photosynthesis: sunlight supplies energy rather than becoming sugar material; carbon dioxide and water are materials used; and oxygen is a product, not a material used.",
+                "certainty": "high"
+              },
+              "understanding": "needs_practice",
+              "jobId": "a002a179-981a-4f92-b869-10a3db5bd9cd",
+              "createdAt": 1791921122921,
+              "updatedAt": 1791921309127
+            }
+          ],
+          "nextStep": "Revisit this concept or continue your pathway."
+        }
+      ],
+      "sameCookieResume": true
+    },
+    "broad": {
+      "journey": {
+        "id": "cedac395-67e5-426d-b2e8-18b33cdf554f",
+        "objective": "Learn photosynthesis and how carbon moves through living things",
+        "title": "Photosynthesis and Carbon Movement",
+        "scope": "goal",
+        "language": "en",
+        "mode": "live",
+        "status": "assessment",
+        "createdAt": 1791921478129,
+        "updatedAt": 1791921482928,
+        "lastConceptId": null,
+        "contentLanguage": "en",
+        "contentVersion": "10e433ff482ca0e8a7fbb77ae5a532e0870f98e821ed5435e5abf7715cf5c42f",
+        "languageReady": true,
+        "concepts": [
+          {
+            "id": "f10750f1-f85b-4d03-911e-b71d8fa2996a",
+            "title": "Photosynthesis",
+            "objective": "Explain how plants and phytoplankton use sunlight, water, and carbon dioxide to create carbohydrates (sugars) and oxygen.",
+            "position": 0,
+            "understanding": "unknown"
+          },
+          {
+            "id": "46b5c048-ab6b-4650-bad0-201f1b194614",
+            "title": "Carbon Cycle Basics",
+            "objective": "Describe how carbon moves between the atmosphere and living organisms through processes like photosynthesis and respiration.",
+            "position": 1,
+            "understanding": "unknown"
+          }
+        ]
+      },
+      "assessment": {
+        "journeyId": "cedac395-67e5-426d-b2e8-18b33cdf554f",
+        "language": "en",
+        "questions": [
+          {
+            "id": "q1",
+            "conceptIndex": 0,
+            "prompt": "What are the main ingredients plants use during photosynthesis, according to the provided text?",
+            "options": [
+              {
+                "id": "o1a",
+                "text": "Sunlight, soil, and oxygen"
+              },
+              {
+                "id": "o1b",
+                "text": "Carbon dioxide, water, and sunlight"
+              },
+              {
+                "id": "o1c",
+                "text": "Sugars, water, and air"
+              },
+              {
+                "id": "o1d",
+                "text": "Oxygen, carbon dioxide, and soil"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "conceptIndex": 0,
+            "prompt": "What are the products of photosynthesis mentioned in the text?",
+            "options": [
+              {
+                "id": "o2a",
+                "text": "Carbon dioxide and water"
+              },
+              {
+                "id": "o2b",
+                "text": "Sugars and oxygen"
+              },
+              {
+                "id": "o2c",
+                "text": "Sunlight and carbohydrates"
+              },
+              {
+                "id": "o2d",
+                "text": "Water and oxygen"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "conceptIndex": 1,
+            "prompt": "How does photosynthesis affect the movement of carbon between the atmosphere and living things?",
+            "options": [
+              {
+                "id": "o3a",
+                "text": "It releases carbon dioxide into the atmosphere."
+              },
+              {
+                "id": "o3b",
+                "text": "It moves carbon from living organisms into the atmosphere."
+              },
+              {
+                "id": "o3c",
+                "text": "It moves carbon from the atmosphere into living organisms."
+              },
+              {
+                "id": "o3d",
+                "text": "It does not affect carbon movement."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "conceptIndex": 1,
+            "prompt": "What process returns carbon dioxide to the atmosphere, according to the text?",
+            "options": [
+              {
+                "id": "o4a",
+                "text": "Photosynthesis"
+              },
+              {
+                "id": "o4b",
+                "text": "Respiration"
+              },
+              {
+                "id": "o4c",
+                "text": "Evaporation"
+              },
+              {
+                "id": "o4d",
+                "text": "Decomposition"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "conceptIndex": 0,
+            "prompt": "What is the role of light in photosynthesis, based on the NASA excerpt?",
+            "options": [
+              {
+                "id": "o5a",
+                "text": "Light is converted into plant mass."
+              },
+              {
+                "id": "o5b",
+                "text": "Light provides the energy for the process."
+              },
+              {
+                "id": "o5c",
+                "text": "Light is a byproduct of photosynthesis."
+              },
+              {
+                "id": "o5d",
+                "text": "Light is combined with water to create carbon dioxide."
+              }
+            ]
+          }
+        ],
+        "answers": {},
+        "spokenAnswers": {},
+        "status": "draft",
+        "score": null,
+        "total": 5
+      },
+      "lesson": {
+        "id": "98025511-c8c3-4a7f-9614-98d9bf99c32d",
+        "conceptId": "f10750f1-f85b-4d03-911e-b71d8fa2996a",
+        "language": "en",
+        "readingSupport": "simple",
+        "createdAt": 1791921502226,
+        "content": {
+          "title": "Photosynthesis: Inputs, Energy, and Outputs",
+          "summary": "Plants and phytoplankton use sunlight’s energy to combine water and carbon dioxide into sugars and oxygen. [s1]",
+          "sections": [
+            {
+              "heading": "Start with the basics",
+              "body": "Photosynthesis uses three inputs: sunlight, water, and carbon dioxide. Sunlight supplies the energy for the process; it is not a material that becomes part of the plant. [s1]",
+              "sourceIds": [
+                "s1"
+              ]
+            },
+            {
+              "heading": "What the process makes",
+              "body": "The outputs are carbohydrates, including sugars, and oxygen. In short: water + carbon dioxide, using energy from sunlight, produce sugars and oxygen. [s1]",
+              "sourceIds": [
+                "s1"
+              ]
+            },
+            {
+              "heading": "Try the idea",
+              "body": "Hypothetical example: if a plant has water and carbon dioxide available and receives sunlight, photosynthesis uses the sunlight’s energy to make sugars and oxygen. The sunlight provides energy; it is not an ingredient converted into plant material. [s1]",
+              "sourceIds": [
+                "s1"
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "title": "A simple input-to-output check",
+              "explanation": "For a hypothetical plant, identify sunlight, water, and carbon dioxide as the inputs. Identify sugars and oxygen as the outputs. [s1]",
+              "sourceIds": [
+                "s1"
+              ]
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Photosynthesis",
+              "meaning": "The process in which plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates and oxygen. [s1]"
+            },
+            {
+              "term": "Carbohydrates",
+              "meaning": "Products of photosynthesis that include sugars. [s1]"
+            }
+          ],
+          "visual": {
+            "type": "steps",
+            "title": "Photosynthesis in three steps",
+            "items": [
+              {
+                "label": "Inputs",
+                "detail": "Water and carbon dioxide are used."
+              },
+              {
+                "label": "Energy",
+                "detail": "Sunlight supplies energy; it is not a material converted into plant mass."
+              },
+              {
+                "label": "Outputs",
+                "detail": "Carbohydrates, including sugars, and oxygen are made."
+              }
+            ],
+            "sourceIds": [
+              "s1"
+            ]
+          },
+          "practice": [
+            {
+              "id": "p1",
+              "conceptIndex": 0,
+              "prompt": "Which list names the inputs for photosynthesis?",
+              "options": [
+                {
+                  "id": "p1a",
+                  "text": "Sunlight, water, and carbon dioxide"
+                },
+                {
+                  "id": "p1b",
+                  "text": "Sugars and oxygen"
+                },
+                {
+                  "id": "p1c",
+                  "text": "Sunlight and sugars only"
+                }
+              ]
+            },
+            {
+              "id": "p2",
+              "conceptIndex": 0,
+              "prompt": "What are the products of photosynthesis named in the source?",
+              "options": [
+                {
+                  "id": "p2a",
+                  "text": "Water and carbon dioxide"
+                },
+                {
+                  "id": "p2b",
+                  "text": "Carbohydrates, including sugars, and oxygen"
+                },
+                {
+                  "id": "p2c",
+                  "text": "Sunlight and water"
+                }
+              ]
+            },
+            {
+              "id": "p3",
+              "conceptIndex": 0,
+              "prompt": "What is sunlight’s role in photosynthesis?",
+              "options": [
+                {
+                  "id": "p3a",
+                  "text": "It supplies energy for the process."
+                },
+                {
+                  "id": "p3b",
+                  "text": "It is a material converted into plant mass."
+                },
+                {
+                  "id": "p3c",
+                  "text": "It is one of the products."
+                }
+              ]
+            }
+          ]
+        },
+        "sources": [
+          {
+            "id": "s1",
+            "title": "NASA: The carbon cycle",
+            "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+            "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+            "retrievedAt": 1791849600000
+          }
+        ]
+      },
+      "before": [
+        {
+          "journeyId": "cedac395-67e5-426d-b2e8-18b33cdf554f",
+          "journeyTitle": "Photosynthesis and Carbon Movement",
+          "conceptId": "f10750f1-f85b-4d03-911e-b71d8fa2996a",
+          "conceptTitle": "Photosynthesis",
+          "understanding": "unknown",
+          "viewed": false,
+          "practiceCount": 0,
+          "attempts": [],
+          "nextStep": "Explain the idea in your own words."
+        },
+        {
+          "journeyId": "cedac395-67e5-426d-b2e8-18b33cdf554f",
+          "journeyTitle": "Photosynthesis and Carbon Movement",
+          "conceptId": "46b5c048-ab6b-4650-bad0-201f1b194614",
+          "conceptTitle": "Carbon Cycle Basics",
+          "understanding": "unknown",
+          "viewed": false,
+          "practiceCount": 0,
+          "attempts": [],
+          "nextStep": "Explain the idea in your own words."
+        },
+        {
+          "journeyId": "e46d9b3c-68e7-41af-a49e-310c9acb4de1",
+          "journeyTitle": "Photosynthesis Basics",
+          "conceptId": "f8d5694a-abd6-4430-a160-5541c32dfc54",
+          "conceptTitle": "Photosynthesis and Energy",
+          "understanding": "demonstrated",
+          "viewed": false,
+          "practiceCount": 0,
+          "attempts": [
+            {
+              "id": "8779d011-8e59-4996-8e18-7a6228d60044",
+              "lessonId": "b8ac2010-3efb-4198-880a-08dce9908925",
+              "conceptId": "f8d5694a-abd6-4430-a160-5541c32dfc54",
+              "language": "en",
+              "rubricVersion": "4353af9dd6e9c58e5c5b97b5c7b70077a4bfb1ef69ff43bc7d26c9f569794506",
+              "rubric": [
+                {
+                  "id": "r1",
+                  "criterion": "Explains that sunlight provides energy for photosynthesis, not a material converted into plant mass.",
+                  "essential": true
+                },
+                {
+                  "id": "r2",
+                  "criterion": "Identifies carbon dioxide and water as materials used in photosynthesis.",
+                  "essential": true
+                },
+                {
+                  "id": "r3",
+                  "criterion": "Identifies carbohydrates (sugars) and oxygen as products of photosynthesis.",
+                  "essential": true
+                }
+              ],
+              "sources": [
+                {
+                  "id": "s1",
+                  "title": "NASA: The carbon cycle",
+                  "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+                  "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+                  "retrievedAt": 1791849600000
+                }
+              ],
+              "explanation": "Photosynthesis uses carbon dioxide and water as materials. Sunlight supplies energy and does not turn into the material of the plant. Plants combine those materials to produce carbohydrates such as sugars and oxygen. This moves carbon from the atmosphere into living organisms.",
+              "answers": [
+                {
+                  "question": "How would you explain the difference between a material used in a process and energy supplied to that process?",
+                  "answer": "A material contributes matter to what is made, while energy makes the process possible without becoming that matter. Carbon dioxide and water supply the materials for carbohydrates. Sunlight supplies energy. Oxygen is produced, and sunlight does not become the plant material.",
+                  "requestId": "b4bbb84e-4731-4d93-b98e-1e3d09ff9909"
+                }
+              ],
+              "revision": 2,
+              "status": "completed",
+              "question": null,
+              "evaluation": {
+                "findings": [
+                  {
+                    "criterionId": "r1",
+                    "status": "met",
+                    "answerIndex": 0,
+                    "quote": "Sunlight supplies energy and does not turn into the material of the plant.",
+                    "explanation": "The learner explicitly distinguishes sunlight as an energy source from material that becomes part of the plant.",
+                    "certainty": "high"
+                  },
+                  {
+                    "criterionId": "r2",
+                    "status": "met",
+                    "answerIndex": 0,
+                    "quote": "Photosynthesis uses carbon dioxide and water as materials.",
+                    "explanation": "Both materials used in photosynthesis are correctly identified.",
+                    "certainty": "high"
+                  },
+                  {
+                    "criterionId": "r3",
+                    "status": "met",
+                    "answerIndex": 0,
+                    "quote": "Plants combine those materials to produce carbohydrates such as sugars and oxygen.",
+                    "explanation": "The learner correctly identifies carbohydrates, including sugars, and oxygen as products.",
+                    "certainty": "high"
+                  }
+                ],
+                "summary": "The independent explanation clearly distinguishes the materials used in photosynthesis from the energy supplied by sunlight and identifies the products.",
+                "followup": null,
+                "repair": null,
+                "application": {
+                  "question": "Algae are growing in an aquarium under an electric grow lamp. Sunlight is unavailable, but the lamp is on. Explain step by step which substances the algae use as materials, what supplies energy, what products photosynthesis forms, and whether the lamp contributes matter to the algae’s mass. Explain the distinction between the materials and the energy source.",
+                  "sourceIds": [
+                    "s1"
+                  ]
+                }
+              },
+              "applicationAnswer": "The algae use carbon dioxide and water as materials and combine them to form carbohydrates such as sugars and oxygen. The electric grow lamp supplies light energy while sunlight is unavailable. The lamp does not supply matter that becomes the algae mass. Carbon dioxide and water contribute material; light supplies energy for photosynthesis without becoming that material.",
+              "applicationEvaluation": {
+                "correct": true,
+                "quote": "Carbon dioxide and water contribute material; light supplies energy for photosynthesis without becoming that material.",
+                "explanation": "The answer identifies carbon dioxide and water as materials, carbohydrates and oxygen as products, and the lamp as an energy source rather than matter added to the algae’s mass. It correctly applies the distinction to the electric grow lamp.",
+                "certainty": "high"
+              },
+              "understanding": "demonstrated",
+              "jobId": "37aeb4fb-18b6-4e40-a596-9806668f70ea",
+              "createdAt": 1791921353962,
+              "updatedAt": 1791921455609
+            },
+            {
+              "id": "f16e515a-d96c-441b-8398-0b742ec6336e",
+              "lessonId": "b8ac2010-3efb-4198-880a-08dce9908925",
+              "conceptId": "f8d5694a-abd6-4430-a160-5541c32dfc54",
+              "language": "en",
+              "rubricVersion": "4353af9dd6e9c58e5c5b97b5c7b70077a4bfb1ef69ff43bc7d26c9f569794506",
+              "rubric": [
+                {
+                  "id": "r1",
+                  "criterion": "Explains that sunlight provides energy for photosynthesis, not a material converted into plant mass.",
+                  "essential": true
+                },
+                {
+                  "id": "r2",
+                  "criterion": "Identifies carbon dioxide and water as materials used in photosynthesis.",
+                  "essential": true
+                },
+                {
+                  "id": "r3",
+                  "criterion": "Identifies carbohydrates (sugars) and oxygen as products of photosynthesis.",
+                  "essential": true
+                }
+              ],
+              "sources": [
+                {
+                  "id": "s1",
+                  "title": "NASA: The carbon cycle",
+                  "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+                  "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+                  "retrievedAt": 1791849600000
+                }
+              ],
+              "explanation": "Plants turn sunlight into the material in sugar. Carbon dioxide is only released as waste, and plants take in oxygen to make food.",
+              "answers": [
+                {
+                  "question": "Could you walk me through what you think happens to each substance and to sunlight during photosynthesis?",
+                  "answer": "Sunlight changes into sugar material. Plants take in oxygen to make sugar and release carbon dioxide. I do not think water supplies any material.",
+                  "requestId": "2d75ab02-a874-4ff7-90ee-7e8f3c726a9e"
+                },
+                {
+                  "question": "What do you mean by “turn sunlight into the material in sugar,” and which substances do you think the plant takes in or releases?",
+                  "answer": "I mean the light itself becomes the substance of sugar. Oxygen is taken in and carbon dioxide is released. Water does not become part of the sugar.",
+                  "requestId": "4b35e530-350f-483a-8e21-89ef300eaa80"
+                }
+              ],
+              "revision": 3,
+              "status": "completed",
+              "question": null,
+              "evaluation": {
+                "findings": [
+                  {
+                    "criterionId": "r1",
+                    "status": "misconception",
+                    "answerIndex": 2,
+                    "quote": "I mean the light itself becomes the substance of sugar.",
+                    "explanation": "You explicitly describe light as becoming sugar. In photosynthesis, light supplies energy; it is not material converted into plant mass.",
+                    "certainty": "high"
+                  },
+                  {
+                    "criterionId": "r2",
+                    "status": "misconception",
+                    "answerIndex": 2,
+                    "quote": "Oxygen is taken in and carbon dioxide is released. Water does not become part of the sugar.",
+                    "explanation": "This reverses the roles of oxygen and carbon dioxide and rejects water as a material used. Carbon dioxide and water are the materials used in photosynthesis.",
+                    "certainty": "high"
+                  },
+                  {
+                    "criterionId": "r3",
+                    "status": "misconception",
+                    "answerIndex": 2,
+                    "quote": "Oxygen is taken in and carbon dioxide is released. Water does not become part of the sugar.",
+                    "explanation": "You refer to sugar, but describe oxygen as taken in and carbon dioxide as released. Photosynthesis produces carbohydrates, including sugars, and oxygen.",
+                    "certainty": "high"
+                  }
+                ],
+                "summary": "Your answers consistently treat light as material and reverse the roles of carbon dioxide and oxygen. They also do not identify water as a material used.",
+                "followup": null,
+                "repair": {
+                  "heading": "Separate materials, energy, and products",
+                  "body": "In photosynthesis, carbon dioxide and water are the materials used. Sunlight supplies energy; it does not become plant material. The products include carbohydrates such as sugars, and oxygen. A useful way to check your explanation is to sort each substance by its role: material used, energy supplied, or product made.",
+                  "example": "For a plant making food, carbon dioxide and water are materials used, sunlight supplies energy, and carbohydrates (including sugars) and oxygen are products.",
+                  "sourceIds": [
+                    "s1"
+                  ]
+                },
+                "application": {
+                  "question": "A seedling in a greenhouse receives sunlight, and no other kind of light is available. Explain what role the sunlight plays, which substances are materials used in photosynthesis, and which substances are products. Also explain whether sunlight is material that becomes part of the seedling’s sugar.",
+                  "sourceIds": [
+                    "s1"
+                  ]
+                }
+              },
+              "applicationAnswer": "The sunlight becomes sugar material in the seedling. Oxygen is the material used, and carbon dioxide comes out. Water does not supply material.",
+              "applicationEvaluation": {
+                "correct": false,
+                "quote": "The sunlight becomes sugar material in the seedling. Oxygen is the material used, and carbon dioxide comes out. Water does not supply material.",
+                "explanation": "These claims contradict photosynthesis: sunlight supplies energy rather than becoming sugar material; carbon dioxide and water are materials used; and oxygen is a product, not a material used.",
+                "certainty": "high"
+              },
+              "understanding": "needs_practice",
+              "jobId": "a002a179-981a-4f92-b869-10a3db5bd9cd",
+              "createdAt": 1791921122921,
+              "updatedAt": 1791921309127
+            }
+          ],
+          "nextStep": "Revisit this concept or continue your pathway."
+        }
+      ],
+      "sameCookieResume": true
+    }
+  },
+  "foreignJourneyStatus": 404,
+  "disposableHistoryClearPassed": true
+}

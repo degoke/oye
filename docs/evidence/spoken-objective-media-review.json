@@ -1,0 +1,45 @@
+{
+  "observedAt": "2026-10-14T05:18:36.876Z",
+  "journeyId": "39eed919-11a6-4a5a-b8f3-6ef670f42cdb",
+  "conceptId": "01badd75-36fe-4108-92dd-e38a735c2563",
+  "lessonId": "14d1652d-1d38-4608-b755-e2d128dec978",
+  "videoId": "f5712ff4-33a9-4b0f-ad34-46ff7c812f96",
+  "narrationId": "2ef340c7-3b44-4b89-a06c-f66f181dd4fd",
+  "model": "google/gemini-3.8-flash-tts",
+  "voice": "Puck",
+  "approvedChunks": 2,
+  "review": [
+    {
+      "model": "google/gemini-3.5-transcribe",
+      "recognized": "Carbon dioxide ati omi ninu photosynthesis. Awọn ohun ọgbin lo carbon dioxide ati omi papọ lati ṣe carbohydrate ati oxygen. Ìmọ́lẹ̀ oòrùn npèsè agbára fún ìṣe yìí. Awọn ohun èlò ati awọn ọjà. Ninu photosynthesis, awọn ohun ọgbin lo carbon dioxide ati omi lati ṣe carbohydrate, oúnjẹ, ati oxygen. Ipá ìmọ́lẹ̀ oòrùn. Ìmọ́lẹ̀ oòrùn npèsè agbára lati sọ carbon dioxide ati omi pọ̀. Kìí ṣe ohun èlò ti a n yipada si ohun èlò ara ohun ọgbin. Àpẹẹrẹ ìrònú. Fojú inú wo photosynthesis gẹ́gẹ́ bí ìlanà tó n gba carbon dioxide ati omi tó sì n ṣe carbohydrate ati oxygen. Ìmọ́lẹ̀ oòrùn ló npèsè agbára fún un. Àkópọ̀ ìlanà náà. Ìkini. Awọn ohun èlò.",
+      "valid": true,
+      "reason": "The transcript preserves the substantive claims: carbon dioxide and water are used to produce carbohydrates and oxygen, while sunlight supplies energy rather than material. The final word “Ìkini” appears to be a recognition error for the list number, not a changed teaching claim."
+    },
+    {
+      "model": "google/gemini-3.5-transcribe",
+      "recognized": "Carbon dioxide ati omi ni a lo. Meji, agbara. Imọlẹ orun n pese agbara lati sọ awọn ohun elo na pọ. Ọka, awọn oja. A se carbohydrate ati oxygen. Carbon dioxide. Ọkan lara awọn ohun elo ti awọn ohun ọgbin darapọ mọ omi ninu photosynthesis. Omi. Ohun elo ti awọn ohun ọgbin lo papọ mọ carbon dioxide lati se carbohydrate ati oxygen. Awọn carbohydrates. Awọn oja ti photosynthesis n se. Won le ni sugars ninu. Atẹgun. Oxygen. Ọkan lara awọn oja ti photosynthesis n se. Photosynthesis. Ìlànà ti awọn ohun ọgbin fi n lo agbara imọlẹ orun lati sọ carbon dioxide ati omi pọ ki wọn si se carbohydrate ati oxygen.",
+      "valid": true,
+      "reason": "The transcript preserves the substantive claims: carbon dioxide and water are inputs, sunlight supplies the energy, and carbohydrates and oxygen are products. The definitions also retain their intended meanings. The heading-number recognition differences do not change the teaching content."
+    }
+  ],
+  "transcriptMatchesImmutableLesson": true,
+  "videoUsesReviewedNarration": true,
+  "receiptAttachedToSameJourney": true,
+  "sourceIds": [
+    "s1"
+  ],
+  "captionTiming": "chunk",
+  "duration": 116.4,
+  "nativeSpeakerCertified": false,
+  "browserPlaybackVerified": false,
+  "earlierSunlightLessonWithheld": true,
+  "localFullFileDecoded": true,
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "resolution": [
+    960,
+    540
+  ],
+  "fileBytes": 954394,
+  "frameInspectedAtSeconds": 8
+}

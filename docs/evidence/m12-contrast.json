@@ -1,0 +1,30 @@
+{
+  "scope": "Core documented text, navigation and action pairs; not a full per-element accessibility certification",
+  "pairs": [
+    {
+      "foreground": "#202923",
+      "background": "#f8f7f3",
+      "ratio": 13.96
+    },
+    {
+      "foreground": "#59665d",
+      "background": "#f8f7f3",
+      "ratio": 5.62
+    },
+    {
+      "foreground": "#626b64",
+      "background": "#f8f7f3",
+      "ratio": 5.15
+    },
+    {
+      "foreground": "#ffffff",
+      "background": "#275d4a",
+      "ratio": 7.63
+    },
+    {
+      "foreground": "#275d4a",
+      "background": "#eef2e9",
+      "ratio": 6.73
+    }
+  ]
+}

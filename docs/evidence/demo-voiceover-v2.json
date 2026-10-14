@@ -1,0 +1,101 @@
+[
+  {
+    "id": "story",
+    "seconds": 36.168,
+    "targetSeconds": 34,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Sulafat",
+    "instructions": "Warm, clear, expressive educational storytelling. Conversational English at a moderate pace. Sound curious, caring and confident, with a subtle smile. Avoid an announcer or advertising delivery. Pause thoughtfully before the final brand promise. Pronounce Oye as oh-yeh. Read the supplied text exactly, without additional words.",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 34
+  },
+  {
+    "id": "english",
+    "seconds": 22.848,
+    "targetSeconds": 30,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Sulafat",
+    "instructions": "Warm, clear, expressive educational storytelling. Conversational English at a moderate pace. Sound curious, caring and confident, with a subtle smile. Avoid an announcer or advertising delivery. Pause thoughtfully before the final brand promise. Pronounce Oye as oh-yeh. Read the supplied text exactly, without additional words.",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 26
+  },
+  {
+    "id": "learning",
+    "seconds": 48.624,
+    "targetSeconds": 55,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Sulafat",
+    "instructions": "Warm, clear, expressive educational storytelling. Conversational English at a moderate pace. Sound curious, caring and confident, with a subtle smile. Avoid an announcer or advertising delivery. Pause thoughtfully before the final brand promise. Pronounce Oye as oh-yeh. Read the supplied text exactly, without additional words.",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 55
+  },
+  {
+    "id": "yoruba-intro",
+    "seconds": 8.208,
+    "targetSeconds": 8,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Sulafat",
+    "instructions": "Warm, clear, expressive educational storytelling. Conversational English at a moderate pace. Sound curious, caring and confident, with a subtle smile. Avoid an announcer or advertising delivery. Pause thoughtfully before the final brand promise. Pronounce Oye as oh-yeh. Read the supplied text exactly, without additional words.",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 8
+  },
+  {
+    "id": "yoruba-bridge",
+    "seconds": 6.096,
+    "targetSeconds": 7,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Sulafat",
+    "instructions": "Warm, clear, expressive educational storytelling. Conversational English at a moderate pace. Sound curious, caring and confident, with a subtle smile. Avoid an announcer or advertising delivery. Pause thoughtfully before the final brand promise. Pronounce Oye as oh-yeh. Read the supplied text exactly, without additional words.",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 7
+  },
+  {
+    "id": "yoruba-course",
+    "seconds": 8.976,
+    "targetSeconds": 11,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Sulafat",
+    "instructions": "Warm, clear, expressive educational storytelling. Conversational English at a moderate pace. Sound curious, caring and confident, with a subtle smile. Avoid an announcer or advertising delivery. Pause thoughtfully before the final brand promise. Pronounce Oye as oh-yeh. Read the supplied text exactly, without additional words.",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 11
+  },
+  {
+    "id": "yoruba-close",
+    "seconds": 9.768,
+    "targetSeconds": 11.784,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Sulafat",
+    "instructions": "Warm, clear, expressive educational storytelling. Conversational English at a moderate pace. Sound curious, caring and confident, with a subtle smile. Avoid an announcer or advertising delivery. Pause thoughtfully before the final brand promise. Pronounce Oye as oh-yeh. Read the supplied text exactly, without additional words.",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 11.784
+  },
+  {
+    "id": "codex",
+    "seconds": 33.288,
+    "targetSeconds": 34,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Sulafat",
+    "instructions": "Warm, clear, expressive educational storytelling. Conversational English at a moderate pace. Sound curious, caring and confident, with a subtle smile. Avoid an announcer or advertising delivery. Pause thoughtfully before the final brand promise. Pronounce Oye as oh-yeh. Read the supplied text exactly, without additional words.",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 34
+  },
+  {
+    "id": "closing",
+    "seconds": 24.576,
+    "targetSeconds": 20,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Sulafat",
+    "instructions": "Warm, clear, expressive educational storytelling. Conversational English at a moderate pace. Sound curious, caring and confident, with a subtle smile. Avoid an announcer or advertising delivery. Pause thoughtfully before the final brand promise. Pronounce Oye as oh-yeh. Read the supplied text exactly, without additional words.",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 24
+  }
+]

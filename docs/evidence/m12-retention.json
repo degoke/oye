@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-13T16:44:51.155Z",
+  "isolatedGeneratedMigrations": true,
+  "providerCalls": 0,
+  "globalVoiceCapSurvivedOwnerClear": true,
+  "expiredOwnerRemoved": true,
+  "expiredMediaRemoved": true,
+  "abortHooksCalled": 4,
+  "oldUsageRemovedAfter31Days": true,
+  "recentUsageRetained": true,
+  "providerTextCallCapBlockedAt320": true
+}

@@ -1,0 +1,106 @@
+{
+  "messages": 38,
+  "reviewType": "automated model review; no human native review",
+  "manualCorrections": "Restored exact òye. brand identity in Yoruba and Hausa drafts before independent review. Reviewer instructions identify the app name as a proper noun.",
+  "batches": [
+    {
+      "file": "ha-0.json",
+      "count": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T06:58:17.577Z"
+    },
+    {
+      "file": "ig-28.json",
+      "count": 8,
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T06:50:10.823Z"
+    },
+    {
+      "file": "ig-0.json",
+      "count": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T06:49:54.172Z"
+    },
+    {
+      "file": "yo-28.json",
+      "count": 8,
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T06:56:41.130Z"
+    },
+    {
+      "file": "ha-28.json",
+      "count": 8,
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T06:58:30.158Z"
+    },
+    {
+      "file": "yo-0.json",
+      "count": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T06:56:21.251Z"
+    },
+    {
+      "file": "ha-0.json",
+      "count": 2,
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T06:58:22.481Z"
+    },
+    {
+      "file": "ig-0.json",
+      "count": 2,
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T06:58:25.019Z"
+    },
+    {
+      "file": "yo-0.json",
+      "count": 2,
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T06:58:25.298Z"
+    }
+  ]
+}

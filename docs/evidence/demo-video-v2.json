@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-14",
+  "revision": 2,
+  "durationSeconds": 250,
+  "secondsRemoved": 40,
+  "fileBytes": 10436912,
+  "narrator": "Sulafat",
+  "narratorSelectedByUser": true,
+  "streams": [
+    {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "30/1",
+      "duration": "250.000000"
+    },
+    {
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "r_frame_rate": "0/0",
+      "duration": "250.000000"
+    }
+  ],
+  "yorubaAudio": [
+    {
+      "segment": "request",
+      "startSeconds": 123,
+      "durationSeconds": 9.216,
+      "rms": 0.08723,
+      "correlationWithPreparedAudio": 0.99981,
+      "presenterAndMusicOverlap": false
+    },
+    {
+      "segment": "quiz",
+      "startSeconds": 139.216,
+      "durationSeconds": 10,
+      "rms": 0.0802,
+      "correlationWithPreparedAudio": 0.99988,
+      "presenterAndMusicOverlap": false
+    },
+    {
+      "segment": "explainer",
+      "startSeconds": 160.216,
+      "durationSeconds": 20,
+      "rms": 0.08906,
+      "correlationWithPreparedAudio": 0.99988,
+      "presenterAndMusicOverlap": false
+    }
+  ],
+  "presentationLabelsRemoved": true,
+  "verificationOutroRemoved": true,
+  "continuousLiveRecordingClaim": false,
+  "provenanceRetainedInternally": true,
+  "voiceGuide": "https://ai.google.dev/gemini-api/docs/speech-generation#voice-options",
+  "reviewFrames": [
+    3,
+    16,
+    24,
+    39,
+    55,
+    67,
+    79,
+    96,
+    112,
+    126,
+    143,
+    155,
+    171,
+    186,
+    197,
+    214,
+    223,
+    235,
+    247
+  ],
+  "fullFileDecoded": true,
+  "browserPlayback": {
+    "secondsObserved": 88.196291,
+    "duration": 250,
+    "muted": false,
+    "paused": false,
+    "readyState": 4,
+    "error": null
+  }
+}

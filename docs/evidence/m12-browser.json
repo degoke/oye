@@ -1,0 +1,36 @@
+{
+  "environment": "Codex in-app browser, local production preview, macOS",
+  "savedLessonKeyboardOpen": true,
+  "savedLessonMobileViewport": {
+    "width": 360,
+    "documentWidth": 360,
+    "height": 800
+  },
+  "savedLessonDesktopViewport": {
+    "width": 1225,
+    "documentWidth": 1225
+  },
+  "savedLessonTextDownload": "oye-lesson-en.txt",
+  "textDownloadIncludesSourceUrls": true,
+  "textDownloadContainsNoExpectedAnswersOrCredentials": true,
+  "historyModalFocusContained": true,
+  "escapeReturnedFocusWithoutDeletion": true,
+  "historyCloseButtonLabelFixedAndRechecked": true,
+  "skipLinkFocusedMain": true,
+  "existingDemonstratedProgressResumed": true,
+  "nativeKeyboardExpandedSavedEvidence": true,
+  "finalProductionSavedTextReloadWithWebServerStopped": true,
+  "serverRestoredAfterCheck": true,
+  "delayedApiShowedLoadingAndRecoveredAfterTwelveSecondPause": true,
+  "temporaryViewportOverrideReset": true,
+  "physicalPhoneVerified": false,
+  "realScreenReaderVerified": false,
+  "naturalHumanMicrophoneVerified": false,
+  "screenshots": [
+    ".data/screenshots/m12-saved-mobile.png",
+    ".data/screenshots/m12-offline-final.png"
+  ],
+  "deviceLimitationsAcceptedForDemo": true,
+  "scopeDecision": "D037",
+  "verificationFlagsRemainUnchanged": true
+}

@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-13T20:13:00.035Z",
+  "authoritativeDatabaseRead": true,
+  "languages": [
+    {
+      "language": "en",
+      "savedLessonVersions": 3,
+      "demonstratedAttemptId": "1658d2ae-8012-481f-bc99-42d22eb08efa",
+      "applicationCorrect": true,
+      "sourceIdsValid": true
+    },
+    {
+      "language": "yo",
+      "savedLessonVersions": 2,
+      "demonstratedAttemptId": "7eb96efc-7df7-4b89-94d3-f93a12399e41",
+      "applicationCorrect": true,
+      "sourceIdsValid": true
+    },
+    {
+      "language": "ha",
+      "savedLessonVersions": 1,
+      "demonstratedAttemptId": "2d72a3d6-55bd-461d-a2b3-62c3a5da9ed3",
+      "applicationCorrect": true,
+      "sourceIdsValid": true
+    },
+    {
+      "language": "ig",
+      "savedLessonVersions": 1,
+      "demonstratedAttemptId": "702d42f6-c668-48a9-9d94-62fc50c06983",
+      "applicationCorrect": true,
+      "sourceIdsValid": true
+    }
+  ],
+  "rollingDayUsage": {
+    "voice": 20,
+    "transcription": 25,
+    "narration": 9,
+    "video": 3,
+    "provider-text": 23,
+    "provider-tts": 3,
+    "provider-stt": 3
+  },
+  "usageContainsNoLearningText": true,
+  "migrationFiles": 13,
+  "currentVideos": 3,
+  "currentNarrations": 3
+}

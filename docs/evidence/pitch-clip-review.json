@@ -1,0 +1,13 @@
+{
+  "observedAt": "2026-10-14T04:03:54.906Z",
+  "excerptStart": 4.5,
+  "excerptSeconds": 15,
+  "recognized": "Photosynthesis ni ilana ti awon ohun ogbin fi n lo agbara imole oorun lati so erogba oloro ati omi po ki won le mu suga ati oxygen jade. Awon",
+  "reviewModel": "openai/gpt-6-luna",
+  "review": {
+    "valid": true,
+    "reason": "The excerpt clearly states that plants use sunlight energy to combine carbon dioxide and water and produce sugar and oxygen. The trailing “Awon” does not interrupt the complete key statement."
+  },
+  "nativeSpeakerCertified": false,
+  "sourceId": "s1"
+}

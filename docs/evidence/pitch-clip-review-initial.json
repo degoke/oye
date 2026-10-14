@@ -1,0 +1,13 @@
+{
+  "observedAt": "2026-10-14T04:01:39.849Z",
+  "excerptStart": 39.5,
+  "excerptSeconds": 15,
+  "recognized": "Ìmọ́lẹ̀ òrù n pèsè agbara fún ìlànà náà. A kì í yí ìmọ́lẹ̀ fún ra rẹ̀ padà sí ìyíẹ̀ ohun èlò ara wọn ògbin. Apá rẹ̀ ìṣírú àwọn ohun tí a lò",
+  "reviewModel": "openai/gpt-6-luna",
+  "review": {
+    "valid": false,
+    "reason": "The first sentence clearly says sunlight supplies energy, but the second is too garbled to clearly preserve that light itself is not turned into plant material."
+  },
+  "nativeSpeakerCertified": false,
+  "sourceId": "s1"
+}

@@ -1,0 +1,17 @@
+.git
+.data
+backups
+**/node_modules
+**/dist
+**/.env*
+**/*.sqlite*
+**/.DS_Store
+docs
+deliverables
+test-results
+playwright-report
+**/__pycache__
+**/coverage
+**/.cache
+**/*.log
+**/*.tsbuildinfo

@@ -1,0 +1,318 @@
+{
+  "date": "2026-10-13",
+  "method": "Automated translation and separate model review; no native-speaker certification",
+  "messageCount": 241,
+  "languages": [
+    "yo",
+    "ha",
+    "ig"
+  ],
+  "reviews": [
+    {
+      "file": "ha-0.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:25:44.522Z"
+    },
+    {
+      "file": "ha-112.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:28:11.342Z"
+    },
+    {
+      "file": "ha-140.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:28:55.458Z"
+    },
+    {
+      "file": "ha-168.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:29:59.950Z"
+    },
+    {
+      "file": "ha-196.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:30:38.360Z"
+    },
+    {
+      "file": "ha-224.json",
+      "messages": 17,
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:31:35.386Z"
+    },
+    {
+      "file": "ha-28.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:26:32.129Z"
+    },
+    {
+      "file": "ha-56.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:27:19.708Z"
+    },
+    {
+      "file": "ha-84.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:27:45.502Z"
+    },
+    {
+      "file": "ig-0.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:37:37.781Z"
+    },
+    {
+      "file": "ig-112.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:39:17.947Z"
+    },
+    {
+      "file": "ig-140.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:42:55.945Z"
+    },
+    {
+      "file": "ig-168.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:43:24.140Z"
+    },
+    {
+      "file": "ig-196.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:43:50.741Z"
+    },
+    {
+      "file": "ig-224.json",
+      "messages": 17,
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:44:16.062Z"
+    },
+    {
+      "file": "ig-28.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:37:58.014Z"
+    },
+    {
+      "file": "ig-56.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:38:28.261Z"
+    },
+    {
+      "file": "ig-84.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:38:50.484Z"
+    },
+    {
+      "file": "yo-0.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:26:14.512Z"
+    },
+    {
+      "file": "yo-112.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:29:41.554Z"
+    },
+    {
+      "file": "yo-140.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:37:38.859Z"
+    },
+    {
+      "file": "yo-168.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:38:17.792Z"
+    },
+    {
+      "file": "yo-196.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:39:10.098Z"
+    },
+    {
+      "file": "yo-224.json",
+      "messages": 17,
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:39:46.509Z"
+    },
+    {
+      "file": "yo-28.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:27:11.103Z"
+    },
+    {
+      "file": "yo-56.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:28:08.398Z"
+    },
+    {
+      "file": "yo-84.json",
+      "messages": 28,
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T05:28:52.831Z"
+    }
+  ],
+  "structuralCorrections": [
+    {
+      "key": "òye. home",
+      "language": "ha",
+      "before": "ɓoye. Gida",
+      "after": "òye. Gida",
+      "reason": "Preserve exact brand spelling. Found during native browser walkthrough; automated reviewer missed it."
+    }
+  ]
+}

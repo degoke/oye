@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-13T05:56:10.875Z",
+  "language": "yo",
+  "model": "openai/gpt-6-luna",
+  "method": "Automated representative review; synthetic learner responses; native-speaker review pending",
+  "result": {
+    "valid": false,
+    "summary": "The assessment and lesson preserve the source’s core science, and the distractors generally retain their intended meanings. One technical translation could mislead learners about biomass.",
+    "issues": [
+      {
+        "area": "Technical terminology",
+        "quote": "“biomass (ìwọ̀n ohun alààyè)” / “ìwọ̀n ohun ọ̀gbìn”",
+        "reason": "“Ìwọ̀n” can mean weight, so these renderings risk teaching biomass as the weight of living things or plants rather than the mass or amount of living material. This appears in the assessment distractor and lesson/rubric wording. Use a clearer, consistent expression for plant mass or living material; the source’s point is that sunlight supplies energy and is not itself material converted into plant mass."
+      }
+    ]
+  }
+}

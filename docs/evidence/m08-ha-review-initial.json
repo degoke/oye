@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-13T06:15:01.189Z",
+  "language": "ha",
+  "model": "openai/gpt-6-luna",
+  "method": "Automated representative review; synthetic learner responses; native-speaker review pending",
+  "result": {
+    "valid": false,
+    "summary": "The lesson and tutor reply convey the source’s core science accurately, but the assessment feedback credits the learner with answers they did not give. One assessment prompt also risks implying that sunlight is a chemical substance.",
+    "issues": [
+      {
+        "area": "Assessment feedback and evaluation",
+        "quote": "“Ka bayyana abubuwan shiga da fita na photosynthesis da kyau.” / The evaluation marks r1 and r2 “met” using the explanation as its quote.",
+        "reason": "The learner’s recorded answers only say that sunlight provides energy and express uncertainty about whether it becomes part of the plant. They do not mention carbon dioxide, water, sugars/carbohydrates, or oxygen. The evaluation therefore attributes the lesson/tutor explanation to the learner and gives unsupported credit for r1 and r2; the feedback should assess those criteria as un demonstrated or ask the learner to answer them."
+      },
+      {
+        "area": "Assessment wording, q1",
+        "quote": "“Waɗanne manyan sinadarai da abubuwa ne tsirrai ke amfani da su wajen photosynthesis?”",
+        "reason": "“Sinadarai” suggests chemical substances, whereas the correct option includes sunlight, which supplies energy and is not a substance consumed or converted into plant mass. This wording may blur the lesson’s central distinction. A neutral wording such as “Waɗanne manyan abubuwa ne tsirrai ke amfani da su wajen photosynthesis?” would avoid that implication."
+      }
+    ]
+  }
+}

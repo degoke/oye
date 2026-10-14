@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-14",
+  "format": "1280x720 H.264/AAC",
+  "parts": [
+    "01-yoruba-request.mp4",
+    "02-yoruba-quiz.mp4",
+    "03-generated-course.mp4",
+    "04-yoruba-explainer.mp4"
+  ],
+  "questionNarrationId": "7fe27b1b-6c48-4725-bfb6-6b3420931d24",
+  "quizDuration": 13.903,
+  "quizPlaybackObserved": true,
+  "captureMethod": "Quiz: timestamped real browser screenshots with exact downloaded app audio. Request/course: real app stills. Explainer: reviewed generated file from a separate saved lesson. Edited segments, not a continuous live recording.",
+  "syntheticInput": true,
+  "nativeLanguageCertified": false,
+  "fullDecodePassed": true,
+  "joinedDurationSeconds": 55.124333,
+  "preparedVideoBrowserPlayback": {
+    "secondsObserved": 19.628491,
+    "duration": 116.4,
+    "muted": false,
+    "paused": false,
+    "readyState": 4,
+    "mediaError": null
+  },
+  "exportAudio": {
+    "codec": "AAC",
+    "sampleRate": 48000,
+    "nonSilent": true,
+    "systemLoopbackRecorded": false
+  }
+}

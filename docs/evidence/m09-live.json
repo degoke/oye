@@ -1,0 +1,203 @@
+{
+  "checkedAt": "2026-10-13T14:23:23.614Z",
+  "kind": "Synthetic acceptance samples, not human voice or native-speaker certification",
+  "reviewer": "Configured OpenRouter openai/gpt-6-luna, separate call from transcription",
+  "languages": {
+    "en": {
+      "narration": {
+        "jobId": "2125b497-6ae0-4105-89bb-33bea4b7129a",
+        "status": "succeeded",
+        "attempts": 1,
+        "model": "google/gemini-3.8-flash-lite-tts",
+        "deliveryVersion": 1,
+        "id": "0dbdbeeb-d510-4017-b554-3637ec2c8c3e",
+        "duration": 109,
+        "bytes": 650684,
+        "sourceIds": [
+          "s1"
+        ],
+        "transcript": "Photosynthesis: Inputs, Energy, and Outputs\n\nPhotosynthesis uses sunlight to combine carbon dioxide and water, producing carbohydrates such as sugars and oxygen. Sunlight supplies energy; it is not material converted into plant mass. [s1]\n\nStart with the basic idea\n\nPlants use energy from sunlight to combine carbon dioxide and water. This process produces carbohydrates—including sugars—and oxygen. [s1]\n\nInputs and outputs\n\nThe inputs are carbon dioxide, water, and sunlight. The outputs are carbohydrates (including sugars) and oxygen. Sunlight provides energy for the process; it is not an input that becomes plant mass. [s1]\n\nA carbon-cycle link\n\nPhotosynthesis moves carbon from the atmosphere into living organisms. [s1]\n\nTrack the process\n\nAs a simple way to remember the inputs and outputs, imagine a plant using carbon dioxide and water with energy from sunlight; the process produces sugars and oxygen. This is a hypothetical illustration of the process described in [s1].\n\nFollow the inputs to the outputs\n\nInputs\n\nCarbon dioxide + water\n\nEnergy\n\nSunlight supplies the energy; it is not converted into plant mass.\n\nOutputs\n\nCarbohydrates, including sugars + oxygen\n\nPhotosynthesis. The process in which plants use energy from sunlight to combine carbon dioxide and water into carbohydrates and oxygen. [s1]\n\nCarbohydrates. Products of photosynthesis that include sugars. [s1]",
+        "reviews": [
+          {
+            "model": "google/gemini-3.5-transcribe",
+            "recognized": "Photosynthesis, inputs, energy, and outputs. Photosynthesis uses sunlight to combine carbon dioxide and water, producing carbohydrates, such as sugars, and oxygen. Sunlight supplies energy. It is not material converted into plant mass. Start with the basic idea. Plants use energy from sunlight to combine carbon dioxide and water. This process produces carbohydrates, including sugars, and oxygen. Inputs and outputs. The inputs are carbon dioxide, water, and sunlight. The outputs are carbohydrates, including sugars, and oxygen. Sunlight provides energy for the process. It is not an input that becomes plant mass. A carbon cycle link.",
+            "valid": true,
+            "reason": "The transcript preserves all substantive claims about photosynthesis, including its inputs, outputs, and sunlight’s role as energy rather than material converted into plant mass. The wording differences are harmless."
+          },
+          {
+            "model": "google/gemini-3.5-transcribe",
+            "recognized": "Photosynthesis moves carbon from the atmosphere into living organisms. Track the process. As a simple way to remember the inputs and outputs, imagine a plant using carbon dioxide and water with energy from sunlight. The process produces sugars and oxygen. This is a hypothetical illustration of the process described in S1. Follow the inputs to the outputs. Inputs: carbon dioxide + water. Energy: sunlight supplies the energy; it is not converted into plant mass. Outputs: carbohydrates (including sugars) + oxygen. Photosynthesis: the process in which plants use energy from sunlight to combine carbon dioxide and water into carbohydrates and oxygen. S1.",
+            "valid": true,
+            "reason": "The transcript preserves the teaching claims, inputs, outputs, and distinction that sunlight supplies energy but is not converted into plant mass. Minor formatting and punctuation differences do not change the meaning."
+          },
+          {
+            "model": "google/gemini-3.5-transcribe",
+            "recognized": "Carbohydrates: products of photosynthesis that include sugars.",
+            "valid": true,
+            "reason": "The transcript faithfully preserves the intended claim that carbohydrates are products of photosynthesis and include sugars."
+          }
+        ]
+      },
+      "recognition": {
+        "id": "a85aa3d6-10cc-43d3-ab5a-5147d415c8cd",
+        "model": "google/gemini-3.5-transcribe",
+        "text": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+        "confirmedText": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+        "duration": 10,
+        "usedFor": "explain:0e0c2185-b1d8-4972-9715-0c6c551370e7:0"
+      },
+      "explanation": {
+        "id": "0e0c2185-b1d8-4972-9715-0c6c551370e7",
+        "status": "followup",
+        "lessonId": "8c3ef8f5-6aa1-4a5e-990d-4832c2de3883",
+        "language": "en"
+      }
+    },
+    "ha": {
+      "narration": {
+        "jobId": "2388e937-7b5a-4407-b700-a9561aa04752",
+        "status": "succeeded",
+        "attempts": 2,
+        "model": "google/gemini-3.8-flash-tts",
+        "deliveryVersion": 1,
+        "id": "8ec20223-4c42-41e2-b106-f1c6d06a910d",
+        "duration": 94,
+        "bytes": 558380,
+        "sourceIds": [
+          "s1"
+        ],
+        "transcript": "Haɗa abinci ta amfani da hasken rana (photosynthesis)\n\nZa mu fara da abubuwan da tsarin ke amfani da su da waɗanda yake samarwa.\n\nMenene photosynthesis?\n\nPhotosynthesis tsari ne da tsirrai ke amfani da makamashin hasken rana don haɗa carbon dioxide da ruwa, su samar da carbohydrates (ciki har da sukari) da oxygen.\n\nMatsayin haske\n\nHasken rana yana ba da makamashin da tsarin ke buƙata. Ba ya rikidewa ya zama kayan jikin shuka (plant mass).\n\nMisali na tunani\n\nA ɗauka cewa shuka tana amfani da carbon dioxide da ruwa tare da makamashin hasken rana. Abubuwan da za a sa ran samarwa su ne carbohydrates, ciki har da sukari, da oxygen.\n\nAbubuwan shiga da fita a photosynthesis\n\nAbubuwan shiga\n\nCarbon dioxide + ruwa\n\nMakamashi\n\nHasken rana yana samar da makamashin tsarin.\n\nAbubuwan fita\n\nCarbohydrates (ciki har da sukari) + oxygen\n\nPhotosynthesis. Tsarin amfani da makamashin hasken rana don haɗa carbon dioxide da ruwa, a samar da carbohydrates da oxygen. (s1)\n\nCarbon dioxide. Iskar da tsirrai ke amfani da ita tare da ruwa wajen photosynthesis. (s1)\n\nCarbohydrates. Abubuwan da photosynthesis ke samarwa; sun haɗa da sukari. (s1)",
+        "reviews": [
+          {
+            "model": "google/gemini-3.5-transcribe",
+            "recognized": "Hada abinci ta amfani da hasken rana. Zamu fara da abubuwan da tsarin ke amfani da su da wadanda yake samarwa. Menene photosynthesis? Photosynthesis tsari ne da tsirrai ke amfani da makamashin hasken rana don hada carbon dioxide da ruwa su samar da carbohydrates ciki har da sukari da oxygen. Matsayin haske. Hasken rana yana bada makamashin da tsarin ke bukata. Ba ya rikidewa ya zama kayan jikin shuka. Misali na tunani. A dauka cewa shuka tana amfani da carbon dioxide da ruwa tare da makamashin hasken rana. Abubuwan da za'a sa ran samarwa sune carbohydrates ciki har da sukari da oxygen. Abubuwan shiga da fita a photosynthesis. Abubuwan shiga.",
+            "valid": true,
+            "reason": "The transcript preserves the substantive claims: plants use sunlight’s energy with carbon dioxide and water to produce carbohydrates (including sugar) and oxygen, and sunlight provides energy rather than becoming plant mass. The Hausa wording and omitted parenthetical in the title do not change the meaning."
+          },
+          {
+            "model": "google/gemini-3.5-transcribe",
+            "recognized": "Carbon dioxide + ruwa. Makamashi. Hasken rana yana samar da makamashin tsarin abubuwan fita. Carbohydrates cikin har da sukari + oxygen. Photosynthesis. Tsarin amfani da makamashin hasken rana don hada carbon dioxide da ruwa a samar da carbohydrates da oxygen. Carbon dioxide. Iskar da tsirrai ke amfani da ita tare da ruwa wajen photosynthesis. Carbohydrates. Abubuwan da photosynthesis ke samarwa sun hada da sukari. Su",
+            "valid": true,
+            "reason": "The transcript preserves the substantive claims: sunlight supplies energy, carbon dioxide and water are used in photosynthesis, and carbohydrates and oxygen are produced. The definitions are also retained. The heading is merely joined to the preceding sentence, and the trailing fragment does not change the meaning."
+          }
+        ]
+      },
+      "recognition": {
+        "id": "243f2551-af62-4e3f-ab70-8acd2470c51e",
+        "model": "google/gemini-3.5-transcribe",
+        "text": "A lokacin photosynthesis, tsire-tsire suna amfani da hasken rana wajen haɗa carbon dioxide daga iska da ruwa, suna samar da sukari. Ana kuma fitar da iskar oxygen.",
+        "confirmedText": "A lokacin photosynthesis, tsire-tsire suna amfani da hasken rana wajen haɗa carbon dioxide daga iska da ruwa, suna samar da sikari. Ana kuma fitar da iskar oxygen.",
+        "duration": 14,
+        "usedFor": "explain:962865b2-e784-4783-984b-c4c5bbbebb52:0"
+      },
+      "explanation": {
+        "id": "962865b2-e784-4783-984b-c4c5bbbebb52",
+        "status": "followup",
+        "lessonId": "d4425a94-6529-4e1b-b8e9-5eb05694165a",
+        "language": "ha"
+      }
+    },
+    "yo": {
+      "narration": {
+        "jobId": "fe18b592-802e-4045-a3e6-87b4a6274b6a",
+        "status": "succeeded",
+        "attempts": 2,
+        "model": "google/gemini-3.8-flash-tts",
+        "deliveryVersion": 1,
+        "id": "59bea826-b79b-4072-8bb3-26eecc58bef6",
+        "duration": 129,
+        "bytes": 772220,
+        "sourceIds": [
+          "s1"
+        ],
+        "transcript": "Fọ́tósíńtẹ́sísì: ohun tí a lò àti ohun tí ó jáde\n\nFọ́tósíńtẹ́sísì ni ìlànà tí àwọn ohun ọ̀gbìn fi ń lo agbára ìmọ́lẹ̀ oòrùn láti so erogba oloro àti omi pọ̀, kí wọ́n lè mú ṣúgà àti ọ́síjìn jáde. [s1]\n\nÀwọn ohun tí a lò àti ohun tí ó jáde\n\nÀwọn ohun ọ̀gbìn máa ń lo erogba oloro, omi, àti agbára láti inú ìmọ́lẹ̀ oòrùn. Wọ́n so erogba oloro àti omi pọ̀ láti mú kábóháidireti jáde, títí kan ṣúgà, àti ọ́síjìn. [s1]\n\nIṣẹ́ ìmọ́lẹ̀ oòrùn\n\nÌmọ́lẹ̀ oòrùn ń pèsè agbára fún ìlànà náà. A kì í yí ìmọ́lẹ̀ fúnra rẹ̀ padà sí ìye ohun èlò ara ohun ọ̀gbìn (plant mass). [s1]\n\nÀpẹẹrẹ ìṣirò àwọn ohun tí a lò àti ohun tí ó jáde\n\nBí a bá ń ṣàlàyé fọ́tósíńtẹ́sísì, fi erogba oloro àti omi sí ẹ̀gbẹ́ ohun tí a lò, kí o sì fi agbára ìmọ́lẹ̀ oòrùn hàn gẹ́gẹ́ bí ohun tó ń pèsè agbára. Fi ṣúgà àti ọ́síjìn sí ẹ̀gbẹ́ ohun tí ó jáde. [s1]\n\nÀwọn ìgbésẹ̀ pàtàkì ti fọ́tósíńtẹ́sísì\n\n1. Àwọn ohun tí a lò\n\nErogba oloro àti omi ni ohun tí a so pọ̀; ìmọ́lẹ̀ oòrùn ń pèsè agbára.\n\n2. Ìlànà\n\nÀwọn ohun ọ̀gbìn lo agbára ìmọ́lẹ̀ oòrùn láti so erogba oloro àti omi pọ̀.\n\n3. Ohun tí ó jáde\n\nKábóháidireti, títí kan ṣúgà, àti ọ́síjìn.\n\nFọ́tósíńtẹ́sísì (photosynthesis). Ìlànà tí àwọn ohun ọ̀gbìn fi ń lo agbára ìmọ́lẹ̀ oòrùn láti so erogba oloro àti omi pọ̀, kí wọ́n lè mú kábóháidireti àti ọ́síjìn jáde.\n\nErogba oloro (carbon dioxide). Ọ̀kan lára àwọn ohun tí àwọn ohun ọ̀gbìn ń lò nínú fọ́tósíńtẹ́sísì.\n\nKábóháidireti (carbohydrate). Ọ̀kan lára àwọn ohun tí fọ́tósíńtẹ́sísì ń mú jáde; ṣúgà wà nínú irú rẹ̀.\n\nỌ́síjìn (oxygen). Ọ̀kan lára àwọn ohun tí fọ́tósíńtẹ́sísì ń mú jáde.",
+        "reviews": [
+          {
+            "model": "google/gemini-3.5-transcribe",
+            "recognized": "Photosynthesis, ohun ti a lo ati ohun ti o jade. Photosynthesis ni ilana ti awon ohun wogbini fin lo agbara imole oro lati so ero gba oloru ati omi po ki won le mu sugar ati oxygen jade. Awon ohun ti a lo ati ohun ti o jade. Awon wogbini ma n lo ero gba oloru omi ati agbara lati inu imole oro. Won so ero gba oloru ati omi po lati mu carbohydrate jade titi kan sugar ati oxygen. Ise imole oro. Ise imole oro n pese agbara fun ilana na. A ki yi imole fun ra re pada si iye ohun elo ara ohun wogbini. Apere isiro awon ohun ti a lo ati ohun ti o jade.",
+            "valid": true,
+            "reason": "The transcript preserves the teaching claims: plants use carbon dioxide, water, and sunlight energy to produce carbohydrates including sugar, and oxygen. It also retains the distinction that sunlight provides energy but is not itself converted into plant mass. The wording and spelling differences are harmless recognition variations."
+          },
+          {
+            "model": "google/gemini-3.5-transcribe",
+            "recognized": "Bi a ba n salaye photosynthesis, fi erogba oloro ati omi si egbe ohun ti a lo, ki o si fi agbara imole oorun a gege bi ohun to n pese agbara, fi sugar ati oxygen si egbe ohun ti o jade. Awon igbese pataki ti photosynthesis. Iloran. Awon ohun ogbin lo agbara imole oorun lati so erogba oloro ati omi po. Tota. Ohun ti o jade, carbohydrate, titi kan sugar ati oxygen. Photosynthesis. Iloran ti awon ohun ogbin fi n lo agbara imole oorun lati so erogba oloro ati omi po ki won le mu carbohydrate ati oxygen jade.",
+            "valid": true,
+            "reason": "The transcript preserves the teaching claims: carbon dioxide and water are inputs, sunlight provides energy, and carbohydrates (including sugar) and oxygen are outputs. It also retains the process and definition in Yoruba; the heading recognition errors do not obscure the meaning."
+          },
+          {
+            "model": "google/gemini-3.5-transcribe",
+            "recognized": "Erogba oloro (carbon dioxide) Okan lara awon ohun ti awon ohun ogbin lo ninu photosynthesis. Carbohydrate Okan lara awon ohun ti photosynthesis mu jade. Sugar wa ninu iru re. Oxygeni Okan lara awon ohun ti photosynthesis mu jade.",
+            "valid": true,
+            "reason": "The transcript preserves the teaching claims: plants use carbon dioxide in photosynthesis, which produces carbohydrates (including sugar) and oxygen. Differences are harmless spelling and formatting variations."
+          }
+        ]
+      },
+      "recognition": {
+        "id": "9c5ac629-b522-4e7e-85a4-5e85433e9f87",
+        "model": "google/gemini-3.5-transcribe",
+        "text": "Àwọn ewe ko ma n lo imọlẹ oòrùn gẹ́gẹ́ bí agbára láti sọ gas carbon dioxide pọ̀ mọ́ omi láti ṣe sugar. Wọ́n si tun n mú àtẹ́gùn jáde.",
+        "confirmedText": "Àwọn ewéko máa ń lo ìmọ́lẹ̀ oòrùn gẹ́gẹ́ bí agbára láti so gáàsì carbon dioxide pọ̀ mọ́ omi láti ṣe ṣúgà, wọ́n sì tún ń mú atẹ́gùn jáde.",
+        "duration": 11,
+        "usedFor": "explain:1c9c0013-e9d3-4027-8e03-97fc2e66a8b2:0"
+      },
+      "explanation": {
+        "id": "1c9c0013-e9d3-4027-8e03-97fc2e66a8b2",
+        "status": "followup",
+        "lessonId": "3dd5b400-dd37-4294-9696-a6f5401ebaea",
+        "language": "yo"
+      }
+    },
+    "ig": {
+      "narration": {
+        "jobId": "1596a8a3-0b7f-45f0-9dc9-303cc750cce2",
+        "status": "failed",
+        "attempts": 3,
+        "model": "google/gemini-3.8-flash-tts",
+        "deliveryVersion": 2
+      },
+      "recognition": {
+        "id": "136fff0c-f65d-4db6-a901-c85f001b5f80",
+        "model": "google/gemini-3.5-transcribe",
+        "text": "N'oge photosynthesis, osisi na-eji carbon dioxide si n'ikuku, tinyere mmiri na ume sitere n'ihe anyanwụ, emepụta shuga. Ana emepụtakwa oxygen.",
+        "confirmedText": "N’oge photosynthesis, osisi na-eji carbon dioxide si n’ikuku, tinyere mmiri na ume sitere n’ìhè anyanwụ, emepụta shuga. A na-emepụtakwa oxygen.",
+        "duration": 14,
+        "usedFor": "explain:6704d1ed-50bd-4e26-bce2-073dd8c3a55d:0"
+      },
+      "explanation": {
+        "id": "6704d1ed-50bd-4e26-bce2-073dd8c3a55d",
+        "status": "followup",
+        "lessonId": "ba470e72-7fa6-4341-b662-db8bf4b12dbe",
+        "language": "ig"
+      }
+    }
+  },
+  "negativeAcceptance": {
+    "fixtureJourney": "8dc21799-9609-4c60-ac74-7093e16de4b3",
+    "transcriptionId": "5574cd63-bd93-41b7-853f-51b8bc354ddb",
+    "narrationId": "d15a5da9-fedc-4d16-8b19-4808ff56ede3",
+    "checks": [
+      "oversize413",
+      "playlist422",
+      "duration422",
+      "duplicateReceipt",
+      "unconfirmed409",
+      "context409",
+      "confirmedSelection",
+      "savedWordsInspectable",
+      "repeatedAnswerIdempotent",
+      "usedWordsImmutable",
+      "foreignReceipt404",
+      "foreignAudio404",
+      "duplicateNarration",
+      "clearHistoryReceipt404",
+      "clearHistoryAudio404"
+    ]
+  },
+  "nativeAssessment": {
+    "journeyId": "c07e9660-d7f5-4501-b94d-27c5af832863",
+    "language": "yo",
+    "narrationId": "0a4dc99c-b698-41a5-a74a-68afc2fe39c3",
+    "question": 2,
+    "kind": "CUA browser, generated audio upload, explicit words correction and radio confirmation, reload retained selection"
+  }
+}

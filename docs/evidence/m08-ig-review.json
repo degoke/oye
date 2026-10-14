@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-13T06:37:59.465Z",
+  "language": "ig",
+  "model": "openai/gpt-6-luna",
+  "method": "Automated representative review; synthetic learner responses; native-speaker review pending",
+  "result": {
+    "valid": true,
+    "summary": "The assessment, lesson, tutor reply, and learner explanations preserve the source’s meaning. The prompts and options distinguish photosynthesis inputs, products, carbon movement, and sunlight’s role accurately; no material teaching error was found.",
+    "issues": []
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "samples": [
+    {
+      "observedAt": "2026-10-14T05:11:15.900Z",
+      "lessonId": "971bfbd1-11e7-423a-95c4-f1c650e81938",
+      "intended": "Ìmọ́lẹ̀ Oòrùn àti Photosynthesis\n\nÌmọ́lẹ̀ oòrùn ń pèsè agbára fún photosynthesis, ṣùgbọ́n a kì í yí ìmọ́lẹ̀ padà sí ìye ohun èlò ara ohun ọ̀gbìn.\n\nÀlàyé ìpìlẹ̀\n\nÌmọ́lẹ̀ oòrùn ń pèsè agbára tí photosynthesis nílò. Nínú ìlànà yìí, ohun ọ̀gbìn máa ń lo carbon dioxide àti omi, pẹ̀lú agbára ìmọ́lẹ̀, láti ṣe carbohydrates àti oxygen. [s1]\n\nOhun pàtàkì láti rántí\n\nÌmọ́lẹ̀ jẹ́ orísun agbára; kì í ṣe ohun èlò tí a yí padà sí ìye ohun èlò ara ohun ọ̀gbìn (plant mass). Nítorí náà, ìmọ́lẹ̀ kì í di ara ohun ọ̀gbìn. [s1]\n\nTítẹ̀lé ohun tí ń wọlé àti ohun tí ń jáde\n",
+      "recognized": "Imọlẹ ooru àti photosynthesis. Imọlẹ ooru n pese agbara fún photosynthesis. Ṣùgbọ́n a kì í yí ìmọlẹ padà sí iye ohun elé ara ohun ọ̀gbìn. Alaye ìpele. Imọlẹ ooru n pese agbara ti photosynthesis nílò. Nínú ìlànà yìí, ohun ọ̀gbìn ma n lo carbon dioxide àti omi pẹ̀lú agbara ìmọlẹ láti ṣe carbohydrates àti oxygen. Òun pataki láti rántí. Imọlẹ jẹ orisun agbara. Kì í ṣe ohun elé ti a yí padà sí iye ohun elé ara ohun ọ̀gbìn. Nítorí náà, ìmọlẹ kì í di ara ohun ọ̀gbìn. Ti tẹ̀lé ohun ti n wọlé àti ohun ti n jáde.",
+      "review": {
+        "valid": false,
+        "reason": "The transcript repeatedly renders “sunlight” as “ooru” (heat), changing the stated energy source. The other main claims about light energy, the inputs and outputs, and plant material are retained."
+      },
+      "published": false,
+      "model": "google/gemini-3.8-flash-tts",
+      "inputKind": "Synthetic narration of the saved generated lesson",
+      "productionReviewInstructions": true
+    },
+    {
+      "observedAt": "2026-10-14T05:12:14.472Z",
+      "lessonId": "971bfbd1-11e7-423a-95c4-f1c650e81938",
+      "model": "fish-audio/s2.1-pro",
+      "intended": "Ìmọ́lẹ̀ Oòrùn àti Photosynthesis\n\nÌmọ́lẹ̀ oòrùn ń pèsè agbára fún photosynthesis, ṣùgbọ́n a kì í yí ìmọ́lẹ̀ padà sí ìye ohun èlò ara ohun ọ̀gbìn.\n\nÀlàyé ìpìlẹ̀\n\nÌmọ́lẹ̀ oòrùn ń pèsè agbára tí photosynthesis nílò. Nínú ìlànà yìí, ohun ọ̀gbìn máa ń lo carbon dioxide àti omi, pẹ̀lú agbára ìmọ́lẹ̀, láti ṣe carbohydrates àti oxygen. [s1]\n\nOhun pàtàkì láti rántí\n\nÌmọ́lẹ̀ jẹ́ orísun agbára; kì í ṣe ohun èlò tí a yí padà sí ìye ohun èlò ara ohun ọ̀gbìn (plant mass). Nítorí náà, ìmọ́lẹ̀ kì í di ara ohun ọ̀gbìn. [s1]\n\nTítẹ̀lé ohun tí ń wọlé àti ohun tí ń jáde\n",
+      "recognized": "Ìmọ́lẹ̀ oòrùn ni n pèsè agbára fún photosynthesis, sùgbọ́n ó ní kí yèyé ìmọ́lẹ̀ padà sí afẹ́fẹ́ nípasẹ̀ àwọn ewé. Ìmọ́lẹ̀ oòrùn ni n pèsè agbára fún photosynthesis nílò. Nínú ìlana yìí, àwọn ewé máa n lo carbon dioxide àti omi pẹ̀lú agbára ìmọ́lẹ̀ láti ṣe carbohydrates àti oxygen. Òhun pàtàkì láti rántí, ìmọ́lẹ̀ jẹ́ orisun agbára. Kì í ṣe ìmọ́lẹ̀ tí a yí padà sí afẹ́fẹ́ nípasẹ̀ àwọn ewé plant mass. Nítorí náà, ìmọ́lẹ̀ kì í di afẹ́fẹ́. Dípò rẹ̀, ó n ti nwọlé àti ó n ti jáde.",
+      "review": {
+        "valid": false,
+        "reason": "The transcript changes the key teaching claim: it says sunlight is converted into air through leaves and that light does not become air, whereas the script says light supplies energy but is not converted into plant mass. The inputs and outputs of photosynthesis are otherwise substantially retained."
+      },
+      "published": false,
+      "inputKind": "Synthetic narration of the saved generated lesson",
+      "productionReviewInstructions": true
+    },
+    {
+      "observedAt": "2026-10-14T05:13:45.534Z",
+      "lessonId": "971bfbd1-11e7-423a-95c4-f1c650e81938",
+      "model": "fish-audio/s2.1-pro",
+      "intended": "Ìmọ́lẹ̀ Oòrùn àti Photosynthesis\n\nÌmọ́lẹ̀ oòrùn ń pèsè agbára fún photosynthesis, ṣùgbọ́n a kì í yí ìmọ́lẹ̀ padà sí ìye ohun èlò ara ohun ọ̀gbìn.\n\nÀlàyé ìpìlẹ̀\n",
+      "recognized": "Ìmọ́lẹ̀ oòrùn àti photosynthesis. Ìmọ́lẹ̀ oòrùn ni ó ń pèsè agbára fún photosynthesis, ṣùgbọ́n àkíyèsí ìyí ìmọ́lẹ̀ padà sí ìyé òhun ẹlọ́ àra òhun ògbìn aláyé ìpìlẹ̀.",
+      "review": {
+        "valid": false,
+        "reason": "The transcript does not clearly preserve the key claim that light is not converted into plant-body material. The phrase after “but” is garbled and could instead imply a conversion, so the substantive meaning is uncertain."
+      },
+      "published": false,
+      "inputKind": "Synthetic narration of the saved generated lesson",
+      "productionReviewInstructions": true
+    }
+  ],
+  "allAudioWithheld": true,
+  "nativeReviewClaimed": false,
+  "configurationChanged": false,
+  "note": "Private developer comparisons, not durable job retries. Original failed jobs remain unchanged. Short Fish sample uses 200-character chunking only in the helper."
+}

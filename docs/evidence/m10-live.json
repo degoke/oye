@@ -1,0 +1,3151 @@
+{
+  "checkedAt": "2026-10-13T15:16:35.786Z",
+  "syntheticAudio": true,
+  "notes": [
+    "Initial samples use the M08 terminal owner. Later sample uses a disposable owned copy of the M08 reviewed lesson versions.",
+    "No natural human conversational quality is certified.",
+    "Later recognition failed with HTTP 402; a separate safe diagnostic and key metadata identified the key allowance constraint."
+  ],
+  "initial": [
+    {
+      "language": "en",
+      "mode": "tutor",
+      "synthetic": true,
+      "startedAt": "2026-10-13T14:51:29.049Z",
+      "context": {
+        "type": "tutor",
+        "conversationId": "f9bc89ff-0bfb-4e97-b787-18a6a719c270"
+      },
+      "session": {
+        "id": "227e2d14-ef9b-4170-bf1b-54a939d79012",
+        "context": {
+          "type": "tutor",
+          "conversationId": "f9bc89ff-0bfb-4e97-b787-18a6a719c270"
+        },
+        "language": "en",
+        "transport": "pipeline",
+        "status": "disconnected",
+        "expiresAt": 1791903688665,
+        "turns": 1,
+        "inputMilliseconds": 9040,
+        "maxTurns": 12,
+        "maxInputMilliseconds": 180000,
+        "createdAt": 1791903088665,
+        "history": [
+          {
+            "id": "8984790b-97b1-4f47-ab0f-89c3b46eb16d",
+            "sessionId": "227e2d14-ef9b-4170-bf1b-54a939d79012",
+            "language": "en",
+            "transcriptionId": "e0f1610d-1c76-45f1-bf6e-be41d7ab1cd0",
+            "tutorTurnId": "b39ab763-6302-4fe8-8f72-9e614dc9cf00",
+            "recognizedText": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+            "confirmedText": null,
+            "assistantText": "Yes, that’s right. Photosynthesis uses sunlight’s energy to combine carbon dioxide and water, producing sugars and oxygen. Sunlight provides energy; it does not become plant material. [s1]",
+            "status": "completed",
+            "audioAvailable": true,
+            "createdAt": 1791903098361,
+            "updatedAt": 1791903122763
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "ready",
+          "session": {
+            "id": "227e2d14-ef9b-4170-bf1b-54a939d79012",
+            "context": {
+              "type": "tutor",
+              "conversationId": "f9bc89ff-0bfb-4e97-b787-18a6a719c270"
+            },
+            "language": "en",
+            "transport": "pipeline",
+            "status": "active",
+            "expiresAt": 1791903688665,
+            "turns": 0,
+            "inputMilliseconds": 0,
+            "maxTurns": 12,
+            "maxInputMilliseconds": 180000,
+            "createdAt": 1791903088665
+          },
+          "afterMilliseconds": 19
+        },
+        {
+          "type": "state",
+          "state": "listening",
+          "afterMilliseconds": 20
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "id": "8984790b-97b1-4f47-ab0f-89c3b46eb16d",
+            "sessionId": "227e2d14-ef9b-4170-bf1b-54a939d79012",
+            "language": "en",
+            "transcriptionId": null,
+            "tutorTurnId": null,
+            "recognizedText": "",
+            "confirmedText": null,
+            "assistantText": "",
+            "status": "recognizing",
+            "audioAvailable": false,
+            "createdAt": 1791903098361,
+            "updatedAt": 1791903098361
+          },
+          "afterMilliseconds": 9316
+        },
+        {
+          "type": "state",
+          "state": "recognizing",
+          "afterMilliseconds": 9317
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "id": "8984790b-97b1-4f47-ab0f-89c3b46eb16d",
+            "sessionId": "227e2d14-ef9b-4170-bf1b-54a939d79012",
+            "language": "en",
+            "transcriptionId": "e0f1610d-1c76-45f1-bf6e-be41d7ab1cd0",
+            "tutorTurnId": null,
+            "recognizedText": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+            "confirmedText": null,
+            "assistantText": "",
+            "status": "replying",
+            "audioAvailable": false,
+            "createdAt": 1791903098361,
+            "updatedAt": 1791903103274
+          },
+          "afterMilliseconds": 14227
+        },
+        {
+          "type": "state",
+          "state": "thinking",
+          "afterMilliseconds": 14227
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "id": "8984790b-97b1-4f47-ab0f-89c3b46eb16d",
+            "sessionId": "227e2d14-ef9b-4170-bf1b-54a939d79012",
+            "language": "en",
+            "transcriptionId": "e0f1610d-1c76-45f1-bf6e-be41d7ab1cd0",
+            "tutorTurnId": "b39ab763-6302-4fe8-8f72-9e614dc9cf00",
+            "recognizedText": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+            "confirmedText": null,
+            "assistantText": "",
+            "status": "replying",
+            "audioAvailable": false,
+            "createdAt": 1791903098361,
+            "updatedAt": 1791903103281
+          },
+          "afterMilliseconds": 14234
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "id": "8984790b-97b1-4f47-ab0f-89c3b46eb16d",
+            "sessionId": "227e2d14-ef9b-4170-bf1b-54a939d79012",
+            "language": "en",
+            "transcriptionId": "e0f1610d-1c76-45f1-bf6e-be41d7ab1cd0",
+            "tutorTurnId": "b39ab763-6302-4fe8-8f72-9e614dc9cf00",
+            "recognizedText": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+            "confirmedText": null,
+            "assistantText": "Yes, that’s right. Photosynthesis uses sunlight’s energy to combine carbon dioxide and water, producing sugars and oxygen. Sunlight provides energy; it does not become plant material. [s1]",
+            "status": "replying",
+            "audioAvailable": false,
+            "createdAt": 1791903098361,
+            "updatedAt": 1791903109585
+          },
+          "afterMilliseconds": 20538
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "id": "8984790b-97b1-4f47-ab0f-89c3b46eb16d",
+            "sessionId": "227e2d14-ef9b-4170-bf1b-54a939d79012",
+            "language": "en",
+            "transcriptionId": "e0f1610d-1c76-45f1-bf6e-be41d7ab1cd0",
+            "tutorTurnId": "b39ab763-6302-4fe8-8f72-9e614dc9cf00",
+            "recognizedText": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+            "confirmedText": null,
+            "assistantText": "Yes, that’s right. Photosynthesis uses sunlight’s energy to combine carbon dioxide and water, producing sugars and oxygen. Sunlight provides energy; it does not become plant material. [s1]",
+            "status": "completed",
+            "audioAvailable": true,
+            "createdAt": 1791903098361,
+            "updatedAt": 1791903122763
+          },
+          "afterMilliseconds": 33716
+        },
+        {
+          "type": "state",
+          "state": "speaking",
+          "afterMilliseconds": 33716
+        },
+        {
+          "type": "audio",
+          "turnId": "8984790b-97b1-4f47-ab0f-89c3b46eb16d",
+          "url": "/api/voice/turns/8984790b-97b1-4f47-ab0f-89c3b46eb16d/audio",
+          "format": "mp3",
+          "afterMilliseconds": 33716
+        },
+        {
+          "type": "state",
+          "state": "muted",
+          "afterMilliseconds": 33719
+        },
+        {
+          "type": "audio-range",
+          "status": 404,
+          "bytes": 94
+        }
+      ],
+      "result": {
+        "type": "audio",
+        "turnId": "8984790b-97b1-4f47-ab0f-89c3b46eb16d",
+        "url": "/api/voice/turns/8984790b-97b1-4f47-ab0f-89c3b46eb16d/audio",
+        "format": "mp3"
+      },
+      "replyDelayMilliseconds": 24427
+    },
+    {
+      "language": "yo",
+      "mode": "tutor",
+      "synthetic": true,
+      "startedAt": "2026-10-13T14:53:01.907Z",
+      "context": {
+        "type": "tutor",
+        "conversationId": "bcd80275-cfc8-444a-92b0-1b28d21ecbea"
+      },
+      "session": {
+        "id": "97ed6a03-f0b2-4757-9055-c1d00eec826e",
+        "context": {
+          "type": "tutor",
+          "conversationId": "bcd80275-cfc8-444a-92b0-1b28d21ecbea"
+        },
+        "language": "yo",
+        "transport": "pipeline",
+        "status": "disconnected",
+        "expiresAt": 1791903781396,
+        "turns": 1,
+        "inputMilliseconds": 10200,
+        "maxTurns": 12,
+        "maxInputMilliseconds": 180000,
+        "createdAt": 1791903181396,
+        "history": [
+          {
+            "id": "a385605b-06da-40d0-8ec9-2ca531aab21a",
+            "sessionId": "97ed6a03-f0b2-4757-9055-c1d00eec826e",
+            "language": "yo",
+            "transcriptionId": "2727e5cc-a528-4adb-a116-0bb134dbddd0",
+            "tutorTurnId": "eb716f33-1e1d-4e05-8b38-46c8f0893618",
+            "recognizedText": "Àwọn ewe ko ma n lo imọlẹ oòrùn gẹ́gẹ́ bí agbára láti sọ gaasi carbon dioxide pọ̀ mọ́ omi láti ṣe suga. Wọn si tun n mu atẹgun jáde.",
+            "confirmedText": null,
+            "assistantText": "Àlàyé rẹ dára. O lè sọ pé: “Àwọn ewéko máa ń lo agbára ìmọ́lẹ̀ oòrùn láti so erogba oloro pọ̀ mọ́ omi, kí wọ́n lè mú ṣúgà àti ọ́síjìn jáde.” Ìmọ́lẹ̀ oòrùn ń pèsè agbára; kì í di ohun èlò ara ewéko. [s1]",
+            "status": "failed",
+            "audioAvailable": false,
+            "createdAt": 1791903192469,
+            "updatedAt": 1791903225992
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "ready",
+          "session": {
+            "id": "97ed6a03-f0b2-4757-9055-c1d00eec826e",
+            "context": {
+              "type": "tutor",
+              "conversationId": "bcd80275-cfc8-444a-92b0-1b28d21ecbea"
+            },
+            "language": "yo",
+            "transport": "pipeline",
+            "status": "active",
+            "expiresAt": 1791903781396,
+            "turns": 0,
+            "inputMilliseconds": 0,
+            "maxTurns": 12,
+            "maxInputMilliseconds": 180000,
+            "createdAt": 1791903181396
+          },
+          "afterMilliseconds": 26
+        },
+        {
+          "type": "state",
+          "state": "listening",
+          "afterMilliseconds": 28
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "id": "a385605b-06da-40d0-8ec9-2ca531aab21a",
+            "sessionId": "97ed6a03-f0b2-4757-9055-c1d00eec826e",
+            "language": "yo",
+            "transcriptionId": null,
+            "tutorTurnId": null,
+            "recognizedText": "",
+            "confirmedText": null,
+            "assistantText": "",
+            "status": "recognizing",
+            "audioAvailable": false,
+            "createdAt": 1791903192469,
+            "updatedAt": 1791903192469
+          },
+          "afterMilliseconds": 10564
+        },
+        {
+          "type": "state",
+          "state": "recognizing",
+          "afterMilliseconds": 10564
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "id": "a385605b-06da-40d0-8ec9-2ca531aab21a",
+            "sessionId": "97ed6a03-f0b2-4757-9055-c1d00eec826e",
+            "language": "yo",
+            "transcriptionId": "2727e5cc-a528-4adb-a116-0bb134dbddd0",
+            "tutorTurnId": null,
+            "recognizedText": "Àwọn ewe ko ma n lo imọlẹ oòrùn gẹ́gẹ́ bí agbára láti sọ gaasi carbon dioxide pọ̀ mọ́ omi láti ṣe suga. Wọn si tun n mu atẹgun jáde.",
+            "confirmedText": null,
+            "assistantText": "",
+            "status": "replying",
+            "audioAvailable": false,
+            "createdAt": 1791903192469,
+            "updatedAt": 1791903196751
+          },
+          "afterMilliseconds": 14847
+        },
+        {
+          "type": "state",
+          "state": "thinking",
+          "afterMilliseconds": 14847
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "id": "a385605b-06da-40d0-8ec9-2ca531aab21a",
+            "sessionId": "97ed6a03-f0b2-4757-9055-c1d00eec826e",
+            "language": "yo",
+            "transcriptionId": "2727e5cc-a528-4adb-a116-0bb134dbddd0",
+            "tutorTurnId": "eb716f33-1e1d-4e05-8b38-46c8f0893618",
+            "recognizedText": "Àwọn ewe ko ma n lo imọlẹ oòrùn gẹ́gẹ́ bí agbára láti sọ gaasi carbon dioxide pọ̀ mọ́ omi láti ṣe suga. Wọn si tun n mu atẹgun jáde.",
+            "confirmedText": null,
+            "assistantText": "",
+            "status": "replying",
+            "audioAvailable": false,
+            "createdAt": 1791903192469,
+            "updatedAt": 1791903196757
+          },
+          "afterMilliseconds": 14851
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "id": "a385605b-06da-40d0-8ec9-2ca531aab21a",
+            "sessionId": "97ed6a03-f0b2-4757-9055-c1d00eec826e",
+            "language": "yo",
+            "transcriptionId": "2727e5cc-a528-4adb-a116-0bb134dbddd0",
+            "tutorTurnId": "eb716f33-1e1d-4e05-8b38-46c8f0893618",
+            "recognizedText": "Àwọn ewe ko ma n lo imọlẹ oòrùn gẹ́gẹ́ bí agbára láti sọ gaasi carbon dioxide pọ̀ mọ́ omi láti ṣe suga. Wọn si tun n mu atẹgun jáde.",
+            "confirmedText": null,
+            "assistantText": "Àlàyé rẹ dára. O lè sọ pé: “Àwọn ewéko máa ń lo agbára ìmọ́lẹ̀ oòrùn láti so erogba oloro pọ̀ mọ́ omi, kí wọ́n lè mú ṣúgà àti ọ́síjìn jáde.” Ìmọ́lẹ̀ oòrùn ń pèsè agbára; kì í di ohun èlò ara ewéko. [s1]",
+            "status": "replying",
+            "audioAvailable": false,
+            "createdAt": 1791903192469,
+            "updatedAt": 1791903207298
+          },
+          "afterMilliseconds": 25393
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "id": "a385605b-06da-40d0-8ec9-2ca531aab21a",
+            "sessionId": "97ed6a03-f0b2-4757-9055-c1d00eec826e",
+            "language": "yo",
+            "transcriptionId": "2727e5cc-a528-4adb-a116-0bb134dbddd0",
+            "tutorTurnId": "eb716f33-1e1d-4e05-8b38-46c8f0893618",
+            "recognizedText": "Àwọn ewe ko ma n lo imọlẹ oòrùn gẹ́gẹ́ bí agbára láti sọ gaasi carbon dioxide pọ̀ mọ́ omi láti ṣe suga. Wọn si tun n mu atẹgun jáde.",
+            "confirmedText": null,
+            "assistantText": "Àlàyé rẹ dára. O lè sọ pé: “Àwọn ewéko máa ń lo agbára ìmọ́lẹ̀ oòrùn láti so erogba oloro pọ̀ mọ́ omi, kí wọ́n lè mú ṣúgà àti ọ́síjìn jáde.” Ìmọ́lẹ̀ oòrùn ń pèsè agbára; kì í di ohun èlò ara ewéko. [s1]",
+            "status": "failed",
+            "audioAvailable": false,
+            "createdAt": 1791903192469,
+            "updatedAt": 1791903225992
+          },
+          "afterMilliseconds": 44087
+        },
+        {
+          "type": "error",
+          "message": "The voice reply could not finish. Read the saved text or try again.",
+          "afterMilliseconds": 44087
+        },
+        {
+          "type": "state",
+          "state": "listening",
+          "afterMilliseconds": 44088
+        },
+        {
+          "type": "state",
+          "state": "muted",
+          "afterMilliseconds": 44089
+        }
+      ],
+      "result": {
+        "type": "error",
+        "message": "The voice reply could not finish. Read the saved text or try again."
+      },
+      "replyDelayMilliseconds": 33546
+    },
+    {
+      "language": "ha",
+      "mode": "tutor",
+      "synthetic": true,
+      "startedAt": "2026-10-13T14:55:56.742Z",
+      "context": {
+        "type": "tutor",
+        "conversationId": "7a08f62b-aa29-432d-a90e-2cea56801321"
+      },
+      "session": {
+        "id": "db80264a-5186-4fc7-b551-88dd75aac46d",
+        "context": {
+          "type": "tutor",
+          "conversationId": "7a08f62b-aa29-432d-a90e-2cea56801321"
+        },
+        "language": "ha",
+        "transport": "pipeline",
+        "status": "disconnected",
+        "expiresAt": 1791903956448,
+        "turns": 2,
+        "inputMilliseconds": 13020,
+        "maxTurns": 12,
+        "maxInputMilliseconds": 180000,
+        "createdAt": 1791903356448,
+        "history": [
+          {
+            "id": "23e6a2b3-ca41-446d-94c9-7388ff957402",
+            "sessionId": "db80264a-5186-4fc7-b551-88dd75aac46d",
+            "language": "ha",
+            "transcriptionId": null,
+            "tutorTurnId": null,
+            "recognizedText": "",
+            "confirmedText": null,
+            "assistantText": "",
+            "status": "interrupted",
+            "audioAvailable": false,
+            "createdAt": 1791903367436,
+            "updatedAt": 1791903367756
+          },
+          {
+            "id": "b896dde4-0b13-46f4-9139-6552d214e661",
+            "sessionId": "db80264a-5186-4fc7-b551-88dd75aac46d",
+            "language": "ha",
+            "transcriptionId": null,
+            "tutorTurnId": null,
+            "recognizedText": "",
+            "confirmedText": null,
+            "assistantText": "",
+            "status": "failed",
+            "audioAvailable": false,
+            "createdAt": 1791903370052,
+            "updatedAt": 1791903371396
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "ready",
+          "session": {
+            "id": "db80264a-5186-4fc7-b551-88dd75aac46d",
+            "context": {
+              "type": "tutor",
+              "conversationId": "7a08f62b-aa29-432d-a90e-2cea56801321"
+            },
+            "language": "ha",
+            "transport": "pipeline",
+            "status": "active",
+            "expiresAt": 1791903956448,
+            "turns": 0,
+            "inputMilliseconds": 0,
+            "maxTurns": 12,
+            "maxInputMilliseconds": 180000,
+            "createdAt": 1791903356448
+          },
+          "afterMilliseconds": 15
+        },
+        {
+          "type": "state",
+          "state": "listening",
+          "afterMilliseconds": 16
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "id": "23e6a2b3-ca41-446d-94c9-7388ff957402",
+            "sessionId": "db80264a-5186-4fc7-b551-88dd75aac46d",
+            "language": "ha",
+            "transcriptionId": null,
+            "tutorTurnId": null,
+            "recognizedText": "",
+            "confirmedText": null,
+            "assistantText": "",
+            "status": "recognizing",
+            "audioAvailable": false,
+            "createdAt": 1791903367436,
+            "updatedAt": 1791903367436
+          },
+          "afterMilliseconds": 10698
+        },
+        {
+          "type": "state",
+          "state": "recognizing",
+          "afterMilliseconds": 10699
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "id": "23e6a2b3-ca41-446d-94c9-7388ff957402",
+            "sessionId": "db80264a-5186-4fc7-b551-88dd75aac46d",
+            "language": "ha",
+            "transcriptionId": null,
+            "tutorTurnId": null,
+            "recognizedText": "",
+            "confirmedText": null,
+            "assistantText": "",
+            "status": "interrupted",
+            "audioAvailable": false,
+            "createdAt": 1791903367436,
+            "updatedAt": 1791903367753
+          },
+          "afterMilliseconds": 11013
+        },
+        {
+          "type": "interrupted",
+          "turnId": "23e6a2b3-ca41-446d-94c9-7388ff957402",
+          "afterMilliseconds": 11013
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "id": "23e6a2b3-ca41-446d-94c9-7388ff957402",
+            "sessionId": "db80264a-5186-4fc7-b551-88dd75aac46d",
+            "language": "ha",
+            "transcriptionId": null,
+            "tutorTurnId": null,
+            "recognizedText": "",
+            "confirmedText": null,
+            "assistantText": "",
+            "status": "interrupted",
+            "audioAvailable": false,
+            "createdAt": 1791903367436,
+            "updatedAt": 1791903367756
+          },
+          "afterMilliseconds": 11015
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "id": "b896dde4-0b13-46f4-9139-6552d214e661",
+            "sessionId": "db80264a-5186-4fc7-b551-88dd75aac46d",
+            "language": "ha",
+            "transcriptionId": null,
+            "tutorTurnId": null,
+            "recognizedText": "",
+            "confirmedText": null,
+            "assistantText": "",
+            "status": "recognizing",
+            "audioAvailable": false,
+            "createdAt": 1791903370052,
+            "updatedAt": 1791903370052
+          },
+          "afterMilliseconds": 13312
+        },
+        {
+          "type": "state",
+          "state": "recognizing",
+          "afterMilliseconds": 13312
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "id": "b896dde4-0b13-46f4-9139-6552d214e661",
+            "sessionId": "db80264a-5186-4fc7-b551-88dd75aac46d",
+            "language": "ha",
+            "transcriptionId": null,
+            "tutorTurnId": null,
+            "recognizedText": "",
+            "confirmedText": null,
+            "assistantText": "",
+            "status": "failed",
+            "audioAvailable": false,
+            "createdAt": 1791903370052,
+            "updatedAt": 1791903371396
+          },
+          "afterMilliseconds": 14655
+        },
+        {
+          "type": "error",
+          "message": "The voice reply could not finish. Read the saved text or try again.",
+          "afterMilliseconds": 14655
+        },
+        {
+          "type": "state",
+          "state": "listening",
+          "afterMilliseconds": 14657
+        },
+        {
+          "type": "state",
+          "state": "muted",
+          "afterMilliseconds": 14657
+        },
+        {
+          "type": "reconnect-ready",
+          "session": {
+            "id": "db80264a-5186-4fc7-b551-88dd75aac46d",
+            "context": {
+              "type": "tutor",
+              "conversationId": "7a08f62b-aa29-432d-a90e-2cea56801321"
+            },
+            "language": "ha",
+            "transport": "pipeline",
+            "status": "active",
+            "expiresAt": 1791903956448,
+            "turns": 2,
+            "inputMilliseconds": 13020,
+            "maxTurns": 12,
+            "maxInputMilliseconds": 180000,
+            "createdAt": 1791903356448
+          }
+        },
+        {
+          "type": "reconnect-state",
+          "state": "listening"
+        },
+        {
+          "type": "reconnect-state",
+          "state": "muted"
+        },
+        {
+          "type": "reconnect-interrupted"
+        },
+        {
+          "type": "reconnect-state",
+          "state": "muted"
+        },
+        {
+          "type": "reconnect-state",
+          "state": "stopped"
+        }
+      ],
+      "result": {
+        "type": "error",
+        "message": "The voice reply could not finish. Read the saved text or try again."
+      },
+      "replyDelayMilliseconds": 1373
+    }
+  ],
+  "laterShortQuestion": {
+    "language": "en",
+    "mode": "tutor",
+    "synthetic": true,
+    "startedAt": "2026-10-13T15:03:44.812Z",
+    "context": {
+      "type": "tutor",
+      "conversationId": "b6df55a4-0781-4f84-8604-a4fe0d7075a0"
+    },
+    "session": {
+      "id": "214c4260-292b-4ab3-abf4-de88771f9d0e",
+      "context": {
+        "type": "tutor",
+        "conversationId": "b6df55a4-0781-4f84-8604-a4fe0d7075a0"
+      },
+      "language": "en",
+      "transport": "pipeline",
+      "status": "disconnected",
+      "expiresAt": 1791904424662,
+      "turns": 1,
+      "inputMilliseconds": 4240,
+      "maxTurns": 12,
+      "maxInputMilliseconds": 180000,
+      "createdAt": 1791903824662,
+      "history": [
+        {
+          "id": "7b5688a0-ec3b-49bd-adc7-e06d2e6863f7",
+          "sessionId": "214c4260-292b-4ab3-abf4-de88771f9d0e",
+          "language": "en",
+          "transcriptionId": null,
+          "tutorTurnId": null,
+          "recognizedText": "",
+          "confirmedText": null,
+          "assistantText": "",
+          "status": "failed",
+          "audioAvailable": false,
+          "createdAt": 1791903829170,
+          "updatedAt": 1791903830732
+        }
+      ]
+    },
+    "events": [
+      {
+        "type": "ready",
+        "session": {
+          "id": "214c4260-292b-4ab3-abf4-de88771f9d0e",
+          "context": {
+            "type": "tutor",
+            "conversationId": "b6df55a4-0781-4f84-8604-a4fe0d7075a0"
+          },
+          "language": "en",
+          "transport": "pipeline",
+          "status": "active",
+          "expiresAt": 1791904424662,
+          "turns": 0,
+          "inputMilliseconds": 0,
+          "maxTurns": 12,
+          "maxInputMilliseconds": 180000,
+          "createdAt": 1791903824662
+        },
+        "afterMilliseconds": 15
+      },
+      {
+        "type": "state",
+        "state": "listening",
+        "afterMilliseconds": 16
+      },
+      {
+        "type": "turn",
+        "turn": {
+          "id": "7b5688a0-ec3b-49bd-adc7-e06d2e6863f7",
+          "sessionId": "214c4260-292b-4ab3-abf4-de88771f9d0e",
+          "language": "en",
+          "transcriptionId": null,
+          "tutorTurnId": null,
+          "recognizedText": "",
+          "confirmedText": null,
+          "assistantText": "",
+          "status": "recognizing",
+          "audioAvailable": false,
+          "createdAt": 1791903829170,
+          "updatedAt": 1791903829170
+        },
+        "afterMilliseconds": 4361
+      },
+      {
+        "type": "state",
+        "state": "recognizing",
+        "afterMilliseconds": 4362
+      },
+      {
+        "type": "turn",
+        "turn": {
+          "id": "7b5688a0-ec3b-49bd-adc7-e06d2e6863f7",
+          "sessionId": "214c4260-292b-4ab3-abf4-de88771f9d0e",
+          "language": "en",
+          "transcriptionId": null,
+          "tutorTurnId": null,
+          "recognizedText": "",
+          "confirmedText": null,
+          "assistantText": "",
+          "status": "failed",
+          "audioAvailable": false,
+          "createdAt": 1791903829170,
+          "updatedAt": 1791903830732
+        },
+        "afterMilliseconds": 5921
+      },
+      {
+        "type": "error",
+        "message": "The voice reply could not finish. Read the saved text or try again.",
+        "afterMilliseconds": 5921
+      },
+      {
+        "type": "state",
+        "state": "listening",
+        "afterMilliseconds": 5924
+      },
+      {
+        "type": "state",
+        "state": "muted",
+        "afterMilliseconds": 5924
+      },
+      {
+        "type": "reconnect-ready",
+        "session": {
+          "id": "214c4260-292b-4ab3-abf4-de88771f9d0e",
+          "context": {
+            "type": "tutor",
+            "conversationId": "b6df55a4-0781-4f84-8604-a4fe0d7075a0"
+          },
+          "language": "en",
+          "transport": "pipeline",
+          "status": "active",
+          "expiresAt": 1791904424662,
+          "turns": 1,
+          "inputMilliseconds": 4240,
+          "maxTurns": 12,
+          "maxInputMilliseconds": 180000,
+          "createdAt": 1791903824662
+        }
+      },
+      {
+        "type": "reconnect-state",
+        "state": "listening"
+      },
+      {
+        "type": "reconnect-state",
+        "state": "muted"
+      },
+      {
+        "type": "reconnect-interrupted"
+      },
+      {
+        "type": "reconnect-state",
+        "state": "muted"
+      },
+      {
+        "type": "reconnect-state",
+        "state": "stopped"
+      }
+    ],
+    "result": {
+      "type": "error",
+      "message": "The voice reply could not finish. Read the saved text or try again."
+    },
+    "replyDelayMilliseconds": 1597
+  },
+  "resumedChecks": {
+    "checkedAt": "2026-10-13T15:59:22.742Z",
+    "keyBudgetResolved": true,
+    "repeated": [
+      {
+        "language": "en",
+        "setup": "Synthetic recordings with explicitly seeded, owned M08 lesson copies; no fresh generation claimed",
+        "tutor": {
+          "language": "en",
+          "mode": "tutor",
+          "synthetic": true,
+          "startedAt": "2026-10-13T15:26:29.843Z",
+          "context": {
+            "type": "tutor",
+            "conversationId": "db925f95-7f8b-4230-8028-159f598187b7"
+          },
+          "session": {
+            "id": "136a3e02-6ba9-4bc0-b8bf-2ab2613e8631",
+            "context": {
+              "type": "tutor",
+              "conversationId": "db925f95-7f8b-4230-8028-159f598187b7"
+            },
+            "language": "en",
+            "transport": "pipeline",
+            "status": "disconnected",
+            "expiresAt": 1791905789321,
+            "turns": 1,
+            "inputMilliseconds": 4240,
+            "maxTurns": 12,
+            "maxInputMilliseconds": 180000,
+            "createdAt": 1791905189321,
+            "history": [
+              {
+                "id": "60bc63ab-44c2-4f3c-b107-182665ec0c11",
+                "sessionId": "136a3e02-6ba9-4bc0-b8bf-2ab2613e8631",
+                "language": "en",
+                "transcriptionId": "4948480e-7c85-42f9-8661-b95780124d92",
+                "tutorTurnId": "6209bfbf-80a5-468d-aca1-3ffe6fbe6258",
+                "recognizedText": "Which list gives the inputs for photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "The inputs are carbon dioxide, water, and sunlight. Sunlight provides energy for the process. [s1]",
+                "status": "completed",
+                "audioAvailable": true,
+                "createdAt": 1791905194203,
+                "updatedAt": 1791905214616
+              }
+            ]
+          },
+          "events": [
+            {
+              "type": "ready",
+              "session": {
+                "id": "136a3e02-6ba9-4bc0-b8bf-2ab2613e8631",
+                "context": {
+                  "type": "tutor",
+                  "conversationId": "db925f95-7f8b-4230-8028-159f598187b7"
+                },
+                "language": "en",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791905789321,
+                "turns": 0,
+                "inputMilliseconds": 0,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791905189321
+              },
+              "afterMilliseconds": 19
+            },
+            {
+              "type": "state",
+              "state": "listening",
+              "afterMilliseconds": 20
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "60bc63ab-44c2-4f3c-b107-182665ec0c11",
+                "sessionId": "136a3e02-6ba9-4bc0-b8bf-2ab2613e8631",
+                "language": "en",
+                "transcriptionId": null,
+                "tutorTurnId": null,
+                "recognizedText": "",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "recognizing",
+                "audioAvailable": false,
+                "createdAt": 1791905194203,
+                "updatedAt": 1791905194203
+              },
+              "afterMilliseconds": 4365
+            },
+            {
+              "type": "state",
+              "state": "recognizing",
+              "afterMilliseconds": 4365
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "60bc63ab-44c2-4f3c-b107-182665ec0c11",
+                "sessionId": "136a3e02-6ba9-4bc0-b8bf-2ab2613e8631",
+                "language": "en",
+                "transcriptionId": "4948480e-7c85-42f9-8661-b95780124d92",
+                "tutorTurnId": null,
+                "recognizedText": "Which list gives the inputs for photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905194203,
+                "updatedAt": 1791905198640
+              },
+              "afterMilliseconds": 8798
+            },
+            {
+              "type": "state",
+              "state": "thinking",
+              "afterMilliseconds": 8798
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "60bc63ab-44c2-4f3c-b107-182665ec0c11",
+                "sessionId": "136a3e02-6ba9-4bc0-b8bf-2ab2613e8631",
+                "language": "en",
+                "transcriptionId": "4948480e-7c85-42f9-8661-b95780124d92",
+                "tutorTurnId": "6209bfbf-80a5-468d-aca1-3ffe6fbe6258",
+                "recognizedText": "Which list gives the inputs for photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905194203,
+                "updatedAt": 1791905198646
+              },
+              "afterMilliseconds": 8805
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "60bc63ab-44c2-4f3c-b107-182665ec0c11",
+                "sessionId": "136a3e02-6ba9-4bc0-b8bf-2ab2613e8631",
+                "language": "en",
+                "transcriptionId": "4948480e-7c85-42f9-8661-b95780124d92",
+                "tutorTurnId": "6209bfbf-80a5-468d-aca1-3ffe6fbe6258",
+                "recognizedText": "Which list gives the inputs for photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "The inputs are carbon dioxide, water, and sunlight. Sunlight provides energy for the process. [s1]",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905194203,
+                "updatedAt": 1791905203967
+              },
+              "afterMilliseconds": 14126
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "60bc63ab-44c2-4f3c-b107-182665ec0c11",
+                "sessionId": "136a3e02-6ba9-4bc0-b8bf-2ab2613e8631",
+                "language": "en",
+                "transcriptionId": "4948480e-7c85-42f9-8661-b95780124d92",
+                "tutorTurnId": "6209bfbf-80a5-468d-aca1-3ffe6fbe6258",
+                "recognizedText": "Which list gives the inputs for photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "The inputs are carbon dioxide, water, and sunlight. Sunlight provides energy for the process. [s1]",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905194203,
+                "updatedAt": 1791905214330
+              },
+              "afterMilliseconds": 24489
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "60bc63ab-44c2-4f3c-b107-182665ec0c11",
+                "sessionId": "136a3e02-6ba9-4bc0-b8bf-2ab2613e8631",
+                "language": "en",
+                "transcriptionId": "4948480e-7c85-42f9-8661-b95780124d92",
+                "tutorTurnId": "6209bfbf-80a5-468d-aca1-3ffe6fbe6258",
+                "recognizedText": "Which list gives the inputs for photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "The inputs are carbon dioxide, water, and sunlight. Sunlight provides energy for the process. [s1]",
+                "status": "completed",
+                "audioAvailable": true,
+                "createdAt": 1791905194203,
+                "updatedAt": 1791905214616
+              },
+              "afterMilliseconds": 24775
+            },
+            {
+              "type": "state",
+              "state": "speaking",
+              "afterMilliseconds": 24775
+            },
+            {
+              "type": "audio",
+              "turnId": "60bc63ab-44c2-4f3c-b107-182665ec0c11",
+              "url": "/api/voice/turns/60bc63ab-44c2-4f3c-b107-182665ec0c11/audio",
+              "format": "mp3",
+              "afterMilliseconds": 24775
+            },
+            {
+              "type": "state",
+              "state": "muted",
+              "afterMilliseconds": 24777
+            },
+            {
+              "type": "audio-range",
+              "status": 404,
+              "bytes": 94
+            },
+            {
+              "type": "reconnect-ready",
+              "session": {
+                "id": "136a3e02-6ba9-4bc0-b8bf-2ab2613e8631",
+                "context": {
+                  "type": "tutor",
+                  "conversationId": "db925f95-7f8b-4230-8028-159f598187b7"
+                },
+                "language": "en",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791905789321,
+                "turns": 1,
+                "inputMilliseconds": 4240,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791905189321
+              }
+            },
+            {
+              "type": "reconnect-state",
+              "state": "listening"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-interrupted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "stopped"
+            }
+          ],
+          "result": {
+            "type": "audio",
+            "turnId": "60bc63ab-44c2-4f3c-b107-182665ec0c11",
+            "url": "/api/voice/turns/60bc63ab-44c2-4f3c-b107-182665ec0c11/audio",
+            "format": "mp3"
+          },
+          "replyDelayMilliseconds": 20449
+        },
+        "reviews": [
+          {
+            "turnId": "60bc63ab-44c2-4f3c-b107-182665ec0c11",
+            "intended": "The inputs are carbon dioxide, water, and sunlight. Sunlight provides energy for the process. [s1]",
+            "reviews": [
+              {
+                "model": "google/gemini-3.5-transcribe",
+                "recognized": "The inputs are carbon dioxide, water, and sunlight. Sunlight provides energy for the process.",
+                "valid": true,
+                "reason": "The recognized reply matches the intended reply exactly."
+              }
+            ]
+          }
+        ],
+        "explain": {
+          "language": "en",
+          "mode": "explain",
+          "synthetic": true,
+          "startedAt": "2026-10-13T15:31:02.987Z",
+          "context": {
+            "type": "explain",
+            "lessonId": "f25e78ba-66b1-4197-82f6-66c8205272e3"
+          },
+          "session": {
+            "id": "2910f147-7620-44e6-9531-4d1871004168",
+            "context": {
+              "type": "explain",
+              "lessonId": "f25e78ba-66b1-4197-82f6-66c8205272e3"
+            },
+            "language": "en",
+            "transport": "pipeline",
+            "status": "disconnected",
+            "expiresAt": 1791906062832,
+            "turns": 1,
+            "inputMilliseconds": 9040,
+            "maxTurns": 12,
+            "maxInputMilliseconds": 180000,
+            "createdAt": 1791905462832,
+            "history": [
+              {
+                "id": "b2cbd130-7a41-4de6-9252-829557b8a427",
+                "sessionId": "2910f147-7620-44e6-9531-4d1871004168",
+                "language": "en",
+                "transcriptionId": "fa6ed036-6a8b-4122-8679-b45c5c7e7ac3",
+                "tutorTurnId": null,
+                "recognizedText": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "awaiting_confirmation",
+                "audioAvailable": false,
+                "createdAt": 1791905472168,
+                "updatedAt": 1791905476381
+              }
+            ]
+          },
+          "events": [
+            {
+              "type": "ready",
+              "session": {
+                "id": "2910f147-7620-44e6-9531-4d1871004168",
+                "context": {
+                  "type": "explain",
+                  "lessonId": "f25e78ba-66b1-4197-82f6-66c8205272e3"
+                },
+                "language": "en",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791906062832,
+                "turns": 0,
+                "inputMilliseconds": 0,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791905462832
+              },
+              "afterMilliseconds": 13
+            },
+            {
+              "type": "state",
+              "state": "listening",
+              "afterMilliseconds": 14
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "b2cbd130-7a41-4de6-9252-829557b8a427",
+                "sessionId": "2910f147-7620-44e6-9531-4d1871004168",
+                "language": "en",
+                "transcriptionId": null,
+                "tutorTurnId": null,
+                "recognizedText": "",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "recognizing",
+                "audioAvailable": false,
+                "createdAt": 1791905472168,
+                "updatedAt": 1791905472168
+              },
+              "afterMilliseconds": 9183
+            },
+            {
+              "type": "state",
+              "state": "recognizing",
+              "afterMilliseconds": 9183
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "b2cbd130-7a41-4de6-9252-829557b8a427",
+                "sessionId": "2910f147-7620-44e6-9531-4d1871004168",
+                "language": "en",
+                "transcriptionId": "fa6ed036-6a8b-4122-8679-b45c5c7e7ac3",
+                "tutorTurnId": null,
+                "recognizedText": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "awaiting_confirmation",
+                "audioAvailable": false,
+                "createdAt": 1791905472168,
+                "updatedAt": 1791905476381
+              },
+              "afterMilliseconds": 13395
+            },
+            {
+              "type": "state",
+              "state": "awaiting_confirmation",
+              "afterMilliseconds": 13396
+            },
+            {
+              "type": "state",
+              "state": "muted",
+              "afterMilliseconds": 13397
+            },
+            {
+              "type": "reconnect-ready",
+              "session": {
+                "id": "2910f147-7620-44e6-9531-4d1871004168",
+                "context": {
+                  "type": "explain",
+                  "lessonId": "f25e78ba-66b1-4197-82f6-66c8205272e3"
+                },
+                "language": "en",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791906062832,
+                "turns": 1,
+                "inputMilliseconds": 9040,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791905462832
+              }
+            },
+            {
+              "type": "reconnect-state",
+              "state": "listening"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-interrupted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "stopped"
+            }
+          ],
+          "result": {
+            "type": "turn",
+            "turn": {
+              "id": "b2cbd130-7a41-4de6-9252-829557b8a427",
+              "sessionId": "2910f147-7620-44e6-9531-4d1871004168",
+              "language": "en",
+              "transcriptionId": "fa6ed036-6a8b-4122-8679-b45c5c7e7ac3",
+              "tutorTurnId": null,
+              "recognizedText": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+              "confirmedText": null,
+              "assistantText": "",
+              "status": "awaiting_confirmation",
+              "audioAvailable": false,
+              "createdAt": 1791905472168,
+              "updatedAt": 1791905476381
+            },
+            "confirmed": {
+              "id": "fa6ed036-6a8b-4122-8679-b45c5c7e7ac3",
+              "language": "en",
+              "text": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+              "confirmedText": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+              "confirmedAt": 1791905476396,
+              "duration": 10,
+              "createdAt": 1791905472172
+            },
+            "explicitSave": {
+              "attemptsBeforeSave": 0,
+              "saved": {
+                "id": "9d6ae192-a6fa-4489-89db-26cb452fbe96",
+                "lessonId": "f25e78ba-66b1-4197-82f6-66c8205272e3",
+                "conceptId": "cb675315-9aa7-4c39-9fc5-1e850fb55640",
+                "language": "en",
+                "rubricVersion": "91ea4c6242296307dfe01366a927c2d99312e9a46b51ba6e0448e17876913002",
+                "rubric": [
+                  {
+                    "id": "r1",
+                    "criterion": "Accurately identifies the main inputs (carbon dioxide, water, sunlight) and outputs (carbohydrates, oxygen) of photosynthesis.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r2",
+                    "criterion": "Describes photosynthesis as a process where plants use sunlight to convert carbon dioxide and water into sugars and oxygen.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r3",
+                    "criterion": "Understands that light provides the energy for photosynthesis but is not converted into plant mass.",
+                    "essential": false
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "s1",
+                    "title": "NASA: The carbon cycle",
+                    "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+                    "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+                    "retrievedAt": 1791849600000
+                  }
+                ],
+                "explanation": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+                "answers": [],
+                "revision": 0,
+                "status": "processing",
+                "question": null,
+                "evaluation": null,
+                "applicationAnswer": null,
+                "applicationEvaluation": null,
+                "understanding": "unknown",
+                "jobId": "02bb61a8-751b-4d58-87bb-c201ac5e7031",
+                "createdAt": 1791905476407,
+                "updatedAt": 1791905476407
+              },
+              "evaluated": {
+                "id": "9d6ae192-a6fa-4489-89db-26cb452fbe96",
+                "lessonId": "f25e78ba-66b1-4197-82f6-66c8205272e3",
+                "conceptId": "cb675315-9aa7-4c39-9fc5-1e850fb55640",
+                "language": "en",
+                "rubricVersion": "91ea4c6242296307dfe01366a927c2d99312e9a46b51ba6e0448e17876913002",
+                "rubric": [
+                  {
+                    "id": "r1",
+                    "criterion": "Accurately identifies the main inputs (carbon dioxide, water, sunlight) and outputs (carbohydrates, oxygen) of photosynthesis.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r2",
+                    "criterion": "Describes photosynthesis as a process where plants use sunlight to convert carbon dioxide and water into sugars and oxygen.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r3",
+                    "criterion": "Understands that light provides the energy for photosynthesis but is not converted into plant mass.",
+                    "essential": false
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "s1",
+                    "title": "NASA: The carbon cycle",
+                    "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+                    "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+                    "retrievedAt": 1791849600000
+                  }
+                ],
+                "explanation": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+                "answers": [],
+                "revision": 0,
+                "status": "followup",
+                "question": "What do you mean by sunlight as energy in your explanation, and how does it relate to the plant’s materials or mass?",
+                "evaluation": null,
+                "applicationAnswer": null,
+                "applicationEvaluation": null,
+                "understanding": "unknown",
+                "jobId": "02bb61a8-751b-4d58-87bb-c201ac5e7031",
+                "createdAt": 1791905476407,
+                "updatedAt": 1791905494327
+              },
+              "job": {
+                "id": "02bb61a8-751b-4d58-87bb-c201ac5e7031",
+                "journeyId": "5fe20855-d586-4377-82b1-96c3e5b8899c",
+                "conceptId": "cb675315-9aa7-4c39-9fc5-1e850fb55640",
+                "language": "en",
+                "readingSupport": "simple",
+                "generationVersion": 1,
+                "type": "explain",
+                "status": "succeeded",
+                "attempts": 1,
+                "message": null,
+                "outputId": "9d6ae192-a6fa-4489-89db-26cb452fbe96",
+                "createdAt": 1791905476409,
+                "updatedAt": 1791905494327
+              },
+              "receipt": {
+                "id": "fa6ed036-6a8b-4122-8679-b45c5c7e7ac3",
+                "language": "en",
+                "text": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+                "confirmedText": "Plants use sunlight as energy to combine carbon dioxide and water into sugars, and oxygen is also produced.",
+                "confirmedAt": 1791905476396,
+                "duration": 10,
+                "createdAt": 1791905472172
+              }
+            }
+          },
+          "replyDelayMilliseconds": 22304
+        }
+      },
+      {
+        "language": "yo",
+        "setup": "Synthetic recordings with explicitly seeded, owned M08 lesson copies; no fresh generation claimed",
+        "tutor": {
+          "language": "yo",
+          "mode": "tutor",
+          "synthetic": true,
+          "startedAt": "2026-10-13T15:33:33.216Z",
+          "context": {
+            "type": "tutor",
+            "conversationId": "a4ee78c5-1dee-4c2d-abf3-802689f4cef5"
+          },
+          "session": {
+            "id": "a2af854c-790d-47be-983d-0f13dd2026d9",
+            "context": {
+              "type": "tutor",
+              "conversationId": "a4ee78c5-1dee-4c2d-abf3-802689f4cef5"
+            },
+            "language": "yo",
+            "transport": "pipeline",
+            "status": "disconnected",
+            "expiresAt": 1791906212920,
+            "turns": 1,
+            "inputMilliseconds": 6000,
+            "maxTurns": 12,
+            "maxInputMilliseconds": 180000,
+            "createdAt": 1791905612920,
+            "history": [
+              {
+                "id": "b2320350-a7e0-4721-ab0f-2334cae929c0",
+                "sessionId": "a2af854c-790d-47be-983d-0f13dd2026d9",
+                "language": "yo",
+                "transcriptionId": "ecc5e05a-8916-4160-a7bb-93c29856c70a",
+                "tutorTurnId": "d9c1c5b7-8693-4998-ad31-19b2d1be637d",
+                "recognizedText": "Ewo ni meji lara awon ohun ti awon owo ogun n lo ninu photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "Àwọn méjì náà ni erogba oloro àti omi. Ìmọ́lẹ̀ oòrùn tún ń pèsè agbára fún fọ́tósíńtẹ́sísì. [s1]",
+                "status": "failed",
+                "audioAvailable": false,
+                "createdAt": 1791905619381,
+                "updatedAt": 1791905644989
+              }
+            ]
+          },
+          "events": [
+            {
+              "type": "ready",
+              "session": {
+                "id": "a2af854c-790d-47be-983d-0f13dd2026d9",
+                "context": {
+                  "type": "tutor",
+                  "conversationId": "a4ee78c5-1dee-4c2d-abf3-802689f4cef5"
+                },
+                "language": "yo",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791906212920,
+                "turns": 0,
+                "inputMilliseconds": 0,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791905612920
+              },
+              "afterMilliseconds": 27
+            },
+            {
+              "type": "state",
+              "state": "listening",
+              "afterMilliseconds": 28
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "b2320350-a7e0-4721-ab0f-2334cae929c0",
+                "sessionId": "a2af854c-790d-47be-983d-0f13dd2026d9",
+                "language": "yo",
+                "transcriptionId": null,
+                "tutorTurnId": null,
+                "recognizedText": "",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "recognizing",
+                "audioAvailable": false,
+                "createdAt": 1791905619381,
+                "updatedAt": 1791905619381
+              },
+              "afterMilliseconds": 6169
+            },
+            {
+              "type": "state",
+              "state": "recognizing",
+              "afterMilliseconds": 6169
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "b2320350-a7e0-4721-ab0f-2334cae929c0",
+                "sessionId": "a2af854c-790d-47be-983d-0f13dd2026d9",
+                "language": "yo",
+                "transcriptionId": "ecc5e05a-8916-4160-a7bb-93c29856c70a",
+                "tutorTurnId": null,
+                "recognizedText": "Ewo ni meji lara awon ohun ti awon owo ogun n lo ninu photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905619381,
+                "updatedAt": 1791905623232
+              },
+              "afterMilliseconds": 10018
+            },
+            {
+              "type": "state",
+              "state": "thinking",
+              "afterMilliseconds": 10018
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "b2320350-a7e0-4721-ab0f-2334cae929c0",
+                "sessionId": "a2af854c-790d-47be-983d-0f13dd2026d9",
+                "language": "yo",
+                "transcriptionId": "ecc5e05a-8916-4160-a7bb-93c29856c70a",
+                "tutorTurnId": "d9c1c5b7-8693-4998-ad31-19b2d1be637d",
+                "recognizedText": "Ewo ni meji lara awon ohun ti awon owo ogun n lo ninu photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905619381,
+                "updatedAt": 1791905623239
+              },
+              "afterMilliseconds": 10025
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "b2320350-a7e0-4721-ab0f-2334cae929c0",
+                "sessionId": "a2af854c-790d-47be-983d-0f13dd2026d9",
+                "language": "yo",
+                "transcriptionId": "ecc5e05a-8916-4160-a7bb-93c29856c70a",
+                "tutorTurnId": "d9c1c5b7-8693-4998-ad31-19b2d1be637d",
+                "recognizedText": "Ewo ni meji lara awon ohun ti awon owo ogun n lo ninu photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "Àwọn méjì náà ni erogba oloro àti omi. Ìmọ́lẹ̀ oòrùn tún ń pèsè agbára fún fọ́tósíńtẹ́sísì. [s1]",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905619381,
+                "updatedAt": 1791905632399
+              },
+              "afterMilliseconds": 19185
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "b2320350-a7e0-4721-ab0f-2334cae929c0",
+                "sessionId": "a2af854c-790d-47be-983d-0f13dd2026d9",
+                "language": "yo",
+                "transcriptionId": "ecc5e05a-8916-4160-a7bb-93c29856c70a",
+                "tutorTurnId": "d9c1c5b7-8693-4998-ad31-19b2d1be637d",
+                "recognizedText": "Ewo ni meji lara awon ohun ti awon owo ogun n lo ninu photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "Àwọn méjì náà ni erogba oloro àti omi. Ìmọ́lẹ̀ oòrùn tún ń pèsè agbára fún fọ́tósíńtẹ́sísì. [s1]",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905619381,
+                "updatedAt": 1791905644985
+              },
+              "afterMilliseconds": 31771
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "b2320350-a7e0-4721-ab0f-2334cae929c0",
+                "sessionId": "a2af854c-790d-47be-983d-0f13dd2026d9",
+                "language": "yo",
+                "transcriptionId": "ecc5e05a-8916-4160-a7bb-93c29856c70a",
+                "tutorTurnId": "d9c1c5b7-8693-4998-ad31-19b2d1be637d",
+                "recognizedText": "Ewo ni meji lara awon ohun ti awon owo ogun n lo ninu photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "Àwọn méjì náà ni erogba oloro àti omi. Ìmọ́lẹ̀ oòrùn tún ń pèsè agbára fún fọ́tósíńtẹ́sísì. [s1]",
+                "status": "failed",
+                "audioAvailable": false,
+                "createdAt": 1791905619381,
+                "updatedAt": 1791905644989
+              },
+              "afterMilliseconds": 31775
+            },
+            {
+              "type": "error",
+              "message": "The voice reply could not finish. Read the saved text or try again.",
+              "afterMilliseconds": 31775
+            },
+            {
+              "type": "state",
+              "state": "listening",
+              "afterMilliseconds": 31777
+            },
+            {
+              "type": "state",
+              "state": "muted",
+              "afterMilliseconds": 31777
+            },
+            {
+              "type": "reconnect-ready",
+              "session": {
+                "id": "a2af854c-790d-47be-983d-0f13dd2026d9",
+                "context": {
+                  "type": "tutor",
+                  "conversationId": "a4ee78c5-1dee-4c2d-abf3-802689f4cef5"
+                },
+                "language": "yo",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791906212920,
+                "turns": 1,
+                "inputMilliseconds": 6000,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791905612920
+              }
+            },
+            {
+              "type": "reconnect-state",
+              "state": "listening"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-interrupted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "stopped"
+            }
+          ],
+          "result": {
+            "type": "error",
+            "message": "The voice reply could not finish. Read the saved text or try again."
+          },
+          "replyDelayMilliseconds": 25647
+        },
+        "reviews": [
+          {
+            "turnId": "b2320350-a7e0-4721-ab0f-2334cae929c0",
+            "intended": "Àwọn méjì náà ni erogba oloro àti omi. Ìmọ́lẹ̀ oòrùn tún ń pèsè agbára fún fọ́tósíńtẹ́sísì. [s1]",
+            "reviews": [
+              {
+                "model": "google/gemini-3.5-transcribe",
+                "recognized": "Awon meji naa ni erogba olorin ati omi. Imọlẹ oru tun n pese agbara fun photosynthesis.",
+                "valid": false,
+                "reason": "The recognized reply changes “erogba oloro” (carbon dioxide) to “erogba olorin” and “ìmọ́lẹ̀ oòrùn” (sunlight) to “ìmọ́lẹ̀ oru” (night light), altering two substantive ideas."
+              }
+            ]
+          }
+        ],
+        "explain": {
+          "language": "yo",
+          "mode": "explain",
+          "synthetic": true,
+          "startedAt": "2026-10-13T15:36:18.435Z",
+          "context": {
+            "type": "explain",
+            "lessonId": "ede4e039-1306-43ab-8c02-ec2ce6553155"
+          },
+          "session": {
+            "id": "0ed8e5a8-641d-4f47-842f-dd2dbaa32642",
+            "context": {
+              "type": "explain",
+              "lessonId": "ede4e039-1306-43ab-8c02-ec2ce6553155"
+            },
+            "language": "yo",
+            "transport": "pipeline",
+            "status": "disconnected",
+            "expiresAt": 1791906378136,
+            "turns": 1,
+            "inputMilliseconds": 10200,
+            "maxTurns": 12,
+            "maxInputMilliseconds": 180000,
+            "createdAt": 1791905778136,
+            "history": [
+              {
+                "id": "ab7f0415-8314-450a-9da2-5008cd38e26a",
+                "sessionId": "0ed8e5a8-641d-4f47-842f-dd2dbaa32642",
+                "language": "yo",
+                "transcriptionId": "9c528927-ca1d-4800-bd98-4df5d931638b",
+                "tutorTurnId": null,
+                "recognizedText": "Àwọn ewe ko ma n lo imọlẹ oòrùn gẹ́gẹ́ bí agbára láti sọ gaasi carbon dioxide pọ̀ mọ́ omi láti ṣe suga. Wọn si tun n mu atẹgun jáde.",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "awaiting_confirmation",
+                "audioAvailable": false,
+                "createdAt": 1791905788930,
+                "updatedAt": 1791905793471
+              }
+            ]
+          },
+          "events": [
+            {
+              "type": "ready",
+              "session": {
+                "id": "0ed8e5a8-641d-4f47-842f-dd2dbaa32642",
+                "context": {
+                  "type": "explain",
+                  "lessonId": "ede4e039-1306-43ab-8c02-ec2ce6553155"
+                },
+                "language": "yo",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791906378136,
+                "turns": 0,
+                "inputMilliseconds": 0,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791905778136
+              },
+              "afterMilliseconds": 13
+            },
+            {
+              "type": "state",
+              "state": "listening",
+              "afterMilliseconds": 14
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "ab7f0415-8314-450a-9da2-5008cd38e26a",
+                "sessionId": "0ed8e5a8-641d-4f47-842f-dd2dbaa32642",
+                "language": "yo",
+                "transcriptionId": null,
+                "tutorTurnId": null,
+                "recognizedText": "",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "recognizing",
+                "audioAvailable": false,
+                "createdAt": 1791905788930,
+                "updatedAt": 1791905788930
+              },
+              "afterMilliseconds": 10497
+            },
+            {
+              "type": "state",
+              "state": "recognizing",
+              "afterMilliseconds": 10497
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "ab7f0415-8314-450a-9da2-5008cd38e26a",
+                "sessionId": "0ed8e5a8-641d-4f47-842f-dd2dbaa32642",
+                "language": "yo",
+                "transcriptionId": "9c528927-ca1d-4800-bd98-4df5d931638b",
+                "tutorTurnId": null,
+                "recognizedText": "Àwọn ewe ko ma n lo imọlẹ oòrùn gẹ́gẹ́ bí agbára láti sọ gaasi carbon dioxide pọ̀ mọ́ omi láti ṣe suga. Wọn si tun n mu atẹgun jáde.",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "awaiting_confirmation",
+                "audioAvailable": false,
+                "createdAt": 1791905788930,
+                "updatedAt": 1791905793471
+              },
+              "afterMilliseconds": 15038
+            },
+            {
+              "type": "state",
+              "state": "awaiting_confirmation",
+              "afterMilliseconds": 15038
+            },
+            {
+              "type": "state",
+              "state": "muted",
+              "afterMilliseconds": 15040
+            },
+            {
+              "type": "reconnect-ready",
+              "session": {
+                "id": "0ed8e5a8-641d-4f47-842f-dd2dbaa32642",
+                "context": {
+                  "type": "explain",
+                  "lessonId": "ede4e039-1306-43ab-8c02-ec2ce6553155"
+                },
+                "language": "yo",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791906378136,
+                "turns": 1,
+                "inputMilliseconds": 10200,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791905778136
+              }
+            },
+            {
+              "type": "reconnect-state",
+              "state": "listening"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-interrupted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "stopped"
+            }
+          ],
+          "result": {
+            "type": "turn",
+            "turn": {
+              "id": "ab7f0415-8314-450a-9da2-5008cd38e26a",
+              "sessionId": "0ed8e5a8-641d-4f47-842f-dd2dbaa32642",
+              "language": "yo",
+              "transcriptionId": "9c528927-ca1d-4800-bd98-4df5d931638b",
+              "tutorTurnId": null,
+              "recognizedText": "Àwọn ewe ko ma n lo imọlẹ oòrùn gẹ́gẹ́ bí agbára láti sọ gaasi carbon dioxide pọ̀ mọ́ omi láti ṣe suga. Wọn si tun n mu atẹgun jáde.",
+              "confirmedText": null,
+              "assistantText": "",
+              "status": "awaiting_confirmation",
+              "audioAvailable": false,
+              "createdAt": 1791905788930,
+              "updatedAt": 1791905793471
+            },
+            "confirmed": {
+              "id": "9c528927-ca1d-4800-bd98-4df5d931638b",
+              "language": "yo",
+              "text": "Àwọn ewe ko ma n lo imọlẹ oòrùn gẹ́gẹ́ bí agbára láti sọ gaasi carbon dioxide pọ̀ mọ́ omi láti ṣe suga. Wọn si tun n mu atẹgun jáde.",
+              "confirmedText": "Àwọn ewéko máa ń lo ìmọ́lẹ̀ oòrùn gẹ́gẹ́ bí agbára láti so gáàsì carbon dioxide pọ̀ mọ́ omi láti ṣe ṣúgà, wọ́n sì tún ń mú atẹ́gùn jáde.",
+              "confirmedAt": 1791905793486,
+              "duration": 11,
+              "createdAt": 1791905788935
+            },
+            "explicitSave": {
+              "attemptsBeforeSave": 0,
+              "saved": {
+                "id": "8398fe86-0c82-4491-bcd5-c5ae1ff82ca5",
+                "lessonId": "ede4e039-1306-43ab-8c02-ec2ce6553155",
+                "conceptId": "59740527-bf79-42ac-9e43-9b7f29488e45",
+                "language": "yo",
+                "rubricVersion": "91ea4c6242296307dfe01366a927c2d99312e9a46b51ba6e0448e17876913002",
+                "rubric": [
+                  {
+                    "id": "r1",
+                    "criterion": "Accurately identifies the main inputs (carbon dioxide, water, sunlight) and outputs (carbohydrates, oxygen) of photosynthesis.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r2",
+                    "criterion": "Describes photosynthesis as a process where plants use sunlight to convert carbon dioxide and water into sugars and oxygen.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r3",
+                    "criterion": "Understands that light provides the energy for photosynthesis but is not converted into plant mass.",
+                    "essential": false
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "s1",
+                    "title": "NASA: The carbon cycle",
+                    "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+                    "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+                    "retrievedAt": 1791849600000
+                  }
+                ],
+                "explanation": "Àwọn ewéko máa ń lo ìmọ́lẹ̀ oòrùn gẹ́gẹ́ bí agbára láti so gáàsì carbon dioxide pọ̀ mọ́ omi láti ṣe ṣúgà, wọ́n sì tún ń mú atẹ́gùn jáde.",
+                "answers": [],
+                "revision": 0,
+                "status": "processing",
+                "question": null,
+                "evaluation": null,
+                "applicationAnswer": null,
+                "applicationEvaluation": null,
+                "understanding": "unknown",
+                "jobId": "f1d67e8c-61bd-48db-9f24-bce8e31a353b",
+                "createdAt": 1791905793498,
+                "updatedAt": 1791905793498
+              },
+              "evaluated": {
+                "id": "8398fe86-0c82-4491-bcd5-c5ae1ff82ca5",
+                "lessonId": "ede4e039-1306-43ab-8c02-ec2ce6553155",
+                "conceptId": "59740527-bf79-42ac-9e43-9b7f29488e45",
+                "language": "yo",
+                "rubricVersion": "91ea4c6242296307dfe01366a927c2d99312e9a46b51ba6e0448e17876913002",
+                "rubric": [
+                  {
+                    "id": "r1",
+                    "criterion": "Accurately identifies the main inputs (carbon dioxide, water, sunlight) and outputs (carbohydrates, oxygen) of photosynthesis.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r2",
+                    "criterion": "Describes photosynthesis as a process where plants use sunlight to convert carbon dioxide and water into sugars and oxygen.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r3",
+                    "criterion": "Understands that light provides the energy for photosynthesis but is not converted into plant mass.",
+                    "essential": false
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "s1",
+                    "title": "NASA: The carbon cycle",
+                    "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+                    "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+                    "retrievedAt": 1791849600000
+                  }
+                ],
+                "explanation": "Àwọn ewéko máa ń lo ìmọ́lẹ̀ oòrùn gẹ́gẹ́ bí agbára láti so gáàsì carbon dioxide pọ̀ mọ́ omi láti ṣe ṣúgà, wọ́n sì tún ń mú atẹ́gùn jáde.",
+                "answers": [],
+                "revision": 0,
+                "status": "followup",
+                "question": "Nígbà tí o sọ pé ìmọ́lẹ̀ jẹ́ agbára, báwo ni o ṣe lóye ìbáṣepọ̀ rẹ̀ pẹ̀lú ìwọ̀n ohun èlò ara ewéko?",
+                "evaluation": null,
+                "applicationAnswer": null,
+                "applicationEvaluation": null,
+                "understanding": "unknown",
+                "jobId": "f1d67e8c-61bd-48db-9f24-bce8e31a353b",
+                "createdAt": 1791905793498,
+                "updatedAt": 1791905823384
+              },
+              "job": {
+                "id": "f1d67e8c-61bd-48db-9f24-bce8e31a353b",
+                "journeyId": "f9b98d0f-7c1d-4cdf-9514-3a83ae2ab51b",
+                "conceptId": "59740527-bf79-42ac-9e43-9b7f29488e45",
+                "language": "yo",
+                "readingSupport": "simple",
+                "generationVersion": 1,
+                "type": "explain",
+                "status": "succeeded",
+                "attempts": 1,
+                "message": null,
+                "outputId": "8398fe86-0c82-4491-bcd5-c5ae1ff82ca5",
+                "createdAt": 1791905793500,
+                "updatedAt": 1791905823384
+              },
+              "receipt": {
+                "id": "9c528927-ca1d-4800-bd98-4df5d931638b",
+                "language": "yo",
+                "text": "Àwọn ewe ko ma n lo imọlẹ oòrùn gẹ́gẹ́ bí agbára láti sọ gaasi carbon dioxide pọ̀ mọ́ omi láti ṣe suga. Wọn si tun n mu atẹgun jáde.",
+                "confirmedText": "Àwọn ewéko máa ń lo ìmọ́lẹ̀ oòrùn gẹ́gẹ́ bí agbára láti so gáàsì carbon dioxide pọ̀ mọ́ omi láti ṣe ṣúgà, wọ́n sì tún ń mú atẹ́gùn jáde.",
+                "confirmedAt": 1791905793486,
+                "duration": 11,
+                "createdAt": 1791905788935
+              }
+            }
+          },
+          "replyDelayMilliseconds": 34670
+        }
+      },
+      {
+        "language": "ha",
+        "setup": "Synthetic recordings with explicitly seeded, owned M08 lesson copies; no fresh generation claimed",
+        "tutor": {
+          "language": "ha",
+          "mode": "tutor",
+          "synthetic": true,
+          "startedAt": "2026-10-13T15:28:13.731Z",
+          "context": {
+            "type": "tutor",
+            "conversationId": "748576f7-e9d1-4850-a0d9-03eef636b4b4"
+          },
+          "session": {
+            "id": "1b58bef9-408b-4f51-b394-3340e2fa3718",
+            "context": {
+              "type": "tutor",
+              "conversationId": "748576f7-e9d1-4850-a0d9-03eef636b4b4"
+            },
+            "language": "ha",
+            "transport": "pipeline",
+            "status": "disconnected",
+            "expiresAt": 1791905893602,
+            "turns": 1,
+            "inputMilliseconds": 4640,
+            "maxTurns": 12,
+            "maxInputMilliseconds": 180000,
+            "createdAt": 1791905293602,
+            "history": [
+              {
+                "id": "fd7338be-9741-439f-9859-44772727c3ab",
+                "sessionId": "1b58bef9-408b-4f51-b394-3340e2fa3718",
+                "language": "ha",
+                "transcriptionId": "905bb005-cdd1-42be-93f6-e039e3a312a7",
+                "tutorTurnId": "4afc0187-013c-4256-95bb-d2d251d924fb",
+                "recognizedText": "Wadanne abubuwa ne tsirrai ke amfani da su a photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "Tsirrai suna amfani da carbon dioxide da ruwa wajen photosynthesis. Hasken rana yana ba da makamashin da tsarin ke buƙata. [s1]",
+                "status": "completed",
+                "audioAvailable": true,
+                "createdAt": 1791905298482,
+                "updatedAt": 1791905321078
+              }
+            ]
+          },
+          "events": [
+            {
+              "type": "ready",
+              "session": {
+                "id": "1b58bef9-408b-4f51-b394-3340e2fa3718",
+                "context": {
+                  "type": "tutor",
+                  "conversationId": "748576f7-e9d1-4850-a0d9-03eef636b4b4"
+                },
+                "language": "ha",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791905893602,
+                "turns": 0,
+                "inputMilliseconds": 0,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791905293602
+              },
+              "afterMilliseconds": 11
+            },
+            {
+              "type": "state",
+              "state": "listening",
+              "afterMilliseconds": 12
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "fd7338be-9741-439f-9859-44772727c3ab",
+                "sessionId": "1b58bef9-408b-4f51-b394-3340e2fa3718",
+                "language": "ha",
+                "transcriptionId": null,
+                "tutorTurnId": null,
+                "recognizedText": "",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "recognizing",
+                "audioAvailable": false,
+                "createdAt": 1791905298482,
+                "updatedAt": 1791905298482
+              },
+              "afterMilliseconds": 4752
+            },
+            {
+              "type": "state",
+              "state": "recognizing",
+              "afterMilliseconds": 4752
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "fd7338be-9741-439f-9859-44772727c3ab",
+                "sessionId": "1b58bef9-408b-4f51-b394-3340e2fa3718",
+                "language": "ha",
+                "transcriptionId": "905bb005-cdd1-42be-93f6-e039e3a312a7",
+                "tutorTurnId": null,
+                "recognizedText": "Wadanne abubuwa ne tsirrai ke amfani da su a photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905298482,
+                "updatedAt": 1791905302400
+              },
+              "afterMilliseconds": 8671
+            },
+            {
+              "type": "state",
+              "state": "thinking",
+              "afterMilliseconds": 8671
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "fd7338be-9741-439f-9859-44772727c3ab",
+                "sessionId": "1b58bef9-408b-4f51-b394-3340e2fa3718",
+                "language": "ha",
+                "transcriptionId": "905bb005-cdd1-42be-93f6-e039e3a312a7",
+                "tutorTurnId": "4afc0187-013c-4256-95bb-d2d251d924fb",
+                "recognizedText": "Wadanne abubuwa ne tsirrai ke amfani da su a photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905298482,
+                "updatedAt": 1791905302404
+              },
+              "afterMilliseconds": 8674
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "fd7338be-9741-439f-9859-44772727c3ab",
+                "sessionId": "1b58bef9-408b-4f51-b394-3340e2fa3718",
+                "language": "ha",
+                "transcriptionId": "905bb005-cdd1-42be-93f6-e039e3a312a7",
+                "tutorTurnId": "4afc0187-013c-4256-95bb-d2d251d924fb",
+                "recognizedText": "Wadanne abubuwa ne tsirrai ke amfani da su a photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "Tsirrai suna amfani da carbon dioxide da ruwa wajen photosynthesis. Hasken rana yana ba da makamashin da tsarin ke buƙata. [s1]",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905298482,
+                "updatedAt": 1791905309485
+              },
+              "afterMilliseconds": 15756
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "fd7338be-9741-439f-9859-44772727c3ab",
+                "sessionId": "1b58bef9-408b-4f51-b394-3340e2fa3718",
+                "language": "ha",
+                "transcriptionId": "905bb005-cdd1-42be-93f6-e039e3a312a7",
+                "tutorTurnId": "4afc0187-013c-4256-95bb-d2d251d924fb",
+                "recognizedText": "Wadanne abubuwa ne tsirrai ke amfani da su a photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "Tsirrai suna amfani da carbon dioxide da ruwa wajen photosynthesis. Hasken rana yana ba da makamashin da tsarin ke buƙata. [s1]",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905298482,
+                "updatedAt": 1791905320851
+              },
+              "afterMilliseconds": 27121
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "fd7338be-9741-439f-9859-44772727c3ab",
+                "sessionId": "1b58bef9-408b-4f51-b394-3340e2fa3718",
+                "language": "ha",
+                "transcriptionId": "905bb005-cdd1-42be-93f6-e039e3a312a7",
+                "tutorTurnId": "4afc0187-013c-4256-95bb-d2d251d924fb",
+                "recognizedText": "Wadanne abubuwa ne tsirrai ke amfani da su a photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "Tsirrai suna amfani da carbon dioxide da ruwa wajen photosynthesis. Hasken rana yana ba da makamashin da tsarin ke buƙata. [s1]",
+                "status": "completed",
+                "audioAvailable": true,
+                "createdAt": 1791905298482,
+                "updatedAt": 1791905321078
+              },
+              "afterMilliseconds": 27348
+            },
+            {
+              "type": "state",
+              "state": "speaking",
+              "afterMilliseconds": 27348
+            },
+            {
+              "type": "audio",
+              "turnId": "fd7338be-9741-439f-9859-44772727c3ab",
+              "url": "/api/voice/turns/fd7338be-9741-439f-9859-44772727c3ab/audio",
+              "format": "mp3",
+              "afterMilliseconds": 27348
+            },
+            {
+              "type": "state",
+              "state": "muted",
+              "afterMilliseconds": 27350
+            },
+            {
+              "type": "audio-range",
+              "status": 404,
+              "bytes": 94
+            },
+            {
+              "type": "reconnect-ready",
+              "session": {
+                "id": "1b58bef9-408b-4f51-b394-3340e2fa3718",
+                "context": {
+                  "type": "tutor",
+                  "conversationId": "748576f7-e9d1-4850-a0d9-03eef636b4b4"
+                },
+                "language": "ha",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791905893602,
+                "turns": 1,
+                "inputMilliseconds": 4640,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791905293602
+              }
+            },
+            {
+              "type": "reconnect-state",
+              "state": "listening"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-interrupted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "stopped"
+            }
+          ],
+          "result": {
+            "type": "audio",
+            "turnId": "fd7338be-9741-439f-9859-44772727c3ab",
+            "url": "/api/voice/turns/fd7338be-9741-439f-9859-44772727c3ab/audio",
+            "format": "mp3"
+          },
+          "replyDelayMilliseconds": 22621
+        },
+        "reviews": [
+          {
+            "turnId": "fd7338be-9741-439f-9859-44772727c3ab",
+            "intended": "Tsirrai suna amfani da carbon dioxide da ruwa wajen photosynthesis. Hasken rana yana ba da makamashin da tsarin ke buƙata. [s1]",
+            "reviews": [
+              {
+                "model": "google/gemini-3.5-transcribe",
+                "recognized": "Tsirrai suna amfani da carbon dioxide da ruwa wajen photosynthesis. Hasken rana yana bada makamashin da tsarin ke buƙata.",
+                "valid": true,
+                "reason": "The recognized reply preserves both teaching ideas. “Ba da” and “bada” are a harmless spelling/spacing difference here."
+              }
+            ]
+          }
+        ],
+        "explain": {
+          "language": "ha",
+          "mode": "explain",
+          "synthetic": true,
+          "startedAt": "2026-10-13T15:39:03.271Z",
+          "context": {
+            "type": "explain",
+            "lessonId": "d3bea51f-af02-4021-a15a-659f733e78b7"
+          },
+          "session": {
+            "id": "43e967ae-c3da-4ac6-95cc-0cb73c25c8f6",
+            "context": {
+              "type": "explain",
+              "lessonId": "d3bea51f-af02-4021-a15a-659f733e78b7"
+            },
+            "language": "ha",
+            "transport": "pipeline",
+            "status": "disconnected",
+            "expiresAt": 1791906543118,
+            "turns": 1,
+            "inputMilliseconds": 13020,
+            "maxTurns": 12,
+            "maxInputMilliseconds": 180000,
+            "createdAt": 1791905943118,
+            "history": [
+              {
+                "id": "767939df-d154-425f-8138-b7599e89be7a",
+                "sessionId": "43e967ae-c3da-4ac6-95cc-0cb73c25c8f6",
+                "language": "ha",
+                "transcriptionId": "4776fecc-62c5-41a5-8b41-3797c0101cbe",
+                "tutorTurnId": null,
+                "recognizedText": "A lokacin photosynthesis, tsire-tsire suna amfani da hasken rana wajen haɗa carbon dioxide daga iska da ruwa, suna samar da sukari. Ana kuma fitar da iskar oxygen.",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "awaiting_confirmation",
+                "audioAvailable": false,
+                "createdAt": 1791905956589,
+                "updatedAt": 1791905961318
+              }
+            ]
+          },
+          "events": [
+            {
+              "type": "ready",
+              "session": {
+                "id": "43e967ae-c3da-4ac6-95cc-0cb73c25c8f6",
+                "context": {
+                  "type": "explain",
+                  "lessonId": "d3bea51f-af02-4021-a15a-659f733e78b7"
+                },
+                "language": "ha",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791906543118,
+                "turns": 0,
+                "inputMilliseconds": 0,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791905943118
+              },
+              "afterMilliseconds": 11
+            },
+            {
+              "type": "state",
+              "state": "listening",
+              "afterMilliseconds": 12
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "767939df-d154-425f-8138-b7599e89be7a",
+                "sessionId": "43e967ae-c3da-4ac6-95cc-0cb73c25c8f6",
+                "language": "ha",
+                "transcriptionId": null,
+                "tutorTurnId": null,
+                "recognizedText": "",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "recognizing",
+                "audioAvailable": false,
+                "createdAt": 1791905956589,
+                "updatedAt": 1791905956589
+              },
+              "afterMilliseconds": 13320
+            },
+            {
+              "type": "state",
+              "state": "recognizing",
+              "afterMilliseconds": 13320
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "767939df-d154-425f-8138-b7599e89be7a",
+                "sessionId": "43e967ae-c3da-4ac6-95cc-0cb73c25c8f6",
+                "language": "ha",
+                "transcriptionId": "4776fecc-62c5-41a5-8b41-3797c0101cbe",
+                "tutorTurnId": null,
+                "recognizedText": "A lokacin photosynthesis, tsire-tsire suna amfani da hasken rana wajen haɗa carbon dioxide daga iska da ruwa, suna samar da sukari. Ana kuma fitar da iskar oxygen.",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "awaiting_confirmation",
+                "audioAvailable": false,
+                "createdAt": 1791905956589,
+                "updatedAt": 1791905961318
+              },
+              "afterMilliseconds": 18049
+            },
+            {
+              "type": "state",
+              "state": "awaiting_confirmation",
+              "afterMilliseconds": 18051
+            },
+            {
+              "type": "state",
+              "state": "muted",
+              "afterMilliseconds": 18051
+            },
+            {
+              "type": "reconnect-ready",
+              "session": {
+                "id": "43e967ae-c3da-4ac6-95cc-0cb73c25c8f6",
+                "context": {
+                  "type": "explain",
+                  "lessonId": "d3bea51f-af02-4021-a15a-659f733e78b7"
+                },
+                "language": "ha",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791906543118,
+                "turns": 1,
+                "inputMilliseconds": 13020,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791905943118
+              }
+            },
+            {
+              "type": "reconnect-state",
+              "state": "listening"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-interrupted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "stopped"
+            }
+          ],
+          "result": {
+            "type": "turn",
+            "turn": {
+              "id": "767939df-d154-425f-8138-b7599e89be7a",
+              "sessionId": "43e967ae-c3da-4ac6-95cc-0cb73c25c8f6",
+              "language": "ha",
+              "transcriptionId": "4776fecc-62c5-41a5-8b41-3797c0101cbe",
+              "tutorTurnId": null,
+              "recognizedText": "A lokacin photosynthesis, tsire-tsire suna amfani da hasken rana wajen haɗa carbon dioxide daga iska da ruwa, suna samar da sukari. Ana kuma fitar da iskar oxygen.",
+              "confirmedText": null,
+              "assistantText": "",
+              "status": "awaiting_confirmation",
+              "audioAvailable": false,
+              "createdAt": 1791905956589,
+              "updatedAt": 1791905961318
+            },
+            "confirmed": {
+              "id": "4776fecc-62c5-41a5-8b41-3797c0101cbe",
+              "language": "ha",
+              "text": "A lokacin photosynthesis, tsire-tsire suna amfani da hasken rana wajen haɗa carbon dioxide daga iska da ruwa, suna samar da sukari. Ana kuma fitar da iskar oxygen.",
+              "confirmedText": "A lokacin photosynthesis, tsire-tsire suna amfani da hasken rana wajen haɗa carbon dioxide daga iska da ruwa, suna samar da sikari. Ana kuma fitar da iskar oxygen.",
+              "confirmedAt": 1791905961334,
+              "duration": 14,
+              "createdAt": 1791905956592
+            },
+            "explicitSave": {
+              "attemptsBeforeSave": 1,
+              "saved": {
+                "id": "8aedaf3c-634f-405d-bd2c-98cb9aceb4ce",
+                "lessonId": "d3bea51f-af02-4021-a15a-659f733e78b7",
+                "conceptId": "59740527-bf79-42ac-9e43-9b7f29488e45",
+                "language": "ha",
+                "rubricVersion": "91ea4c6242296307dfe01366a927c2d99312e9a46b51ba6e0448e17876913002",
+                "rubric": [
+                  {
+                    "id": "r1",
+                    "criterion": "Accurately identifies the main inputs (carbon dioxide, water, sunlight) and outputs (carbohydrates, oxygen) of photosynthesis.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r2",
+                    "criterion": "Describes photosynthesis as a process where plants use sunlight to convert carbon dioxide and water into sugars and oxygen.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r3",
+                    "criterion": "Understands that light provides the energy for photosynthesis but is not converted into plant mass.",
+                    "essential": false
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "s1",
+                    "title": "NASA: The carbon cycle",
+                    "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+                    "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+                    "retrievedAt": 1791849600000
+                  }
+                ],
+                "explanation": "A lokacin photosynthesis, tsire-tsire suna amfani da hasken rana wajen haɗa carbon dioxide daga iska da ruwa, suna samar da sikari. Ana kuma fitar da iskar oxygen.",
+                "answers": [],
+                "revision": 0,
+                "status": "processing",
+                "question": null,
+                "evaluation": null,
+                "applicationAnswer": null,
+                "applicationEvaluation": null,
+                "understanding": "unknown",
+                "jobId": "f2d21c89-c246-4d8f-9e71-dd80adce0762",
+                "createdAt": 1791905961344,
+                "updatedAt": 1791905961344
+              },
+              "evaluated": {
+                "id": "8aedaf3c-634f-405d-bd2c-98cb9aceb4ce",
+                "lessonId": "d3bea51f-af02-4021-a15a-659f733e78b7",
+                "conceptId": "59740527-bf79-42ac-9e43-9b7f29488e45",
+                "language": "ha",
+                "rubricVersion": "91ea4c6242296307dfe01366a927c2d99312e9a46b51ba6e0448e17876913002",
+                "rubric": [
+                  {
+                    "id": "r1",
+                    "criterion": "Accurately identifies the main inputs (carbon dioxide, water, sunlight) and outputs (carbohydrates, oxygen) of photosynthesis.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r2",
+                    "criterion": "Describes photosynthesis as a process where plants use sunlight to convert carbon dioxide and water into sugars and oxygen.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r3",
+                    "criterion": "Understands that light provides the energy for photosynthesis but is not converted into plant mass.",
+                    "essential": false
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "s1",
+                    "title": "NASA: The carbon cycle",
+                    "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+                    "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+                    "retrievedAt": 1791849600000
+                  }
+                ],
+                "explanation": "A lokacin photosynthesis, tsire-tsire suna amfani da hasken rana wajen haɗa carbon dioxide daga iska da ruwa, suna samar da sikari. Ana kuma fitar da iskar oxygen.",
+                "answers": [],
+                "revision": 0,
+                "status": "followup",
+                "question": "A tunaninka, wane matsayi haske yake da shi a photosynthesis, kuma me kake ganin ke faruwa da hasken da shukar take samu?",
+                "evaluation": null,
+                "applicationAnswer": null,
+                "applicationEvaluation": null,
+                "understanding": "unknown",
+                "jobId": "f2d21c89-c246-4d8f-9e71-dd80adce0762",
+                "createdAt": 1791905961344,
+                "updatedAt": 1791905992167
+              },
+              "job": {
+                "id": "f2d21c89-c246-4d8f-9e71-dd80adce0762",
+                "journeyId": "f9b98d0f-7c1d-4cdf-9514-3a83ae2ab51b",
+                "conceptId": "59740527-bf79-42ac-9e43-9b7f29488e45",
+                "language": "ha",
+                "readingSupport": "simple",
+                "generationVersion": 1,
+                "type": "explain",
+                "status": "succeeded",
+                "attempts": 1,
+                "message": null,
+                "outputId": "8aedaf3c-634f-405d-bd2c-98cb9aceb4ce",
+                "createdAt": 1791905961345,
+                "updatedAt": 1791905992167
+              },
+              "receipt": {
+                "id": "4776fecc-62c5-41a5-8b41-3797c0101cbe",
+                "language": "ha",
+                "text": "A lokacin photosynthesis, tsire-tsire suna amfani da hasken rana wajen haɗa carbon dioxide daga iska da ruwa, suna samar da sukari. Ana kuma fitar da iskar oxygen.",
+                "confirmedText": "A lokacin photosynthesis, tsire-tsire suna amfani da hasken rana wajen haɗa carbon dioxide daga iska da ruwa, suna samar da sikari. Ana kuma fitar da iskar oxygen.",
+                "confirmedAt": 1791905961334,
+                "duration": 14,
+                "createdAt": 1791905956592
+              }
+            }
+          },
+          "replyDelayMilliseconds": 36477
+        }
+      },
+      {
+        "language": "ig",
+        "setup": "Synthetic recordings with explicitly seeded, owned M08 lesson copies; no fresh generation claimed",
+        "tutor": {
+          "language": "ig",
+          "mode": "tutor",
+          "synthetic": true,
+          "startedAt": "2026-10-13T15:34:29.310Z",
+          "context": {
+            "type": "tutor",
+            "conversationId": "38f7ef92-8cac-40a1-b5d7-c19f5aebefca"
+          },
+          "session": {
+            "id": "dcd68324-d3a0-4863-9e3c-371af21c7940",
+            "context": {
+              "type": "tutor",
+              "conversationId": "38f7ef92-8cac-40a1-b5d7-c19f5aebefca"
+            },
+            "language": "ig",
+            "transport": "pipeline",
+            "status": "disconnected",
+            "expiresAt": 1791906269008,
+            "turns": 1,
+            "inputMilliseconds": 6220,
+            "maxTurns": 12,
+            "maxInputMilliseconds": 180000,
+            "createdAt": 1791905669008,
+            "history": [
+              {
+                "id": "05e3dad4-a0c4-479c-af4b-59c4b6f5ff65",
+                "sessionId": "dcd68324-d3a0-4863-9e3c-371af21c7940",
+                "language": "ig",
+                "transcriptionId": "dfb884c6-294a-4adc-b5de-ee8a451f011e",
+                "tutorTurnId": "e81e125b-8518-4cc2-a801-1c2cb60cd44e",
+                "recognizedText": "Ole ihe ndia bu isi osisi na eji na photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "Ihe ndị bụ́ isi osisi na-eji na fotosintesis bụ carbon dioxide, mmiri, na ike sitere n’ìhè anyanwụ. Ìhè anyanwụ na-enye usoro ahụ ike; ọ bụghị ihe a na-agbanwe ka ọ bụrụ ihe mejupụtara osisi. [s1]",
+                "status": "failed",
+                "audioAvailable": false,
+                "createdAt": 1791905675759,
+                "updatedAt": 1791905706550
+              }
+            ]
+          },
+          "events": [
+            {
+              "type": "ready",
+              "session": {
+                "id": "dcd68324-d3a0-4863-9e3c-371af21c7940",
+                "context": {
+                  "type": "tutor",
+                  "conversationId": "38f7ef92-8cac-40a1-b5d7-c19f5aebefca"
+                },
+                "language": "ig",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791906269008,
+                "turns": 0,
+                "inputMilliseconds": 0,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791905669008
+              },
+              "afterMilliseconds": 14
+            },
+            {
+              "type": "state",
+              "state": "listening",
+              "afterMilliseconds": 15
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "05e3dad4-a0c4-479c-af4b-59c4b6f5ff65",
+                "sessionId": "dcd68324-d3a0-4863-9e3c-371af21c7940",
+                "language": "ig",
+                "transcriptionId": null,
+                "tutorTurnId": null,
+                "recognizedText": "",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "recognizing",
+                "audioAvailable": false,
+                "createdAt": 1791905675759,
+                "updatedAt": 1791905675759
+              },
+              "afterMilliseconds": 6451
+            },
+            {
+              "type": "state",
+              "state": "recognizing",
+              "afterMilliseconds": 6451
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "05e3dad4-a0c4-479c-af4b-59c4b6f5ff65",
+                "sessionId": "dcd68324-d3a0-4863-9e3c-371af21c7940",
+                "language": "ig",
+                "transcriptionId": "dfb884c6-294a-4adc-b5de-ee8a451f011e",
+                "tutorTurnId": null,
+                "recognizedText": "Ole ihe ndia bu isi osisi na eji na photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905675759,
+                "updatedAt": 1791905679901
+              },
+              "afterMilliseconds": 10593
+            },
+            {
+              "type": "state",
+              "state": "thinking",
+              "afterMilliseconds": 10593
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "05e3dad4-a0c4-479c-af4b-59c4b6f5ff65",
+                "sessionId": "dcd68324-d3a0-4863-9e3c-371af21c7940",
+                "language": "ig",
+                "transcriptionId": "dfb884c6-294a-4adc-b5de-ee8a451f011e",
+                "tutorTurnId": "e81e125b-8518-4cc2-a801-1c2cb60cd44e",
+                "recognizedText": "Ole ihe ndia bu isi osisi na eji na photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905675759,
+                "updatedAt": 1791905679904
+              },
+              "afterMilliseconds": 10596
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "05e3dad4-a0c4-479c-af4b-59c4b6f5ff65",
+                "sessionId": "dcd68324-d3a0-4863-9e3c-371af21c7940",
+                "language": "ig",
+                "transcriptionId": "dfb884c6-294a-4adc-b5de-ee8a451f011e",
+                "tutorTurnId": "e81e125b-8518-4cc2-a801-1c2cb60cd44e",
+                "recognizedText": "Ole ihe ndia bu isi osisi na eji na photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "Ihe ndị bụ́ isi osisi na-eji na fotosintesis bụ carbon dioxide, mmiri, na ike sitere n’ìhè anyanwụ. Ìhè anyanwụ na-enye usoro ahụ ike; ọ bụghị ihe a na-agbanwe ka ọ bụrụ ihe mejupụtara osisi. [s1]",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905675759,
+                "updatedAt": 1791905686378
+              },
+              "afterMilliseconds": 17080
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "05e3dad4-a0c4-479c-af4b-59c4b6f5ff65",
+                "sessionId": "dcd68324-d3a0-4863-9e3c-371af21c7940",
+                "language": "ig",
+                "transcriptionId": "dfb884c6-294a-4adc-b5de-ee8a451f011e",
+                "tutorTurnId": "e81e125b-8518-4cc2-a801-1c2cb60cd44e",
+                "recognizedText": "Ole ihe ndia bu isi osisi na eji na photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "Ihe ndị bụ́ isi osisi na-eji na fotosintesis bụ carbon dioxide, mmiri, na ike sitere n’ìhè anyanwụ. Ìhè anyanwụ na-enye usoro ahụ ike; ọ bụghị ihe a na-agbanwe ka ọ bụrụ ihe mejupụtara osisi. [s1]",
+                "status": "replying",
+                "audioAvailable": false,
+                "createdAt": 1791905675759,
+                "updatedAt": 1791905706548
+              },
+              "afterMilliseconds": 37240
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "05e3dad4-a0c4-479c-af4b-59c4b6f5ff65",
+                "sessionId": "dcd68324-d3a0-4863-9e3c-371af21c7940",
+                "language": "ig",
+                "transcriptionId": "dfb884c6-294a-4adc-b5de-ee8a451f011e",
+                "tutorTurnId": "e81e125b-8518-4cc2-a801-1c2cb60cd44e",
+                "recognizedText": "Ole ihe ndia bu isi osisi na eji na photosynthesis?",
+                "confirmedText": null,
+                "assistantText": "Ihe ndị bụ́ isi osisi na-eji na fotosintesis bụ carbon dioxide, mmiri, na ike sitere n’ìhè anyanwụ. Ìhè anyanwụ na-enye usoro ahụ ike; ọ bụghị ihe a na-agbanwe ka ọ bụrụ ihe mejupụtara osisi. [s1]",
+                "status": "failed",
+                "audioAvailable": false,
+                "createdAt": 1791905675759,
+                "updatedAt": 1791905706550
+              },
+              "afterMilliseconds": 37242
+            },
+            {
+              "type": "error",
+              "message": "The voice reply could not finish. Read the saved text or try again.",
+              "afterMilliseconds": 37242
+            },
+            {
+              "type": "state",
+              "state": "listening",
+              "afterMilliseconds": 37246
+            },
+            {
+              "type": "state",
+              "state": "muted",
+              "afterMilliseconds": 37246
+            },
+            {
+              "type": "reconnect-ready",
+              "session": {
+                "id": "dcd68324-d3a0-4863-9e3c-371af21c7940",
+                "context": {
+                  "type": "tutor",
+                  "conversationId": "38f7ef92-8cac-40a1-b5d7-c19f5aebefca"
+                },
+                "language": "ig",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791906269008,
+                "turns": 1,
+                "inputMilliseconds": 6220,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791905669008
+              }
+            },
+            {
+              "type": "reconnect-state",
+              "state": "listening"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-interrupted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "stopped"
+            }
+          ],
+          "result": {
+            "type": "error",
+            "message": "The voice reply could not finish. Read the saved text or try again."
+          },
+          "replyDelayMilliseconds": 30824
+        },
+        "reviews": [
+          {
+            "turnId": "05e3dad4-a0c4-479c-af4b-59c4b6f5ff65",
+            "intended": "Ihe ndị bụ́ isi osisi na-eji na fotosintesis bụ carbon dioxide, mmiri, na ike sitere n’ìhè anyanwụ. Ìhè anyanwụ na-enye usoro ahụ ike; ọ bụghị ihe a na-agbanwe ka ọ bụrụ ihe mejupụtara osisi. [s1]",
+            "reviews": [
+              {
+                "model": "google/gemini-3.5-transcribe",
+                "recognized": "Ihe ndị bụ isi osisi na-eji na photosynthesis bụ carbon dioxide, mmiri, na ike sitere na ihe anyanwụ. Ihe anyanwụ na-enye usoro ahụ ike. Ọ bụghị ihe a na-agbanwe ka ọ bụrụ ihe mejuputara osisi.",
+                "valid": false,
+                "reason": "The recognition changes “ìhè anyanwụ” (sunlight) to “ihe anyanwụ,” which does not clearly preserve the idea of light from the sun."
+              }
+            ]
+          }
+        ],
+        "explain": {
+          "language": "ig",
+          "mode": "explain",
+          "synthetic": true,
+          "startedAt": "2026-10-13T15:41:17.549Z",
+          "context": {
+            "type": "explain",
+            "lessonId": "5e797255-10c0-4353-a045-d8f4cb1dbeb8"
+          },
+          "session": {
+            "id": "c6d4dd61-4a65-4be2-ac0e-1d96ccfe0e56",
+            "context": {
+              "type": "explain",
+              "lessonId": "5e797255-10c0-4353-a045-d8f4cb1dbeb8"
+            },
+            "language": "ig",
+            "transport": "pipeline",
+            "status": "disconnected",
+            "expiresAt": 1791906677105,
+            "turns": 1,
+            "inputMilliseconds": 13340,
+            "maxTurns": 12,
+            "maxInputMilliseconds": 180000,
+            "createdAt": 1791906077105,
+            "history": [
+              {
+                "id": "997a79ec-e3cc-49ae-8deb-a991c0fcc606",
+                "sessionId": "c6d4dd61-4a65-4be2-ac0e-1d96ccfe0e56",
+                "language": "ig",
+                "transcriptionId": "f45acefa-444b-493e-93d2-1f3ba738e0d9",
+                "tutorTurnId": null,
+                "recognizedText": "Na oge photosynthesis, osisi na-eji carbon dioxide si na ikuku tinyere mmiri na ume sitere na ihe anyanwụ emeputa sugar. A na-emeputakwa oxygen.",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "awaiting_confirmation",
+                "audioAvailable": false,
+                "createdAt": 1791906091156,
+                "updatedAt": 1791906095469
+              }
+            ]
+          },
+          "events": [
+            {
+              "type": "ready",
+              "session": {
+                "id": "c6d4dd61-4a65-4be2-ac0e-1d96ccfe0e56",
+                "context": {
+                  "type": "explain",
+                  "lessonId": "5e797255-10c0-4353-a045-d8f4cb1dbeb8"
+                },
+                "language": "ig",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791906677105,
+                "turns": 0,
+                "inputMilliseconds": 0,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791906077105
+              },
+              "afterMilliseconds": 15
+            },
+            {
+              "type": "state",
+              "state": "listening",
+              "afterMilliseconds": 16
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "997a79ec-e3cc-49ae-8deb-a991c0fcc606",
+                "sessionId": "c6d4dd61-4a65-4be2-ac0e-1d96ccfe0e56",
+                "language": "ig",
+                "transcriptionId": null,
+                "tutorTurnId": null,
+                "recognizedText": "",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "recognizing",
+                "audioAvailable": false,
+                "createdAt": 1791906091156,
+                "updatedAt": 1791906091156
+              },
+              "afterMilliseconds": 13608
+            },
+            {
+              "type": "state",
+              "state": "recognizing",
+              "afterMilliseconds": 13608
+            },
+            {
+              "type": "turn",
+              "turn": {
+                "id": "997a79ec-e3cc-49ae-8deb-a991c0fcc606",
+                "sessionId": "c6d4dd61-4a65-4be2-ac0e-1d96ccfe0e56",
+                "language": "ig",
+                "transcriptionId": "f45acefa-444b-493e-93d2-1f3ba738e0d9",
+                "tutorTurnId": null,
+                "recognizedText": "Na oge photosynthesis, osisi na-eji carbon dioxide si na ikuku tinyere mmiri na ume sitere na ihe anyanwụ emeputa sugar. A na-emeputakwa oxygen.",
+                "confirmedText": null,
+                "assistantText": "",
+                "status": "awaiting_confirmation",
+                "audioAvailable": false,
+                "createdAt": 1791906091156,
+                "updatedAt": 1791906095469
+              },
+              "afterMilliseconds": 17923
+            },
+            {
+              "type": "state",
+              "state": "awaiting_confirmation",
+              "afterMilliseconds": 17924
+            },
+            {
+              "type": "state",
+              "state": "muted",
+              "afterMilliseconds": 17926
+            },
+            {
+              "type": "reconnect-ready",
+              "session": {
+                "id": "c6d4dd61-4a65-4be2-ac0e-1d96ccfe0e56",
+                "context": {
+                  "type": "explain",
+                  "lessonId": "5e797255-10c0-4353-a045-d8f4cb1dbeb8"
+                },
+                "language": "ig",
+                "transport": "pipeline",
+                "status": "active",
+                "expiresAt": 1791906677105,
+                "turns": 1,
+                "inputMilliseconds": 13340,
+                "maxTurns": 12,
+                "maxInputMilliseconds": 180000,
+                "createdAt": 1791906077105
+              }
+            },
+            {
+              "type": "reconnect-state",
+              "state": "listening"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-interrupted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "muted"
+            },
+            {
+              "type": "reconnect-state",
+              "state": "stopped"
+            }
+          ],
+          "result": {
+            "type": "turn",
+            "turn": {
+              "id": "997a79ec-e3cc-49ae-8deb-a991c0fcc606",
+              "sessionId": "c6d4dd61-4a65-4be2-ac0e-1d96ccfe0e56",
+              "language": "ig",
+              "transcriptionId": "f45acefa-444b-493e-93d2-1f3ba738e0d9",
+              "tutorTurnId": null,
+              "recognizedText": "Na oge photosynthesis, osisi na-eji carbon dioxide si na ikuku tinyere mmiri na ume sitere na ihe anyanwụ emeputa sugar. A na-emeputakwa oxygen.",
+              "confirmedText": null,
+              "assistantText": "",
+              "status": "awaiting_confirmation",
+              "audioAvailable": false,
+              "createdAt": 1791906091156,
+              "updatedAt": 1791906095469
+            },
+            "confirmed": {
+              "id": "f45acefa-444b-493e-93d2-1f3ba738e0d9",
+              "language": "ig",
+              "text": "Na oge photosynthesis, osisi na-eji carbon dioxide si na ikuku tinyere mmiri na ume sitere na ihe anyanwụ emeputa sugar. A na-emeputakwa oxygen.",
+              "confirmedText": "N’oge photosynthesis, osisi na-eji carbon dioxide si n’ikuku, tinyere mmiri na ume sitere n’ìhè anyanwụ, emepụta shuga. A na-emepụtakwa oxygen.",
+              "confirmedAt": 1791906095487,
+              "duration": 14,
+              "createdAt": 1791906091159
+            },
+            "explicitSave": {
+              "attemptsBeforeSave": 2,
+              "saved": {
+                "id": "30d0150e-f890-4ced-bc11-2a75f79e1dfd",
+                "lessonId": "5e797255-10c0-4353-a045-d8f4cb1dbeb8",
+                "conceptId": "59740527-bf79-42ac-9e43-9b7f29488e45",
+                "language": "ig",
+                "rubricVersion": "91ea4c6242296307dfe01366a927c2d99312e9a46b51ba6e0448e17876913002",
+                "rubric": [
+                  {
+                    "id": "r1",
+                    "criterion": "Accurately identifies the main inputs (carbon dioxide, water, sunlight) and outputs (carbohydrates, oxygen) of photosynthesis.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r2",
+                    "criterion": "Describes photosynthesis as a process where plants use sunlight to convert carbon dioxide and water into sugars and oxygen.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r3",
+                    "criterion": "Understands that light provides the energy for photosynthesis but is not converted into plant mass.",
+                    "essential": false
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "s1",
+                    "title": "NASA: The carbon cycle",
+                    "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+                    "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+                    "retrievedAt": 1791849600000
+                  }
+                ],
+                "explanation": "N’oge photosynthesis, osisi na-eji carbon dioxide si n’ikuku, tinyere mmiri na ume sitere n’ìhè anyanwụ, emepụta shuga. A na-emepụtakwa oxygen.",
+                "answers": [],
+                "revision": 0,
+                "status": "processing",
+                "question": null,
+                "evaluation": null,
+                "applicationAnswer": null,
+                "applicationEvaluation": null,
+                "understanding": "unknown",
+                "jobId": "1adaf768-874a-4bb0-a674-1dc89ca00dbd",
+                "createdAt": 1791906095499,
+                "updatedAt": 1791906095499
+              },
+              "evaluated": {
+                "id": "30d0150e-f890-4ced-bc11-2a75f79e1dfd",
+                "lessonId": "5e797255-10c0-4353-a045-d8f4cb1dbeb8",
+                "conceptId": "59740527-bf79-42ac-9e43-9b7f29488e45",
+                "language": "ig",
+                "rubricVersion": "91ea4c6242296307dfe01366a927c2d99312e9a46b51ba6e0448e17876913002",
+                "rubric": [
+                  {
+                    "id": "r1",
+                    "criterion": "Accurately identifies the main inputs (carbon dioxide, water, sunlight) and outputs (carbohydrates, oxygen) of photosynthesis.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r2",
+                    "criterion": "Describes photosynthesis as a process where plants use sunlight to convert carbon dioxide and water into sugars and oxygen.",
+                    "essential": true
+                  },
+                  {
+                    "id": "r3",
+                    "criterion": "Understands that light provides the energy for photosynthesis but is not converted into plant mass.",
+                    "essential": false
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "s1",
+                    "title": "NASA: The carbon cycle",
+                    "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+                    "excerpt": "Plants and phytoplankton use energy from sunlight to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Photosynthesis moves carbon from the atmosphere into living organisms. Respiration returns carbon dioxide to the atmosphere. Light supplies energy; it is not a material converted into plant mass.",
+                    "retrievedAt": 1791849600000
+                  }
+                ],
+                "explanation": "N’oge photosynthesis, osisi na-eji carbon dioxide si n’ikuku, tinyere mmiri na ume sitere n’ìhè anyanwụ, emepụta shuga. A na-emepụtakwa oxygen.",
+                "answers": [],
+                "revision": 0,
+                "status": "followup",
+                "question": "N’echiche gị, gịnị ka ìhè anyanwụ na-eme n’usoro fotosintesis, gịnịkwa ka ọ na-eme ma e jiri ya tụnyere ihe mejupụtara osisi?",
+                "evaluation": null,
+                "applicationAnswer": null,
+                "applicationEvaluation": null,
+                "understanding": "unknown",
+                "jobId": "1adaf768-874a-4bb0-a674-1dc89ca00dbd",
+                "createdAt": 1791906095499,
+                "updatedAt": 1791906117407
+              },
+              "job": {
+                "id": "1adaf768-874a-4bb0-a674-1dc89ca00dbd",
+                "journeyId": "f9b98d0f-7c1d-4cdf-9514-3a83ae2ab51b",
+                "conceptId": "59740527-bf79-42ac-9e43-9b7f29488e45",
+                "language": "ig",
+                "readingSupport": "simple",
+                "generationVersion": 1,
+                "type": "explain",
+                "status": "succeeded",
+                "attempts": 1,
+                "message": null,
+                "outputId": "30d0150e-f890-4ced-bc11-2a75f79e1dfd",
+                "createdAt": 1791906095500,
+                "updatedAt": 1791906117407
+              },
+              "receipt": {
+                "id": "f45acefa-444b-493e-93d2-1f3ba738e0d9",
+                "language": "ig",
+                "text": "Na oge photosynthesis, osisi na-eji carbon dioxide si na ikuku tinyere mmiri na ume sitere na ihe anyanwụ emeputa sugar. A na-emeputakwa oxygen.",
+                "confirmedText": "N’oge photosynthesis, osisi na-eji carbon dioxide si n’ikuku, tinyere mmiri na ume sitere n’ìhè anyanwụ, emepụta shuga. A na-emepụtakwa oxygen.",
+                "confirmedAt": 1791906095487,
+                "duration": 14,
+                "createdAt": 1791906091159
+              }
+            }
+          },
+          "replyDelayMilliseconds": 26919
+        }
+      }
+    ],
+    "deliveryComparisons": [
+      {
+        "language": "yo",
+        "intended": "Àwọn méjì náà ni erogba oloro àti omi. Ìmọ́lẹ̀ oòrùn náà ń pèsè agbára fún ìlànà náà.",
+        "model": "google/gemini-3.8-flash-tts",
+        "voice": "Puck",
+        "instruction": "A fluent native Yoruba speaker. Slow, deliberate, clear speech with pauses between sentences. Preserve every tone, underdot, negation and technical word. Read the supplied text exactly in its original language. Do not translate or add anything.",
+        "reviews": [
+          {
+            "model": "google/gemini-3.5-transcribe",
+            "recognized": "Àwọn méjèèjì náà ni erogba olóró àti omi. Ìmọ́lẹ̀ òòrùn náà n pèsè agára fún ìlànà náà.",
+            "valid": true,
+            "reason": "The recognized reply preserves both substances—carbon dioxide and water—and the idea that sunlight supplies energy for the process. The differences are harmless spelling or diacritic variations."
+          },
+          {
+            "model": "openai/gpt-4o-mini-transcribe",
+            "recognized": "Àwọn meji nì, erogba oloro ati omi. Imọlẹ orun nọ, npesi agbára fun ilẹ nọ.",
+            "valid": false,
+            "reason": "The intended reply says sunlight provides energy for the process, but the recognized text says it provides energy for the land. This changes a substantive idea."
+          }
+        ]
+      },
+      {
+        "language": "ig",
+        "intended": "Ihe ndị bụ́ isi osisi na-eji na fotosintesis bụ carbon dioxide, mmiri, na ike sitere n’ìhè anyanwụ. Ìhè anyanwụ na-enye usoro ahụ ike.",
+        "model": "google/gemini-3.8-flash-tts",
+        "voice": "Puck",
+        "instruction": "A fluent native Igbo speaker. Slow, deliberate, clear speech with pauses between sentences. Preserve every tone, underdot, negation and technical word. Read the supplied text exactly in its original language. Do not translate or add anything.",
+        "reviews": [
+          {
+            "model": "google/gemini-3.5-transcribe",
+            "recognized": "Ihe ndị bụ isi osisi na-eji na photosynthesis bụ carbon dioxide, mmiri na ike sitere na ìhè anyanwụ. Ìhè anyanwụ na-enye usoro ahụ ike.",
+            "valid": true,
+            "reason": "The recognized audio preserves all substantive ideas: carbon dioxide, water, and energy from sunlight are used in photosynthesis, and sunlight provides the process’s energy. The spelling variation is harmless."
+          },
+          {
+            "model": "openai/gpt-4o-mini-transcribe",
+            "recognized": "Ihe ndị bụ isi osisinyeji na fotosintesis bụ carbon dioxide, mmiri, na ike sitere n'ụihe anyanwụ. Ihe anyanwụ nyere osoro aṅwụ ike.",
+            "valid": false,
+            "reason": "The second sentence in the recognized text is too garbled to confirm the teaching idea that sunlight provides energy to the process."
+          }
+        ]
+      }
+    ],
+    "fishComparison": {
+      "language": "yo",
+      "model": "fish-audio/s2.1-pro",
+      "intended": "Àwọn méjì náà ni erogba oloro àti omi. Ìmọ́lẹ̀ oòrùn tún ń pèsè agbára fún fọ́tósíńtẹ́sísì.",
+      "recognized": "Awon mejina ni ero igba oloro ati omi. Imale orun toni npe si agbara fun photosynthesis.",
+      "review": {
+        "valid": true,
+        "reason": "The recognized audio preserves the two substances—carbon dioxide and water—and the idea that sunlight also supplies energy for photosynthesis. The differences are consistent with rough Yoruba spelling and missing diacritics."
+      }
+    },
+    "humanPronunciationReviewClaimed": false
+  }
+}

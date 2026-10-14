@@ -1,0 +1,33 @@
+import { NarrationPlayer } from '../components/NarrationPlayer';
+import { SpokenAnswer } from '../components/SpokenAnswer';
+import { useI18n } from '../lib/i18n';
+import { useEffect, useState } from 'react';
+import { createFileRoute, Link, useNavigate } from '@tanstack/react-router';
+import { Button, Group, Paper, Progress, Radio, Stack, Text } from '@mantine/core';
+import { useAnswer, useAssessment, useJourney, useSubmitAssessment } from '../lib/learning';
+import { Failure, FixtureNotice, Loading } from '../components/QueryState';
+import { LanguageGate } from '../components/LanguageGate';
+import { useSession } from '../lib/session';
+
+function AssessmentPage() { const { t, date } = useI18n();
+  const { journeyId } = Route.useParams(); const navigate = useNavigate();
+  const session = useSession();
+  const journey = useJourney(journeyId); const assessment = useAssessment(journeyId, !!journey.data && journey.data.languageReady && !['generating', 'failed'].includes(journey.data.status), journey.data?.contentVersion);
+  const answer = useAnswer(journeyId); const submit = useSubmitAssessment(journeyId);
+  const [index, setIndex] = useState<number | null>(null);
+  const [spoken, setSpoken] = useState<{ text: string; id: string } | null>(null);
+  useEffect(() => { setSpoken(null); }, [assessment.data?.language, assessment.data?.questions[index ?? 0]?.id]);
+  const [choice, setChoice] = useState<string>('');
+  useEffect(() => { if (assessment.data && index === null) { const first = assessment.data.questions.findIndex(q => !Object.hasOwn(assessment.data.answers, q.id)); setIndex(first === -1 ? assessment.data.questions.length - 1 : first); } }, [assessment.data, index]);
+  const question = assessment.data?.questions[index ?? 0];
+  useEffect(() => { setChoice(question && assessment.data?.answers[question.id] !== undefined ? assessment.data.answers[question.id] ?? 'unknown' : ''); }, [question?.id, assessment.data]);
+  const finish = (skip: boolean) => submit.mutate(skip, { onSuccess: j => void navigate({ to: j.scope === 'concept' ? `/learn/${j.id}/concepts/${j.concepts[0]!.id}` : `/learn/${j.id}` }) });
+  if (journey.isError || assessment.isError) return <Failure error={journey.error || assessment.error} retry={() => { void journey.refetch(); void assessment.refetch(); }} />;
+  if (journey.data && !journey.data.languageReady) return <LanguageGate key={session.data?.preferences.language} journey={journey.data} />;
+  if (!journey.data || !assessment.data || !question || index === null) return <Loading />;
+  if (assessment.data.status !== 'draft') return <div className="narrow"><h1 className="page-title">{t("Your starting point is saved.")}</h1><Button component={Link} to={`/learn/${journeyId}`}>{t("Continue learning")}</Button><details style={{ marginTop: 24 }}><summary>{t('Starting questions')}</summary><Stack mt="lg">{assessment.data.questions.map(q => <Paper key={q.id} withBorder radius="lg" p="xl"><h2 className="question-title">{q.prompt}</h2><NarrationPlayer context={{ type: 'assessment', journeyId, questionId: q.id }} journeyId={journeyId} /></Paper>)}</Stack></details></div>;
+  const last = index === assessment.data.questions.length - 1;
+  const next = () => answer.mutate({ questionId: question.id, optionId: choice === 'unknown' ? null : choice, ...(spoken ? { transcriptionId: spoken.id } : {}) }, { onSuccess: () => { if (last) finish(false); else setIndex(index + 1); } });
+  return <div className="narrow">{journey.data.mode === 'fixture' && <FixtureNotice />}<Text c="dimmed" mb="xs">{journey.data.title}</Text><h1 className="page-title">{t("Let's find your starting point.")}</h1><Text c="dimmed" mb="xl">{t("A few questions to shape your learning. It's fine to be unsure.")}</Text><Progress value={index / assessment.data.questions.length * 100} aria-label={t("Assessment progress")} mb="lg" /><Text size="sm" mb="md">{t("Question {current} of {total}", { current: index + 1, total: assessment.data.questions.length })}</Text><Paper withBorder radius="lg" p="xl"><h2 className="question-title">{question.prompt}</h2><NarrationPlayer key={'narration-' + question.id + assessment.data.language} context={{ type: 'assessment', journeyId, questionId: question.id }} journeyId={journeyId} /><Radio.Group value={choice} onChange={setChoice} aria-label={question.prompt}><Stack gap="md">{question.options.map(option => <Radio key={option.id} value={option.id} label={option.text} className="answer-option" />)}<Radio value="unknown" label={t("I don't know yet")} className="answer-option" /></Stack></Radio.Group><SpokenAnswer key={'spoken-' + question.id + assessment.data.language} context={{ type: 'assessment', journeyId, questionId: question.id }} disabled={answer.isPending || submit.isPending} onConfirmed={(text, id) => setSpoken({ text, id })} />{!spoken && assessment.data.spokenAnswers?.[question.id] && <Stack mt="md" gap="xs"><Text size="sm" lang={assessment.data.spokenAnswers?.[question.id]!.language}>{t('Confirmed words')}: {assessment.data.spokenAnswers?.[question.id]!.confirmedText}</Text><details><summary>{t('Recognized words')}</summary><Text size="sm" lang={assessment.data.spokenAnswers?.[question.id]!.language}>{assessment.data.spokenAnswers?.[question.id]!.recognizedText}</Text></details></Stack>}{spoken && <Text size="sm" mt="md" role="status">{t('Your words: {text}. Choose the matching answer above, then continue.', { text: spoken.text })}</Text>}</Paper><Text size="xs" c="dimmed" mt="sm" role="status">{t("Answers save when you continue. You can come back later.")}</Text>{answer.isError && <Failure error={answer.error} />}{submit.isError && <Failure error={submit.error} />}<Group justify="space-between" mt="lg"><Button variant="subtle" disabled={index === 0 || answer.isPending || submit.isPending} onClick={() => setIndex(index - 1)}>{t("Back")}</Button><Button disabled={!choice} loading={answer.isPending || submit.isPending} onClick={next}>{last ? t("Save starting point") : t("Next question")}</Button></Group><Button variant="subtle" color="gray" mt="lg" loading={submit.isPending} disabled={answer.isPending} onClick={() => finish(true)}>{t("Skip and start with the basics")}</Button></div>;
+}
+export const Route = createFileRoute('/learn/$journeyId/assessment')({ component: AssessmentPage });

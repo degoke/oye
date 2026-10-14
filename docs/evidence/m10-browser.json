@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-13T15:59:22.745Z",
+  "browser": "Codex in-app browser",
+  "synthetic": true,
+  "microphoneUsed": false,
+  "recording": {
+    "type": "MP3",
+    "text": "Which list gives the inputs for photosynthesis?"
+  },
+  "reply": {
+    "text": "The inputs are carbon dioxide, water, and energy from sunlight. Carbon dioxide and water are materials; sunlight supplies the energy [s1].",
+    "duration": 11.24,
+    "observedPaused": false,
+    "observedCurrentTime": 0.039532,
+    "observedReadyState": 4,
+    "mediaError": null
+  },
+  "transcriptRetainedAfterStopAndReload": true,
+  "oversizedDuration": {
+    "seconds": 30.5,
+    "rejectedBeforeConnection": true
+  },
+  "mobile": {
+    "width": 360,
+    "documentWidth": 360,
+    "dialogWidth": 324
+  },
+  "escapeReturnedFocus": true,
+  "humanMicrophoneAttempt": "The user reported no playback and a nonworking microphone; no usable input or natural conversation is claimed from that attempt.",
+  "screenshots": [
+    ".data/screenshots/m10-recorded-voice.png",
+    ".data/screenshots/m10-recording-fallback.png"
+  ]
+}

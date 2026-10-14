@@ -1,0 +1,13 @@
+{
+  "observedAt": "2026-10-14T05:59:57.603Z",
+  "isolatedDirectory": true,
+  "approvedChunkSurvivesReopen": true,
+  "changedTextRejected": true,
+  "otherOwnerCannotReuse": true,
+  "rejectedChunkNotReusable": true,
+  "invalidReviewCannotApprove": true,
+  "checksumRejectsCorruption": true,
+  "modelMismatchInvalidates": true,
+  "cleanupCompleted": true,
+  "providerCalls": 0
+}

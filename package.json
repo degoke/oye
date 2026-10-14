@@ -1,0 +1,22 @@
+{
+  "name": "oye",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.11.2",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "dev": "pnpm --parallel --filter @oye/web --filter @oye/api dev",
+    "typecheck": "pnpm -r typecheck",
+    "build": "pnpm -r build",
+    "test": "pnpm -r --if-present test",
+    "db:generate": "pnpm --filter @oye/db generate",
+    "db:migrate": "pnpm --filter @oye/db migrate",
+    "check:browser": "playwright test",
+    "package:source": "node scripts/package-source.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}

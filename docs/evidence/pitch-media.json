@@ -1,0 +1,55 @@
+{
+  "observedAt": "2026-10-14T03:59:29.858Z",
+  "language": "yo",
+  "lessonId": "3dd5b400-dd37-4294-9696-a6f5401ebaea",
+  "lessonTitle": "F\u1ecd\u0301t\u00f3s\u00ed\u0144t\u1eb9\u0301s\u00eds\u00ec: ohun t\u00ed a l\u00f2 \u00e0ti ohun t\u00ed \u00f3 j\u00e1de",
+  "narrationAvailable": true,
+  "videoAvailable": true,
+  "narrationJob": {
+    "id": "be77d604-e826-4553-a75e-a1b5c64500d4",
+    "journeyId": "d744eb3f-d7b6-44fe-befa-79645f73bb9d",
+    "conceptId": "d1ee1234-a83a-4ef2-a617-e702adee8e3a",
+    "language": "yo",
+    "readingSupport": "simple",
+    "generationVersion": 2,
+    "type": "narration",
+    "status": "succeeded",
+    "attempts": 2,
+    "message": null,
+    "outputId": "78ad4121-1f7a-4af4-bf87-43b39ef1fd16",
+    "createdAt": 1791950093975,
+    "updatedAt": 1791950230525
+  },
+  "videoJob": {
+    "id": "2b8e0a51-eba8-4d58-80ca-a190a4e189e8",
+    "journeyId": "d744eb3f-d7b6-44fe-befa-79645f73bb9d",
+    "conceptId": "d1ee1234-a83a-4ef2-a617-e702adee8e3a",
+    "language": "yo",
+    "readingSupport": "simple",
+    "generationVersion": 1,
+    "type": "video",
+    "status": "succeeded",
+    "attempts": 1,
+    "message": null,
+    "outputId": "59037d67-d932-4c8d-93d0-c7fa2460be3f",
+    "createdAt": 1791950305496,
+    "updatedAt": 1791950330408
+  },
+  "videoId": "59037d67-d932-4c8d-93d0-c7fa2460be3f",
+  "narrationId": "78ad4121-1f7a-4af4-bf87-43b39ef1fd16",
+  "videoDuration": 141,
+  "transcript": "F\u1ecd\u0301t\u00f3s\u00ed\u0144t\u1eb9\u0301s\u00eds\u00ec: ohun t\u00ed a l\u00f2 \u00e0ti ohun t\u00ed \u00f3 j\u00e1de\n\nF\u1ecd\u0301t\u00f3s\u00ed\u0144t\u1eb9\u0301s\u00eds\u00ec ni \u00ecl\u00e0n\u00e0 t\u00ed \u00e0w\u1ecdn ohun \u1ecd\u0300gb\u00ecn fi \u0144 lo agb\u00e1ra \u00ecm\u1ecd\u0301l\u1eb9\u0300 o\u00f2r\u00f9n l\u00e1ti so erogba oloro \u00e0ti omi p\u1ecd\u0300, k\u00ed w\u1ecd\u0301n l\u00e8 m\u00fa \u1e63\u00fag\u00e0 \u00e0ti \u1ecd\u0301s\u00edj\u00ecn j\u00e1de. [s1]\n\n\u00c0w\u1ecdn ohun t\u00ed a l\u00f2 \u00e0ti ohun t\u00ed \u00f3 j\u00e1de\n\n\u00c0w\u1ecdn ohun \u1ecd\u0300gb\u00ecn m\u00e1a \u0144 lo erogba oloro, omi, \u00e0ti agb\u00e1ra l\u00e1ti in\u00fa \u00ecm\u1ecd\u0301l\u1eb9\u0300 o\u00f2r\u00f9n. W\u1ecd\u0301n so erogba oloro \u00e0ti omi p\u1ecd\u0300 l\u00e1ti m\u00fa k\u00e1b\u00f3h\u00e1idireti j\u00e1de, t\u00edt\u00ed kan \u1e63\u00fag\u00e0, \u00e0ti \u1ecd\u0301s\u00edj\u00ecn. [s1]\n\nI\u1e63\u1eb9\u0301 \u00ecm\u1ecd\u0301l\u1eb9\u0300 o\u00f2r\u00f9n\n\n\u00ccm\u1ecd\u0301l\u1eb9\u0300 o\u00f2r\u00f9n \u0144 p\u00e8s\u00e8 agb\u00e1ra f\u00fan \u00ecl\u00e0n\u00e0 n\u00e1\u00e0. A k\u00ec \u00ed y\u00ed \u00ecm\u1ecd\u0301l\u1eb9\u0300 f\u00fanra r\u1eb9\u0300 pad\u00e0 s\u00ed \u00ecye ohun \u00e8l\u00f2 ara ohun \u1ecd\u0300gb\u00ecn (plant mass). [s1]\n\n\u00c0p\u1eb9\u1eb9r\u1eb9 \u00ec\u1e63ir\u00f2 \u00e0w\u1ecdn ohun t\u00ed a l\u00f2 \u00e0ti ohun t\u00ed \u00f3 j\u00e1de\n\nB\u00ed a b\u00e1 \u0144 \u1e63\u00e0l\u00e0y\u00e9 f\u1ecd\u0301t\u00f3s\u00ed\u0144t\u1eb9\u0301s\u00eds\u00ec, fi erogba oloro \u00e0ti omi s\u00ed \u1eb9\u0300gb\u1eb9\u0301 ohun t\u00ed a l\u00f2, k\u00ed o s\u00ec fi agb\u00e1ra \u00ecm\u1ecd\u0301l\u1eb9\u0300 o\u00f2r\u00f9n h\u00e0n g\u1eb9\u0301g\u1eb9\u0301 b\u00ed ohun t\u00f3 \u0144 p\u00e8s\u00e8 agb\u00e1ra. Fi \u1e63\u00fag\u00e0 \u00e0ti \u1ecd\u0301s\u00edj\u00ecn s\u00ed \u1eb9\u0300gb\u1eb9\u0301 ohun t\u00ed \u00f3 j\u00e1de. [s1]\n\n\u00c0w\u1ecdn \u00ecgb\u00e9s\u1eb9\u0300 p\u00e0t\u00e0k\u00ec ti f\u1ecd\u0301t\u00f3s\u00ed\u0144t\u1eb9\u0301s\u00eds\u00ec\n\n1. \u00c0w\u1ecdn ohun t\u00ed a l\u00f2\n\nErogba oloro \u00e0ti omi ni ohun t\u00ed a so p\u1ecd\u0300; \u00ecm\u1ecd\u0301l\u1eb9\u0300 o\u00f2r\u00f9n \u0144 p\u00e8s\u00e8 agb\u00e1ra.\n\n2. \u00ccl\u00e0n\u00e0\n\n\u00c0w\u1ecdn ohun \u1ecd\u0300gb\u00ecn lo agb\u00e1ra \u00ecm\u1ecd\u0301l\u1eb9\u0300 o\u00f2r\u00f9n l\u00e1ti so erogba oloro \u00e0ti omi p\u1ecd\u0300.\n\n3. Ohun t\u00ed \u00f3 j\u00e1de\n\nK\u00e1b\u00f3h\u00e1idireti, t\u00edt\u00ed kan \u1e63\u00fag\u00e0, \u00e0ti \u1ecd\u0301s\u00edj\u00ecn.\n\nF\u1ecd\u0301t\u00f3s\u00ed\u0144t\u1eb9\u0301s\u00eds\u00ec (photosynthesis). \u00ccl\u00e0n\u00e0 t\u00ed \u00e0w\u1ecdn ohun \u1ecd\u0300gb\u00ecn fi \u0144 lo agb\u00e1ra \u00ecm\u1ecd\u0301l\u1eb9\u0300 o\u00f2r\u00f9n l\u00e1ti so erogba oloro \u00e0ti omi p\u1ecd\u0300, k\u00ed w\u1ecd\u0301n l\u00e8 m\u00fa k\u00e1b\u00f3h\u00e1idireti \u00e0ti \u1ecd\u0301s\u00edj\u00ecn j\u00e1de.\n\nErogba oloro (carbon dioxide). \u1ecc\u0300kan l\u00e1ra \u00e0w\u1ecdn ohun t\u00ed \u00e0w\u1ecdn ohun \u1ecd\u0300gb\u00ecn \u0144 l\u00f2 n\u00edn\u00fa f\u1ecd\u0301t\u00f3s\u00ed\u0144t\u1eb9\u0301s\u00eds\u00ec.\n\nK\u00e1b\u00f3h\u00e1idireti (carbohydrate). \u1ecc\u0300kan l\u00e1ra \u00e0w\u1ecdn ohun t\u00ed f\u1ecd\u0301t\u00f3s\u00ed\u0144t\u1eb9\u0301s\u00eds\u00ec \u0144 m\u00fa j\u00e1de; \u1e63\u00fag\u00e0 w\u00e0 n\u00edn\u00fa ir\u00fa r\u1eb9\u0300.\n\n\u1ecc\u0301s\u00edj\u00ecn (oxygen). \u1ecc\u0300kan l\u00e1ra \u00e0w\u1ecdn ohun t\u00ed f\u1ecd\u0301t\u00f3s\u00ed\u0144t\u1eb9\u0301s\u00eds\u00ec \u0144 m\u00fa j\u00e1de.",
+  "sourceIds": [
+    "s1"
+  ],
+  "captionTiming": "chunk",
+  "selectedExcerpt": {
+    "start": 4.5,
+    "seconds": 15,
+    "path": ".data/pitch-media/yoruba-pitch-excerpt.mp4",
+    "separatelyReviewed": true,
+    "reviewEvidence": "pitch-clip-review.json",
+    "experimentalLabelVisible": true,
+    "nativeSpeakerCertified": false
+  }
+}

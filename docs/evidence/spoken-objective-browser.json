@@ -1,0 +1,151 @@
+{
+  "observedAt": "2026-10-14T06:34:03.411Z",
+  "browser": "Codex in-app browser, existing home tab 1",
+  "inputKind": "Uploaded synthetic Yoruba recording, not human microphone capture",
+  "browserInteractionVerified": true,
+  "selectedLanguage": "yo",
+  "recognized": "Mo fẹ́ kọ́ nípa photosynthesis. Báwo ni àwọn ohun ọ̀gbìn ṣe ń ṣe oúnjẹ wọn?",
+  "confirmed": "Mo fẹ́ kọ́ nípa photosynthesis. Báwo ni àwọn ohun ọ̀gbìn ṣe ń ṣe oúnjẹ wọn?",
+  "receiptId": "87a7f26a-8191-443f-837b-d66165428f7b",
+  "receiptAttachedToSameJourney": true,
+  "journeyId": "60ac6f40-6087-40af-98cb-b6b1d396369f",
+  "journeyTitle": "Àwọn ohun ọ̀gbìn àti oúnjẹ wọn",
+  "conceptId": "82727776-e77c-4224-8793-27b597c7992b",
+  "lessonId": "1496cb03-fb03-4816-959b-8c874b434aaa",
+  "lessonTitle": "Photosynthesis: bí agbára oòrùn ṣe ń ran ohun ọ̀gbìn lọ́wọ́",
+  "sourceIds": [],
+  "jobs": [
+    {
+      "id": "bcd0dfcb-1dd5-4406-ac90-949b98f6c2bd",
+      "type": "plan",
+      "status": "succeeded",
+      "attempts": 1,
+      "outputId": "60ac6f40-6087-40af-98cb-b6b1d396369f",
+      "message": null
+    },
+    {
+      "id": "23d3bcf3-7972-4837-8302-2ff8cda06c8a",
+      "type": "lesson",
+      "status": "succeeded",
+      "attempts": 1,
+      "outputId": "1496cb03-fb03-4816-959b-8c874b434aaa",
+      "message": null
+    },
+    {
+      "id": "4a47d5c6-5a3c-4e61-b1f1-af4584a8d0ed",
+      "type": "narration",
+      "status": "failed",
+      "attempts": 5,
+      "outputId": null,
+      "message": "We could not prepare supported learning content. Please retry or try a more specific objective."
+    },
+    {
+      "id": "81ccf4e4-8bdb-45f2-8545-827c7bcb82d6",
+      "type": "video",
+      "status": "failed",
+      "attempts": 1,
+      "outputId": null,
+      "message": "Narration is unavailable. Retry audio preparation first, then retry video, or read the lesson."
+    },
+    {
+      "id": "b02c8b4c-dc1e-4d74-8490-b47352451470",
+      "type": "narration",
+      "status": "failed",
+      "attempts": 3,
+      "outputId": null,
+      "message": "We could not prepare supported learning content. Please retry or try a more specific objective."
+    },
+    {
+      "id": "d26735c1-2d60-474e-b41a-55a670909016",
+      "type": "video",
+      "status": "failed",
+      "attempts": 1,
+      "outputId": null,
+      "message": "Narration is unavailable. Retry audio preparation first, then retry video, or read the lesson."
+    },
+    {
+      "id": "d92d83e4-8cbb-4a79-9fd1-4bf91cbe3832",
+      "type": "narration",
+      "status": "failed",
+      "attempts": 6,
+      "outputId": null,
+      "message": "We could not prepare supported learning content. Please retry or try a more specific objective."
+    },
+    {
+      "id": "7ff13993-8fea-44fd-9e8b-6c5127ce151c",
+      "type": "video",
+      "status": "failed",
+      "attempts": 1,
+      "outputId": null,
+      "message": "Narration is unavailable. Retry audio preparation first, then retry video, or read the lesson."
+    },
+    {
+      "id": "0298e8a1-f134-4716-a93e-4543a69ff4c8",
+      "type": "narration",
+      "status": "failed",
+      "attempts": 3,
+      "outputId": null,
+      "message": "We could not prepare supported learning content. Please retry or try a more specific objective."
+    },
+    {
+      "id": "1f998932-8d18-4baf-910b-67198361c493",
+      "type": "video",
+      "status": "failed",
+      "attempts": 1,
+      "outputId": null,
+      "message": "Narration is unavailable. Retry audio preparation first, then retry video, or read the lesson."
+    },
+    {
+      "id": "d7175ec6-6bcf-43e6-b227-56f853b29f9a",
+      "type": "narration",
+      "status": "succeeded",
+      "attempts": 1,
+      "outputId": "7fe27b1b-6c48-4725-bfb6-6b3420931d24",
+      "message": null
+    }
+  ],
+  "matchingReviewedVideoAvailable": false,
+  "browserVideoPlaybackVerified": false,
+  "screenRecordingCreated": false,
+  "timedRehearsalVerified": false,
+  "captureSupport": "Screenshots are supported; browser/tab capabilities expose no video recording tool",
+  "recovery": "Old tutor tab is a connection-error data page. Selecting the existing HTTP home tab succeeds; reload loaded current spoken-objective build.",
+  "languageReviewNote": "Generated concept objective wording remains visible and requires native-language review. This browser walkthrough does not certify all Yoruba wording.",
+  "browserUrl": "http://127.0.0.1:5187/learn/60ac6f40-6087-40af-98cb-b6b1d396369f/concepts/82727776-e77c-4224-8793-27b597c7992b",
+  "localTextSaveVerified": true,
+  "completedBrowserSteps": [
+    "Choose Yoruba",
+    "Open Speak your request",
+    "Upload synthetic recording",
+    "Transcribe",
+    "Confirm recognized words",
+    "Start live learning",
+    "Show three starting questions",
+    "Explicitly skip starting questions",
+    "Open generated photosynthesis lesson",
+    "Prepare its video",
+    "Observe withheld narration/video",
+    "Save text and observe confirmation"
+  ],
+  "screenshotDirectory": "m13-browser",
+  "keyBudgetSnapshot": {
+    "remainingAllowance": 0.222543508,
+    "speechRequirement": 0.5,
+    "furtherPaidRetryTriggered": false
+  },
+  "priorMediaWithheld": {
+    "narrationAttempts": 3,
+    "videoAttempts": 1,
+    "matchingReviewedVideoAvailable": false,
+    "screenshots": [
+      "m13-browser/08-media-withheld.jpg",
+      "m13-browser/09-saved-text-fallback.jpg"
+    ]
+  },
+  "fundedRetry": {
+    "keyLimit": 5,
+    "remainingAllowanceBeforeRetry": 2.968652488,
+    "narrationRetryRequestedInBrowser": true,
+    "providerConfigurationChanged": false
+  }
+}

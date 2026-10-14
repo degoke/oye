@@ -1,0 +1,53 @@
+{
+  "observedAt": "2026-10-14T06:22:50.209Z",
+  "jobId": "d92d83e4-8cbb-4a79-9fd1-4bf91cbe3832",
+  "generationVersion": 4,
+  "status": "failed",
+  "attempts": 6,
+  "approvedChunks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "failedReviews": [
+    {
+      "attempt": 1,
+      "index": 2,
+      "valid": false,
+      "reason": "The transcript changes “living things” (ohun alààyè) to “ohun alaye,” which does not preserve the claim that photosynthesis moves carbon into living things. The final heading, “Àpẹẹrẹ ìrònú,” is also not clearly retained as “Akere ironu.”"
+    },
+    {
+      "attempt": 2,
+      "index": 2,
+      "valid": false,
+      "reason": "The transcript changes the destination from living things generally to living plants, narrowing a substantive teaching claim."
+    },
+    {
+      "attempt": 3,
+      "index": 2,
+      "valid": false,
+      "reason": "The transcript changes “living things” (àwọn ohun alààyè) to “ohun alaye,” which means something like information/details. This alters the teaching claim about where photosynthesis moves carbon."
+    },
+    {
+      "attempt": 4,
+      "index": 4,
+      "valid": false,
+      "reason": "The final claim says carbon moves from the atmosphere into “things explained” rather than living things, changing the stated destination of carbon."
+    },
+    {
+      "attempt": 5,
+      "index": 6,
+      "valid": false,
+      "reason": "The transcript changes “living things” (ohun alààyè) to “information/things explained” (ohun alaye), so it does not clearly retain the claim about carbon moving from the air into living things."
+    },
+    {
+      "attempt": 6,
+      "index": 6,
+      "valid": false,
+      "reason": "The intended claim says photosynthesis transfers carbon from the air into living things, but the transcript says “ohun alaye” (information/explanatory things), not “ohun alààyè” (living things)."
+    }
+  ]
+}

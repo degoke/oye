@@ -1,0 +1,212 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.819
+Imagine Roliat.
+
+00:00:00.819 --> 00:00:08.193
+Her family has moved from a village to a town, and she is returning to school after interrupted
+
+00:00:08.193 --> 00:00:08.602
+education.
+
+00:00:08.602 --> 00:00:10.241
+She speaks Yoruba confidently.
+
+00:00:10.241 --> 00:00:12.699
+She is still learning to read.
+
+00:00:12.699 --> 00:00:15.566
+She has watched vegetables grow at home.
+
+00:00:15.566 --> 00:00:18.843
+Now her teacher asks her to explain photosynthesis.
+
+00:00:18.843 --> 00:00:20.892
+The textbook is in English.
+
+00:00:20.892 --> 00:00:24.578
+Roliat looks down at the page and stays quiet.
+
+00:00:24.578 --> 00:00:25.807
+She is curious.
+
+00:00:25.807 --> 00:00:28.675
+She needs a way into the lesson.
+
+00:00:28.675 --> 00:00:29.084
+òye.
+
+00:00:29.084 --> 00:00:34.000
+starts with what she wants to understand, in a language she understands.
+
+00:00:34.000 --> 00:00:35.500
+This is òye.
+
+00:00:35.500 --> 00:00:37.500
+Learning that understands you.
+
+00:00:37.500 --> 00:00:43.500
+We will start in English so you can follow the learning loop.
+
+00:00:43.500 --> 00:00:47.000
+A photosynthesis request creates a learning journey.
+
+00:00:47.000 --> 00:00:53.000
+The app asks about your starting point, then opens a sourced lesson.
+
+00:00:53.000 --> 00:01:00.000
+The lesson explains the process, gives a visual summary, and keeps the source visible.
+
+00:01:00.000 --> 00:01:02.136
+Now the important part.
+
+00:01:02.136 --> 00:01:07.476
+The learner says that sunlight becomes the material in sugar.
+
+00:01:07.476 --> 00:01:08.010
+òye.
+
+00:01:08.010 --> 00:01:11.748
+asks a follow-up before giving corrective feedback.
+
+00:01:11.748 --> 00:01:19.757
+It checks what the learner means, then identifies the misconception using words from the answer.
+
+00:01:19.757 --> 00:01:22.961
+The repair separates materials from energy.
+
+00:01:22.961 --> 00:01:26.699
+Carbon dioxide and water are materials used.
+
+00:01:26.699 --> 00:01:28.301
+Light supplies energy.
+
+00:01:28.301 --> 00:01:30.971
+Carbohydrates and oxygen are products.
+
+00:01:30.971 --> 00:01:38.981
+A later explanation and a fresh application check whether the learner can use that distinction.
+
+00:01:38.981 --> 00:01:45.388
+The new answer correctly treats sunlight as energy, rather than sugar material.
+
+00:01:45.388 --> 00:01:47.524
+Both attempts stay saved.
+
+00:01:47.524 --> 00:01:50.728
+Progress changes because of the evidence.
+
+00:01:50.728 --> 00:01:55.000
+Watching a video alone does not establish understanding.
+
+00:01:55.000 --> 00:01:57.667
+Now let us learn in Yoruba.
+
+00:01:57.667 --> 00:01:59.889
+A teacher helps Roliat begin.
+
+00:01:59.889 --> 00:02:03.000
+She can start by speaking her question.
+
+00:02:03.000 --> 00:02:12.216
+Mo fẹ́ kọ́ nípa photosynthesis. Báwo ni àwọn ohun ọ̀gbìn ṣe ń ṣe oúnjẹ wọn?
+
+00:02:12.216 --> 00:02:12.754
+òye.
+
+00:02:12.754 --> 00:02:14.370
+recognizes the request.
+
+00:02:14.370 --> 00:02:19.216
+Here it is reading a starting question in Yoruba.
+
+00:02:19.216 --> 00:02:26.900
+Kí ni àwọn ohun ọ̀gbìn gbọ́dọ̀ lo láti ṣe oúnjẹ wọn nípasẹ̀ photosynthesis?
+
+00:02:29.216 --> 00:02:34.105
+Her course includes explanations, a diagram and sources.
+
+00:02:34.105 --> 00:02:36.549
+Here is a video.
+
+00:02:36.549 --> 00:02:40.216
+The explanation is in Yoruba too.
+
+00:02:40.216 --> 00:02:44.266
+Carbon Dioxide àti Omi Nínú Photosynthesis
+
+00:02:44.266 --> 00:02:52.272
+Àwọn ohun ọ̀gbìn ń lo carbon dioxide àti omi papọ̀
+láti ṣe carbohydrates àti oxygen.
+
+00:02:52.272 --> 00:02:59.241
+Ìmọ́lẹ̀ oòrùn ń pèsè agbára fún ìṣe yìí. [s1] Àwọn
+ohun èlò àti àwọn ọjà
+
+00:02:59.241 --> 00:03:00.216
+Nínú photosynthesis, àwọn ohun ọ̀gbìn lo carbon
+dioxide àti omi láti ṣe carbohydrates—oúnjẹ—àti
+oxygen. [s1]
+
+00:03:00.216 --> 00:03:06.108
+Learners can choose English, Yoruba, Hausa and Igbo for their lessons.
+
+00:03:06.108 --> 00:03:12.000
+Save text for later, and keep learning when the connection drops.
+
+00:03:12.000 --> 00:03:15.886
+Codex worked through this project from the beginning.
+
+00:03:15.886 --> 00:03:19.286
+AGENTS.md records our stack and working rules.
+
+00:03:19.286 --> 00:03:23.171
+The plan divides the build into small milestones.
+
+00:03:23.171 --> 00:03:26.086
+Decisions document what changed and why.
+
+00:03:26.086 --> 00:03:31.429
+During review, we found that clearing history could reset usage limits.
+
+00:03:31.429 --> 00:03:35.314
+Codex implemented retained counters and checked them separately.
+
+00:03:35.314 --> 00:03:38.714
+The Agents SDK runs the app's AI.
+
+00:03:38.714 --> 00:03:40.171
+Codex powered development.
+
+00:03:40.171 --> 00:03:46.000
+Setup, architecture and deployment notes give another developer a place to start.
+
+00:03:46.000 --> 00:03:54.816
+With another month, we would pilot with learners and teachers, measure how misconceptions improve, refine translations and deploy
+
+00:03:54.816 --> 00:03:56.286
+a hosted pilot.
+
+00:03:56.286 --> 00:03:59.224
+For Roliat, the aim is concrete.
+
+00:03:59.224 --> 00:04:00.694
+Hear an idea.
+
+00:04:00.694 --> 00:04:02.653
+Make sense of it.
+
+00:04:02.653 --> 00:04:05.592
+Explain it in her own words.
+
+00:04:05.592 --> 00:04:06.082
+òye.
+
+00:04:06.082 --> 00:04:07.061
+Learn anything.
+
+00:04:07.061 --> 00:04:08.531
+In your language.
+
+00:04:08.531 --> 00:04:10.000
+In your way.

@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-13T19:59:41.396Z",
+  "isolatedDirectory": true,
+  "generatedMigrations": true,
+  "missingNarrationInvalidated": true,
+  "dependentVideoInvalidated": true,
+  "bothJobsRequireExplicitRetry": true,
+  "lessonPreserved": true,
+  "providerCalls": 0
+}

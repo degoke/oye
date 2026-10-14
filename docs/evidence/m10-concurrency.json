@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-13T15:14:24.698Z",
+  "paidCalls": 0,
+  "disposableOwnersCleared": true,
+  "evidence": [
+    {
+      "check": "first-owner-active",
+      "ready": true
+    },
+    {
+      "check": "second-owner-active",
+      "ready": true
+    },
+    {
+      "check": "third-owner-concurrency-rejected",
+      "ready": false,
+      "code": 1008
+    },
+    {
+      "check": "owner-cannot-start-second-active-session",
+      "status": 409
+    },
+    {
+      "check": "owner-cannot-rotate-active-credential",
+      "status": 409
+    },
+    {
+      "check": "clear-history-closes-active-voice",
+      "closeCode": 1000,
+      "status": 404
+    }
+  ]
+}

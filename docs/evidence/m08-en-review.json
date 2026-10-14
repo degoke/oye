@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-13T06:37:09.834Z",
+  "language": "en",
+  "model": "openai/gpt-6-luna",
+  "method": "Automated representative review; synthetic learner responses; native-speaker review pending",
+  "result": {
+    "valid": true,
+    "summary": "The assessment matches the English original. The lesson, glossary, tutor reply, and feedback are supported by the cited source and preserve the distinction between sunlight as an energy source and material inputs. The independent explanation accurately describes the process; the later application answer also resolves the learner’s earlier uncertainty about whether light becomes plant material.",
+    "issues": []
+  }
+}

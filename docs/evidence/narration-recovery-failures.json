@@ -1,0 +1,28 @@
+{
+  "observedAt": "2026-10-14T06:04:12.349Z",
+  "jobId": "b02c8b4c-dc1e-4d74-8490-b47352451470",
+  "status": "failed",
+  "attempts": 3,
+  "approvedChunks": [],
+  "failedReviews": [
+    {
+      "attempt": 1,
+      "index": 0,
+      "valid": false,
+      "reason": "The final claim is not reliably preserved: the transcript says carbon moves into “ohun alaye,” which does not clearly mean living things as intended. The plant-mass distinction is also rendered unclearly, so its substantive meaning cannot be confirmed."
+    },
+    {
+      "attempt": 2,
+      "index": 0,
+      "valid": false,
+      "reason": "The final claim changes “living things” (ohun alààyè) into “information things” (ohun alaye), so it no longer says that photosynthesis moves carbon from the air into living organisms."
+    },
+    {
+      "attempt": 3,
+      "index": 0,
+      "valid": false,
+      "reason": "The final claim changes “living things” (àwọn ohun alààyè) to “information” (àwọn ohun alaye), so it no longer says that photosynthesis moves carbon from the air into living things."
+    }
+  ],
+  "note": "Revision 3 retained the 700-character grouping. All three initial attempts rejected chunk zero; the original lesson and review criteria remain unchanged."
+}

@@ -1,0 +1,164 @@
+{
+  "checkedAt": "2026-10-13T19:59:38.741Z",
+  "inputs": "Previously generated/source-reviewed M08 lessons and reviewed M09 narration, not fresh lesson generation",
+  "languages": {
+    "en": {
+      "lessonId": "8c3ef8f5-6aa1-4a5e-990d-4832c2de3883",
+      "jobId": "526fdcd3-b3d3-468e-a247-ef2536dd4fc5",
+      "video": {
+        "id": "5c1af1d5-3d5d-418f-89f8-6512c80c191a",
+        "lessonId": "8c3ef8f5-6aa1-4a5e-990d-4832c2de3883",
+        "language": "en",
+        "transcript": "Photosynthesis: Inputs, Energy, and Outputs\n\nPhotosynthesis uses sunlight to combine carbon dioxide and water, producing carbohydrates such as sugars and oxygen. Sunlight supplies energy; it is not material converted into plant mass. [s1]\n\nStart with the basic idea\n\nPlants use energy from sunlight to combine carbon dioxide and water. This process produces carbohydrates—including sugars—and oxygen. [s1]\n\nInputs and outputs\n\nThe inputs are carbon dioxide, water, and sunlight. The outputs are carbohydrates (including sugars) and oxygen. Sunlight provides energy for the process; it is not an input that becomes plant mass. [s1]\n\nA carbon-cycle link\n\nPhotosynthesis moves carbon from the atmosphere into living organisms. [s1]\n\nTrack the process\n\nAs a simple way to remember the inputs and outputs, imagine a plant using carbon dioxide and water with energy from sunlight; the process produces sugars and oxygen. This is a hypothetical illustration of the process described in [s1].\n\nFollow the inputs to the outputs\n\nInputs\n\nCarbon dioxide + water\n\nEnergy\n\nSunlight supplies the energy; it is not converted into plant mass.\n\nOutputs\n\nCarbohydrates, including sugars + oxygen\n\nPhotosynthesis. The process in which plants use energy from sunlight to combine carbon dioxide and water into carbohydrates and oxygen. [s1]\n\nCarbohydrates. Products of photosynthesis that include sugars. [s1]",
+        "storyboard": [
+          {
+            "text": "Photosynthesis: Inputs, Energy, and Outputs\n\nPhotosynthesis uses sunlight to combine carbon dioxide and water, producing carbohydrates such as sugars and oxygen. Sunlight supplies energy; it is not material converted into plant mass. [s1]",
+            "sourceIds": [
+              "s1"
+            ],
+            "start": 0,
+            "end": 18.66679538904899
+          },
+          {
+            "text": "Start with the basic idea\n\nPlants use energy from sunlight to combine carbon dioxide and water. This process produces carbohydrates—including sugars—and oxygen. [s1]\n\nInputs and outputs",
+            "sourceIds": [
+              "s1"
+            ],
+            "start": 18.66679538904899,
+            "end": 33.272195965417865
+          },
+          {
+            "text": "The inputs are carbon dioxide, water, and sunlight. The outputs are carbohydrates (including sugars) and oxygen. Sunlight provides energy for the process; it is not an input that becomes plant mass. [s1]\n\nA carbon-cycle link",
+            "sourceIds": [
+              "s1"
+            ],
+            "start": 33.272195965417865,
+            "end": 50.92364265129683
+          },
+          {
+            "text": "Photosynthesis moves carbon from the atmosphere into living organisms. [s1]\n\nTrack the process",
+            "sourceIds": [
+              "s1"
+            ],
+            "start": 50.92364265129683,
+            "end": 58.4216023054755
+          },
+          {
+            "text": "As a simple way to remember the inputs and outputs, imagine a plant using carbon dioxide and water with energy from sunlight; the process produces sugars and oxygen. This is a hypothetical illustration of the process described in [s1].",
+            "sourceIds": [
+              "s1"
+            ],
+            "start": 58.4216023054755,
+            "end": 76.9321902017291
+          },
+          {
+            "text": "Follow the inputs to the outputs\n\nInputs\n\nCarbon dioxide + water\n\nEnergy\n\nSunlight supplies the energy; it is not converted into plant mass.\n\nOutputs\n\nCarbohydrates, including sugars + oxygen",
+            "sourceIds": [
+              "s1"
+            ],
+            "start": 76.9321902017291,
+            "end": 92.00621325648414
+          },
+          {
+            "text": "Photosynthesis. The process in which plants use energy from sunlight to combine carbon dioxide and water into carbohydrates and oxygen. [s1]\n\nCarbohydrates. Products of photosynthesis that include sugars. [s1]",
+            "sourceIds": [
+              "s1"
+            ],
+            "start": 92.00621325648414,
+            "end": 108.40799999999999
+          }
+        ],
+        "sourceIds": [
+          "s1"
+        ],
+        "duration": 109,
+        "bytes": 934582,
+        "captionTiming": "estimated",
+        "createdAt": 1791908332070
+      },
+      "duplicateJobReused": true,
+      "transcriptMatchesApprovedNarration": true,
+      "sourceIdsValid": true,
+      "rangeStatus": 206,
+      "invalidRangeStatus": 416,
+      "foreignVideoStatus": 404,
+      "foreignCaptionsStatus": 404,
+      "wrongOriginStatus": 403
+    },
+    "ha": {
+      "lessonId": "d4425a94-6529-4e1b-b8e9-5eb05694165a",
+      "jobId": "ccf12ab6-3981-4450-9e93-56acea79883b",
+      "video": {
+        "id": "e0f4ee31-af84-4eeb-b485-68501dd6fe3b",
+        "lessonId": "d4425a94-6529-4e1b-b8e9-5eb05694165a",
+        "language": "ha",
+        "transcript": "Haɗa abinci ta amfani da hasken rana (photosynthesis)\n\nZa mu fara da abubuwan da tsarin ke amfani da su da waɗanda yake samarwa.\n\nMenene photosynthesis?\n\nPhotosynthesis tsari ne da tsirrai ke amfani da makamashin hasken rana don haɗa carbon dioxide da ruwa, su samar da carbohydrates (ciki har da sukari) da oxygen.\n\nMatsayin haske\n\nHasken rana yana ba da makamashin da tsarin ke buƙata. Ba ya rikidewa ya zama kayan jikin shuka (plant mass).\n\nMisali na tunani\n\nA ɗauka cewa shuka tana amfani da carbon dioxide da ruwa tare da makamashin hasken rana. Abubuwan da za a sa ran samarwa su ne carbohydrates, ciki har da sukari, da oxygen.\n\nAbubuwan shiga da fita a photosynthesis\n\nAbubuwan shiga\n\nCarbon dioxide + ruwa\n\nMakamashi\n\nHasken rana yana samar da makamashin tsarin.\n\nAbubuwan fita\n\nCarbohydrates (ciki har da sukari) + oxygen\n\nPhotosynthesis. Tsarin amfani da makamashin hasken rana don haɗa carbon dioxide da ruwa, a samar da carbohydrates da oxygen. (s1)\n\nCarbon dioxide. Iskar da tsirrai ke amfani da ita tare da ruwa wajen photosynthesis. (s1)\n\nCarbohydrates. Abubuwan da photosynthesis ke samarwa; sun haɗa da sukari. (s1)",
+        "storyboard": [
+          {
+            "text": "Haɗa abinci ta amfani da hasken rana (photosynthesis)\n\nZa mu fara da abubuwan da tsarin ke amfani da su da waɗanda yake samarwa.\n\nMenene photosynthesis?",
+            "sourceIds": [
+              "s1"
+            ],
+            "start": 0,
+            "end": 12.56193468667255
+          },
+          {
+            "text": "Photosynthesis tsari ne da tsirrai ke amfani da makamashin hasken rana don haɗa carbon dioxide da ruwa, su samar da carbohydrates (ciki har da sukari) da oxygen.\n\nMatsayin haske",
+            "sourceIds": [
+              "s1"
+            ],
+            "start": 12.56193468667255,
+            "end": 27.258577228596643
+          },
+          {
+            "text": "Hasken rana yana ba da makamashin da tsarin ke buƙata. Ba ya rikidewa ya zama kayan jikin shuka (plant mass).\n\nMisali na tunani",
+            "sourceIds": [
+              "s1"
+            ],
+            "start": 27.258577228596643,
+            "end": 37.85001235657546
+          },
+          {
+            "text": "A ɗauka cewa shuka tana amfani da carbon dioxide da ruwa tare da makamashin hasken rana. Abubuwan da za a sa ran samarwa su ne carbohydrates, ciki har da sukari, da oxygen.\n\nAbubuwan shiga da fita a photosynthesis\n\nAbubuwan shiga\n\nCarbon dioxide + ruwa",
+            "sourceIds": [
+              "s1"
+            ],
+            "start": 37.85001235657546,
+            "end": 58.704466019417474
+          },
+          {
+            "text": "Makamashi\n\nHasken rana yana samar da makamashin tsarin.\n\nAbubuwan fita\n\nCarbohydrates (ciki har da sukari) + oxygen\n\nPhotosynthesis. Tsarin amfani da makamashin hasken rana don haɗa carbon dioxide da ruwa, a samar da carbohydrates da oxygen. (s1)",
+            "sourceIds": [
+              "s1"
+            ],
+            "start": 58.704466019417474,
+            "end": 79.06629479258605
+          },
+          {
+            "text": "Carbon dioxide. Iskar da tsirrai ke amfani da ita tare da ruwa wajen photosynthesis. (s1)\n\nCarbohydrates. Abubuwan da photosynthesis ke samarwa; sun haɗa da sukari. (s1)",
+            "sourceIds": [
+              "s1"
+            ],
+            "start": 79.06629479258605,
+            "end": 93.024
+          }
+        ],
+        "sourceIds": [
+          "s1"
+        ],
+        "duration": 94,
+        "bytes": 796632,
+        "captionTiming": "estimated",
+        "createdAt": 1791908394613
+      },
+      "duplicateJobReused": true,
+      "transcriptMatchesApprovedNarration": true,
+      "sourceIdsValid": true,
+      "rangeStatus": 206,
+      "invalidRangeStatus": 416,
+      "foreignVideoStatus": 404,
+      "foreignCaptionsStatus": 404,
+      "wrongOriginStatus": 403
+    }
+  }
+}

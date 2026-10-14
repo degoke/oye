@@ -1,0 +1,23 @@
+{
+  "observedAt": "2026-10-14T03:59:35.999Z",
+  "language": "yo",
+  "lessonId": "3dd5b400-dd37-4294-9696-a6f5401ebaea",
+  "narrationId": "78ad4121-1f7a-4af4-bf87-43b39ef1fd16",
+  "videoId": "59037d67-d932-4c8d-93d0-c7fa2460be3f",
+  "narrationModel": "google/gemini-3.8-flash-tts",
+  "narrationVoice": "Puck",
+  "deliveryVersion": 2,
+  "approvedChunks": 3,
+  "narrationAttempts": 2,
+  "firstAttemptWithheld": true,
+  "transcriptMatchesImmutableLesson": true,
+  "videoUsesReviewedNarration": true,
+  "sourceIds": [
+    "s1"
+  ],
+  "captionTiming": "chunk",
+  "videoDuration": 140.4,
+  "reviewKind": "Automated recognition plus separate configured semantic fidelity review",
+  "nativeSpeakerCertified": false,
+  "generalYorubaReliabilityEstablished": false
+}

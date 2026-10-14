@@ -1,0 +1,8 @@
+{
+  "paidCalls": 0,
+  "expiredCredentialRejected": {
+    "ready": false,
+    "code": 1008
+  },
+  "checkedAt": "2026-10-13T15:13:49.873Z"
+}

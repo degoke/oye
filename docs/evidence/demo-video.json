@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-14",
+  "durationSeconds": 290.0,
+  "fileBytes": 12043918,
+  "streams": [
+    {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "30/1",
+      "duration": "290.000000"
+    },
+    {
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "r_frame_rate": "0/0",
+      "duration": "290.000000"
+    }
+  ],
+  "yorubaAudio": [
+    {
+      "segment": "request",
+      "startSeconds": 140,
+      "durationSeconds": 9.216,
+      "audioRms": 0.0873,
+      "correlationWithExactPreparedTrack": 0.99991,
+      "presenterAndMusicOverlap": false
+    },
+    {
+      "segment": "quiz",
+      "startSeconds": 157.216,
+      "durationSeconds": 10,
+      "audioRms": 0.08019,
+      "correlationWithExactPreparedTrack": 0.99979,
+      "presenterAndMusicOverlap": false
+    },
+    {
+      "segment": "explainer",
+      "startSeconds": 181.216,
+      "durationSeconds": 20,
+      "audioRms": 0.08906,
+      "correlationWithExactPreparedTrack": 0.99988,
+      "presenterAndMusicOverlap": false
+    }
+  ],
+  "presenterAudio": [
+    {
+      "segment": "story",
+      "audioRms": 0.07875
+    },
+    {
+      "segment": "english",
+      "audioRms": 0.07952
+    },
+    {
+      "segment": "learning",
+      "audioRms": 0.09096
+    },
+    {
+      "segment": "codex",
+      "audioRms": 0.08853
+    },
+    {
+      "segment": "closing",
+      "audioRms": 0.08283
+    }
+  ],
+  "peakDecodedAmplitude": 0.8395736217498779,
+  "nativeSpeakerCertified": false,
+  "syntheticPresenter": true,
+  "syntheticLearner": true,
+  "humanListeningReview": false,
+  "reviewFramesInspected": [
+    3,
+    17,
+    29,
+    46,
+    67,
+    81,
+    94,
+    111,
+    126,
+    143,
+    160,
+    175,
+    190,
+    208,
+    219,
+    240,
+    251,
+    264,
+    277,
+    285
+  ],
+  "fullFileDecoded": true,
+  "aiReviewLabelsPreserved": true,
+  "englishLearningEvidence": "docs/evidence/demo-english-learning.json",
+  "browserPlayback": {
+    "secondsObserved": 112.766504,
+    "duration": 290,
+    "muted": false,
+    "paused": false,
+    "readyState": 4,
+    "error": null
+  }
+}

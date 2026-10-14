@@ -1,0 +1,130 @@
+{
+  "checkedAt": "2026-10-13T15:38:02.479Z",
+  "synthetic": true,
+  "runtime": "Real Agents SDK and app transport in Node, browser socket shim; no physical browser or microphone claim",
+  "session": {
+    "id": "915eed11-30f3-43a2-95cc-96ef955ddf48",
+    "context": {
+      "type": "tutor",
+      "conversationId": "0a2b021b-bff5-4dfe-8812-08c490ab7d1a"
+    },
+    "language": "en",
+    "transport": "pipeline",
+    "status": "closed",
+    "expiresAt": 1791906468836,
+    "turns": 1,
+    "inputMilliseconds": 4240,
+    "maxTurns": 12,
+    "maxInputMilliseconds": 180000,
+    "createdAt": 1791905868836,
+    "history": [
+      {
+        "id": "519e101e-9ed9-46bf-9661-301c6478c92a",
+        "sessionId": "915eed11-30f3-43a2-95cc-96ef955ddf48",
+        "language": "en",
+        "transcriptionId": "d52c49c3-18c7-40d1-9cef-60f18d27ce4c",
+        "tutorTurnId": "d2b078a2-11e3-48df-a350-c67cc0d2d674",
+        "recognizedText": "Which list gives the inputs for photosynthesis?",
+        "confirmedText": null,
+        "assistantText": "",
+        "status": "interrupted",
+        "audioAvailable": false,
+        "createdAt": 1791905873725,
+        "updatedAt": 1791905880989
+      }
+    ]
+  },
+  "conversationTurns": [
+    {
+      "id": "d2b078a2-11e3-48df-a350-c67cc0d2d674",
+      "conversationId": "0a2b021b-bff5-4dfe-8812-08c490ab7d1a",
+      "requestId": "519e101e-9ed9-46bf-9661-301c6478c92a",
+      "userText": "Which list gives the inputs for photosynthesis?",
+      "assistantText": "The inputs",
+      "status": "interrupted",
+      "attempts": 1,
+      "language": "en",
+      "createdAt": 1791905877466,
+      "updatedAt": 1791905880989
+    }
+  ],
+  "interruptedDuringDelta": true,
+  "historyEvents": 6,
+  "deadlineUnchanged": true,
+  "events": [
+    {
+      "type": "ready"
+    },
+    {
+      "type": "state",
+      "state": "listening"
+    },
+    {
+      "type": "state",
+      "state": "muted"
+    },
+    {
+      "type": "state",
+      "state": "listening"
+    },
+    {
+      "type": "turn",
+      "status": "recognizing"
+    },
+    {
+      "type": "state",
+      "state": "recognizing"
+    },
+    {
+      "type": "turn",
+      "status": "replying"
+    },
+    {
+      "type": "state",
+      "state": "thinking"
+    },
+    {
+      "type": "turn",
+      "status": "replying"
+    },
+    {
+      "type": "delta"
+    },
+    {
+      "type": "delta"
+    },
+    {
+      "type": "turn",
+      "status": "interrupted"
+    },
+    {
+      "type": "interrupted"
+    },
+    {
+      "type": "state",
+      "state": "listening"
+    },
+    {
+      "type": "turn",
+      "status": "interrupted"
+    },
+    {
+      "type": "disconnected"
+    },
+    {
+      "type": "reconnect-ready"
+    },
+    {
+      "type": "reconnect-state",
+      "state": "listening"
+    },
+    {
+      "type": "reconnect-state",
+      "state": "muted"
+    },
+    {
+      "type": "reconnect-state",
+      "state": "stopped"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "beforeGitCandidates": {
+    "files": 270,
+    "bytes": 37911420
+  },
+  "movedToIgnoredArchive": [
+    {
+      "original": "deliverables/archive",
+      "archive": ".data/repo-archive/deliverables/archive",
+      "files": 1,
+      "bytes": 12043918
+    },
+    {
+      "original": "deliverables/oye-demo-checks.json",
+      "archive": ".data/repo-archive/deliverables/oye-demo-checks.json",
+      "files": 1,
+      "bytes": 1768
+    },
+    {
+      "original": "deliverables/oye-demo-preview.jpg",
+      "archive": ".data/repo-archive/deliverables/oye-demo-preview.jpg",
+      "files": 1,
+      "bytes": 77193
+    },
+    {
+      "original": "deliverables/oye-demo-timeline.json",
+      "archive": ".data/repo-archive/deliverables/oye-demo-timeline.json",
+      "files": 1,
+      "bytes": 3706
+    },
+    {
+      "original": "deliverables/oye-demo-v2-preview.jpg",
+      "archive": ".data/repo-archive/deliverables/oye-demo-v2-preview.jpg",
+      "files": 1,
+      "bytes": 78308
+    },
+    {
+      "original": "deliverables/oye-demo.mp4",
+      "archive": ".data/repo-archive/deliverables/oye-demo.mp4",
+      "files": 1,
+      "bytes": 10436912
+    },
+    {
+      "original": "deliverables/source",
+      "archive": ".data/repo-archive/deliverables/source",
+      "files": 3,
+      "bytes": 27321
+    },
+    {
+      "original": "deliverables/voice-options",
+      "archive": ".data/repo-archive/deliverables/voice-options",
+      "files": 7,
+      "bytes": 465143
+    },
+    {
+      "original": "docs/evidence/m13-browser/10-recovery-preparation.jpg",
+      "archive": ".data/repo-archive/docs/evidence/m13-browser/10-recovery-preparation.jpg",
+      "files": 1,
+      "bytes": 67186,
+      "reason": "Unreferenced intermediate recovery screenshot; failed-review records and linked screenshots remain"
+    }
+  ],
+  "deletedGeneratedHandoffCopy": {
+    "path": ".data/handoff-check/oye",
+    "bytes": 420293730
+  },
+  "currentDemoSha256": "4bcc69f00af136228a24a87bf4b7290fd0b015a48a4930c78c2f17af1ca92b68",
+  "afterGitCandidatesBeforeEvidence": {
+    "files": 253,
+    "bytes": 14716173
+  },
+  "ignoreChecksPassed": 23,
+  "credentialsOrRuntimeCandidates": [],
+  "appChecks": "Not rerun; application behavior unchanged. Git ignore, documentation and package checks only.",
+  "finalChecks": {
+    "gitEligibleFiles": 255,
+    "gitEligibleBytes": 14721538,
+    "beforeGitEligibleBytes": 37911420,
+    "reductionPercent": 61.2,
+    "linkedWalkthroughImages": 14,
+    "currentPresentationCopies": 1,
+    "remainingVideos": 2,
+    "bundledLocalLinks": 310,
+    "brokenLinks": 0,
+    "zipIntegrityAndFileHashes": "passed",
+    "sourcePackageMatchesGitCandidates": true,
+    "runtimeAndCredentialsExcluded": true,
+    "demoBytesUnchanged": true
+  }
+}

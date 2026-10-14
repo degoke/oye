@@ -1,0 +1,55 @@
+{
+  "scope": "Isolated keyless Docker Compose acceptance",
+  "project": "oye-m17-check",
+  "port": 5193,
+  "platform": "linux/amd64",
+  "capabilities": {
+    "text": {
+      "provider": "openai",
+      "model": "gpt-6-luna",
+      "configured": false
+    },
+    "fixtures": false
+  },
+  "imageBuild": "passed",
+  "containerTypecheckAndBuild": "passed",
+  "nativeTypecheckAndBuild": "passed",
+  "generatedMigrationsApplied": 13,
+  "databaseIntegrity": "ok",
+  "runtimeUid": 1000,
+  "webApiProxy": "passed",
+  "spaDeepLink": "passed",
+  "serviceWorker": "served",
+  "originGuard": "403",
+  "webSocketUpgrade": "101",
+  "webSocketOriginGuard": "403",
+  "fonts": "NotoSans-Regular.ttf: \"Noto Sans\" \"Regular\"",
+  "unicodeSlide": "rendered and visually inspected",
+  "mediaEncoding": [
+    "H.264",
+    "AAC",
+    "MP3"
+  ],
+  "syntheticClipSeconds": 2,
+  "preferencePersistenceAcrossContainerRecreation": "passed",
+  "namedVolumePersistence": "passed",
+  "coherentBackupArchive": "passed",
+  "restoreIntoFreshVolume": {
+    "integrity": "ok",
+    "migrations": 13,
+    "restoredPreference": true
+  },
+  "imageEnvFiles": "absent",
+  "paidCalls": 0,
+  "healthyServices": [
+    "api",
+    "web"
+  ],
+  "migrationExitCode": 0,
+  "acceptanceHelperCorrections": [
+    "Retry transient HTTP disconnections during startup",
+    "Wait for the web healthcheck after HTTP readiness"
+  ],
+  "servicesLeftRunning": false,
+  "cleanup": "The isolated Compose containers/network were stopped after acceptance; the named check volume and cached images are retained locally."
+}

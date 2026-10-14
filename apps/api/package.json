@@ -1,0 +1,32 @@
+{
+  "name": "@oye/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsup",
+    "start": "node dist/index.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.0",
+    "@openai/agents": "0.20.0",
+    "@oye/db": "workspace:*",
+    "@oye/shared": "workspace:*",
+    "@resvg/resvg-js": "2.6.2",
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^17.0.0",
+    "hono": "^4.13.13",
+    "openai": "^7.32.0",
+    "ws": "8.22.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/ws": "8.18.1",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.0",
+    "vitest": "^4.0.0"
+  }
+}

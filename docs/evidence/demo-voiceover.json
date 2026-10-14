@@ -1,0 +1,92 @@
+[
+  {
+    "id": "story",
+    "seconds": 34.776,
+    "targetSeconds": 40,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Kore",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 40
+  },
+  {
+    "id": "english",
+    "seconds": 30.528,
+    "targetSeconds": 35,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Kore",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 35
+  },
+  {
+    "id": "learning",
+    "seconds": 46.224,
+    "targetSeconds": 55,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Kore",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 55
+  },
+  {
+    "id": "yoruba-intro",
+    "seconds": 8.208,
+    "targetSeconds": 10,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Kore",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 10
+  },
+  {
+    "id": "yoruba-bridge",
+    "seconds": 8.376,
+    "targetSeconds": 9,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Kore",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 8
+  },
+  {
+    "id": "yoruba-course",
+    "seconds": 13.848,
+    "targetSeconds": 12,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Kore",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 14
+  },
+  {
+    "id": "yoruba-close",
+    "seconds": 15.888,
+    "targetSeconds": 10.881,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Kore",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 13.784
+  },
+  {
+    "id": "codex",
+    "seconds": 37.896,
+    "targetSeconds": 40,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Kore",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 40
+  },
+  {
+    "id": "closing",
+    "seconds": 35.616,
+    "targetSeconds": 35,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Kore",
+    "syntheticPresenter": true,
+    "cached": false,
+    "finalFittedTargetSeconds": 35
+  }
+]

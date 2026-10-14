@@ -1,0 +1,177 @@
+{
+  "publishedKeys": 53,
+  "evidence": [
+    {
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T14:55:09.213Z"
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T14:59:28.871Z"
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T15:01:48.446Z"
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "language": "yo",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T15:04:18.683Z"
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T14:54:28.359Z"
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T14:55:07.697Z"
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T14:56:00.661Z"
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "language": "ha",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T15:03:53.928Z"
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T14:54:41.817Z"
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T14:59:21.079Z"
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T14:59:55.064Z"
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "language": "ig",
+      "review": {
+        "valid": true,
+        "issues": []
+      },
+      "reviewedAt": "2026-10-13T15:03:49.426Z"
+    }
+  ],
+  "recordingFallback": {
+    "keys": 7,
+    "reviews": [
+      {
+        "model": "openai/gpt-6-luna",
+        "language": "yo",
+        "review": {
+          "valid": true,
+          "issues": []
+        },
+        "reviewedAt": "2026-10-13T15:46:08.721Z"
+      },
+      {
+        "model": "openai/gpt-6-luna",
+        "language": "ha",
+        "review": {
+          "valid": true,
+          "issues": []
+        },
+        "reviewedAt": "2026-10-13T15:45:11.832Z"
+      },
+      {
+        "model": "openai/gpt-6-luna",
+        "language": "ig",
+        "review": {
+          "valid": true,
+          "issues": []
+        },
+        "reviewedAt": "2026-10-13T15:45:28.643Z"
+      }
+    ]
+  },
+  "experimentalVoiceNotice": {
+    "keys": 1,
+    "reviews": [
+      {
+        "model": "openai/gpt-6-luna",
+        "language": "yo",
+        "review": {
+          "valid": true,
+          "issues": []
+        },
+        "reviewedAt": "2026-10-13T15:59:01.091Z"
+      },
+      {
+        "model": "openai/gpt-6-luna",
+        "language": "ha",
+        "review": {
+          "valid": true,
+          "issues": []
+        },
+        "reviewedAt": "2026-10-13T15:58:58.653Z"
+      },
+      {
+        "model": "openai/gpt-6-luna",
+        "language": "ig",
+        "review": {
+          "valid": true,
+          "issues": []
+        },
+        "reviewedAt": "2026-10-13T15:58:58.903Z"
+      }
+    ]
+  }
+}

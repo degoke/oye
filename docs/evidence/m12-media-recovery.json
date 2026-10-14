@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-13T16:44:49.301Z",
+  "incident": "Isolated retention database shared the production media directory. The check deleted cached media.",
+  "fix": "Retention requires an explicit media directory. Isolated checks use their own directory. Missing files invalidate cached outputs at startup without paid regeneration.",
+  "recovered": [
+    {
+      "language": "en",
+      "videoId": "5c1af1d5-3d5d-418f-89f8-6512c80c191a",
+      "videoAndCaptionsExactCopy": true,
+      "narrationRecoveredFromApprovedVideoTrack": true,
+      "narrationCodecChanged": true
+    },
+    {
+      "language": "ha",
+      "videoId": "e0f4ee31-af84-4eeb-b485-68501dd6fe3b",
+      "videoAndCaptionsExactCopy": true,
+      "narrationRecoveredFromApprovedVideoTrack": true,
+      "narrationCodecChanged": true
+    }
+  ],
+  "invalidated": {
+    "missingNarrations": 4,
+    "missingVideos": 1,
+    "missingVoiceReplies": 4
+  },
+  "lessonsAndLearningRecordsUnaffected": true,
+  "paidRecoveryCalls": 0,
+  "originalMissingVoiceAudioNotRecovered": true,
+  "originalCompoundInterestVideoNotRecovered": true
+}

@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-14",
+  "journeyId": "c07e9660-d7f5-4501-b94d-27c5af832863",
+  "conceptId": "095ec7ae-dd93-4b96-8ce1-bd92d8808a59",
+  "syntheticLearner": true,
+  "actualBrowserSubmissions": true,
+  "earlierAttemptPreserved": true,
+  "attempts": [
+    {
+      "id": "e8bb2d9d-2331-4106-ac2b-a239638ffac7",
+      "explanation": "Plants turn sunlight into the material in sugar. Carbon dioxide and water are not the materials; light itself becomes plant mass.",
+      "status": "completed",
+      "understanding": "needs_practice",
+      "answers": [
+        {
+          "question": "How would you describe the roles of sunlight, carbon dioxide, and water in photosynthesis, and what substances come out of the process?",
+          "answer": "I mean the sunlight itself becomes the material in sugar and plant mass. Carbon dioxide and water do not supply the material. Sugar and oxygen come out.",
+          "requestId": "4d22060c-e5f4-4fc4-a5b5-ad37b25affde"
+        }
+      ],
+      "evaluation": {
+        "findings": [
+          {
+            "criterionId": "r1",
+            "status": "misconception",
+            "answerIndex": 1,
+            "quote": "Carbon dioxide and water do not supply the material.",
+            "explanation": "The learner explicitly denies that carbon dioxide and water are material inputs to photosynthesis.",
+            "certainty": "high"
+          },
+          {
+            "criterionId": "r2",
+            "status": "met",
+            "answerIndex": 1,
+            "quote": "Sugar and oxygen come out.",
+            "explanation": "The learner correctly identifies sugar and oxygen as products of photosynthesis.",
+            "certainty": "high"
+          },
+          {
+            "criterionId": "r3",
+            "status": "misconception",
+            "answerIndex": 1,
+            "quote": "I mean the sunlight itself becomes the material in sugar and plant mass.",
+            "explanation": "The learner explicitly says that sunlight becomes plant material, rather than supplying energy for the process.",
+            "certainty": "high"
+          }
+        ],
+        "summary": "The learner identifies sugar and oxygen as products, but misunderstands the roles of carbon dioxide, water, and light.",
+        "followup": null,
+        "repair": {
+          "heading": "Materials and energy have different roles",
+          "body": "In photosynthesis, carbon dioxide and water are the materials plants combine. Light supplies the energy for that process; it does not become plant mass. The products include sugars and oxygen.",
+          "example": "For a basil plant growing under a lamp, carbon dioxide and water are the material inputs. The lamp provides energy, and photosynthesis produces sugars and oxygen; the light itself does not become plant material.",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        "application": {
+          "question": "A tomato plant is growing in a cabinet under a grow lamp, with carbon dioxide and water available. Explain step by step which materials are combined, what role the lamp’s light plays, what products photosynthesis makes, and whether the light itself becomes part of the plant’s mass.",
+          "expectedAnswer": "Carbon dioxide and water are the materials combined. The grow lamp’s light supplies energy for the process; it is not converted into plant mass. Photosynthesis produces carbohydrates, including sugars, and oxygen.",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      },
+      "application_answer": "The tomato plant combines carbon dioxide and water as material inputs. The grow lamp supplies light energy to drive that process. Photosynthesis makes carbohydrates, including sugars, and oxygen. The light supplies energy; it does not become material in sugar or plant mass.",
+      "application_evaluation": {
+        "correct": true,
+        "quote": "The tomato plant combines carbon dioxide and water as material inputs. The grow lamp supplies light energy to drive that process. Photosynthesis makes carbohydrates, including sugars, and oxygen. The light supplies energy; it does not become material in sugar or plant mass.",
+        "explanation": "The answer correctly identifies carbon dioxide and water as inputs, light as the energy source, carbohydrates and oxygen as products, and explains that light does not become plant mass.",
+        "certainty": "high"
+      }
+    },
+    {
+      "id": "ceb7bbc9-00ec-4563-8fee-424110d6e55a",
+      "explanation": "Photosynthesis uses light energy to combine carbon dioxide and water into carbohydrates, including sugars, and oxygen. Carbon dioxide and water supply the materials. Sunlight supplies energy; it is not converted into sugar material or plant mass.",
+      "status": "completed",
+      "understanding": "demonstrated",
+      "answers": [
+        {
+          "question": "Which part of your explanation best distinguishes the materials used in photosynthesis from the energy source?",
+          "answer": "Carbon dioxide and water supply the materials that are combined into carbohydrates. Sunlight supplies the energy to drive that process. Light is not a material turned into sugar or plant mass. Carbohydrates and oxygen are products.",
+          "requestId": "e330ad04-e68d-447a-97f4-1d3493a1f63f"
+        }
+      ],
+      "evaluation": {
+        "findings": [
+          {
+            "criterionId": "r1",
+            "status": "met",
+            "answerIndex": 0,
+            "quote": "Photosynthesis uses light energy to combine carbon dioxide and water",
+            "explanation": "The independent explanation explicitly identifies sunlight-derived energy, carbon dioxide, and water as part of the process.",
+            "certainty": "high"
+          },
+          {
+            "criterionId": "r2",
+            "status": "met",
+            "answerIndex": 0,
+            "quote": "into carbohydrates, including sugars, and oxygen.",
+            "explanation": "The independent explanation correctly names carbohydrates, including sugars, and oxygen as products.",
+            "certainty": "high"
+          },
+          {
+            "criterionId": "r3",
+            "status": "met",
+            "answerIndex": 0,
+            "quote": "Sunlight supplies energy; it is not converted into sugar material or plant mass.",
+            "explanation": "The explanation distinguishes light’s role as an energy source from material incorporated into sugar or plant mass.",
+            "certainty": "high"
+          }
+        ],
+        "summary": "The independent explanation clearly and accurately covers the materials, energy source, products, and the distinction between light energy and plant material.",
+        "followup": null,
+        "repair": null,
+        "application": {
+          "question": "A bean plant has water and carbon dioxide available. Sunlight reaches it for the first hour; during the second hour, it is kept in a completely dark cabinet, with no other light available and other conditions unchanged. Using the photosynthesis model, explain what can happen in each interval. Identify the energy source and material inputs, state the products when the process is powered, explain whether light becomes plant mass, and show how the changed light condition affects your conclusion.",
+          "expectedAnswer": "During the first hour, sunlight supplies energy for photosynthesis, which combines carbon dioxide and water into carbohydrates, including sugars, and oxygen. The light supplies energy; it is not material converted into plant mass. During the dark hour, no light energy is available to power photosynthesis as described, so the process cannot produce those products in that interval according to this model.",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      },
+      "application_answer": "In the first hour, sunlight supplies the light energy needed to combine carbon dioxide and water as material inputs. When photosynthesis is powered, it produces carbohydrates, including sugars, and oxygen. Light supplies energy; it is not converted into plant mass. In the second hour the cabinet is completely dark with no other light, so the photosynthesis model cannot power that process, even though water and carbon dioxide remain available. The changed light condition removes the energy source, not the material inputs.",
+      "application_evaluation": {
+        "correct": true,
+        "quote": "In the second hour the cabinet is completely dark with no other light, so the photosynthesis model cannot power that process, even though water and carbon dioxide remain available.",
+        "explanation": "The answer correctly explains that sunlight provides the energy for photosynthesis, carbon dioxide and water are material inputs, and powered photosynthesis produces carbohydrates and oxygen. It also states that light is energy, not material converted into plant mass, and applies the lack of light to the dark interval.",
+        "certainty": "high"
+      }
+    }
+  ]
+}

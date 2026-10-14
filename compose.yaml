@@ -1,0 +1,66 @@
+name: oye
+
+x-api-image: &api-image
+  image: ${COMPOSE_PROJECT_NAME:-oye}-api:local
+  build:
+    context: .
+    target: api
+
+x-api-environment: &api-environment
+  API_HOST: 0.0.0.0
+  API_PORT: "3187"
+  WEB_ORIGIN: http://127.0.0.1:${OYE_DOCKER_PORT:-5187}
+  DATABASE_PATH: /data/oye.sqlite
+  MEDIA_PATH: /data/media
+  VIDEO_FONT_FAMILY: Noto Sans
+
+services:
+  migrate:
+    <<: *api-image
+    command: ["pnpm", "db:migrate"]
+    environment: *api-environment
+    volumes:
+      - oye-data:/data
+    restart: "no"
+
+  api:
+    <<: *api-image
+    env_file:
+      - path: ${OYE_ENV_FILE:-.env.docker}
+        required: false
+    environment: *api-environment
+    volumes:
+      - oye-data:/data
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    init: true
+    restart: unless-stopped
+    stop_grace_period: 30s
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3187/api/health', {signal: AbortSignal.timeout(3000)}).then(async r => {if (!r.ok || (await r.json()).status !== 'ok') process.exit(1)}).catch(() => process.exit(1))"]
+      interval: 5s
+      timeout: 4s
+      retries: 10
+      start_period: 10s
+
+  web:
+    image: ${COMPOSE_PROJECT_NAME:-oye}-web:local
+    build:
+      context: .
+      target: web
+    ports:
+      - "127.0.0.1:${OYE_DOCKER_PORT:-5187}:8080"
+    depends_on:
+      api:
+        condition: service_healthy
+        restart: true
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:8080/healthz"]
+      interval: 5s
+      timeout: 4s
+      retries: 10
+
+volumes:
+  oye-data:

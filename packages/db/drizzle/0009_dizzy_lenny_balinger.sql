@@ -1,0 +1,1 @@
+ALTER TABLE `narrations` ADD `review` text DEFAULT '[]' NOT NULL;
