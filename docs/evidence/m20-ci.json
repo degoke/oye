@@ -23,5 +23,23 @@
   "nodeVersionFile": ".nvmrc",
   "pnpmVersionSource": "packageManager",
   "requiresProviderSecrets": false,
-  "hostedVerification": "pending"
+  "hostedVerification": {
+    "result": "success",
+    "url": "https://github.com/degoke/oye/actions/runs/38615125646",
+    "runId": 38615125646,
+    "commit": "39b1b97784845f0f8da02481e2a92275caf9a122",
+    "testsPassed": 11,
+    "jobConclusions": [
+      {
+        "name": "Typecheck, test and build",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "sourcePackageChecks": {
+    "workflowIncluded": true,
+    "immutableActionPins": 3,
+    "localLinksChecked": 312,
+    "brokenLinks": 0
+  }
 }

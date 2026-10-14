@@ -4,7 +4,7 @@ Last updated: 14 October 2026, Africa/Lagos.
 
 Current phase: the original demo is complete for the accepted scope. M00–M12 are complete; M13 adds the user-requested spoken objective and visible 4:50 presentation flow. A local Git repository and pnpm workspace are initialized.
 
-Current milestone: M20, GitHub CI and the local check command, is in progress. M19 is complete, including GitHub repository creation and initial push. M18 is complete, including GitHub repository cleanup. M17 is complete, including Docker Compose local handoff. M16 is complete, including the reusable handoff and static screenshot walkthrough. M15 is complete. M13 is complete for the accepted separate demo-asset scope. Fresh learning/adaptation, four-language text, recorded voice, captioned video, saved offline text, retention, usage bounds, keyboard checks, type checks and production build have recorded evidence. D033 accepts experimental Yoruba/Igbo audio with text fallback. D037 accepts unverified human microphone conversation, physical-phone keyboard behavior and real screen-reader checks as documented demo limitations. No device certification or deployment is claimed. See [final audit](evidence/m12.md), [handoff](handoff.md) and [demo script](demo-script.md).
+Current milestone: M20 is complete, including GitHub CI and the local check command. M19 is complete, including GitHub repository creation and initial push. M18 is complete, including GitHub repository cleanup. M17 is complete, including Docker Compose local handoff. M16 is complete, including the reusable handoff and static screenshot walkthrough. M15 is complete. M13 is complete for the accepted separate demo-asset scope. Fresh learning/adaptation, four-language text, recorded voice, captioned video, saved offline text, retention, usage bounds, keyboard checks, type checks and production build have recorded evidence. D033 accepts experimental Yoruba/Igbo audio with text fallback. D037 accepts unverified human microphone conversation, physical-phone keyboard behavior and real screen-reader checks as documented demo limitations. No device certification or deployment is claimed. See [final audit](evidence/m12.md), [handoff](handoff.md) and [demo script](demo-script.md).
 
 | Milestone | Status |
 | --- | --- |
@@ -28,6 +28,7 @@ Current milestone: M20, GitHub CI and the local check command, is in progress. M
 | M17 · Docker Compose local handoff | Complete; containers, persistence, media and backup/restore checked |
 | M18 · GitHub repository cleanup | Complete; curated assets, ignore rules and package links checked |
 | M19 · GitHub repository and initial push | Complete; private degoke/oye, main synchronized |
+| M20 · GitHub CI and local checks | Complete; local and hosted typecheck/test/build passed |
 
 ## M00 record
 
@@ -312,3 +313,10 @@ Created [degoke/oye](https://github.com/degoke/oye) in the authenticated persona
 Added `pnpm check` to run typecheck, package tests and production build sequentially. GitHub Actions uses the same command with frozen dependency installation, Node from `.nvmrc`, pnpm from `packageManager`, cached dependencies and immutable action pins. It runs without provider secrets on main pushes, PRs and manual dispatch. Local and hosted acceptance are pending.
 
 M20 local acceptance: `pnpm check` passed all workspace type checks, both Vitest test files with eleven passing tests, and the production build. The existing realtime chunk-size warning remains. Hosted CI verification is pending the workflow push.
+
+
+## M20 completed
+
+The root `pnpm check` runs typecheck, existing package tests and production build in order. GitHub CI runs the same command on main pushes, PRs and manual dispatch, using Node from `.nvmrc`, pnpm from the manifest, a frozen lockfile, dependency caching, immutable action pins and read-only repository permissions. The workflow is included in source packaging. README/contributor/developer guidance documents the shared gate and separate browser/provider/device checks.
+
+Local checks passed: all workspace types, two Vitest files with eleven passing tests, and production build. [Hosted run 38615125646](https://github.com/degoke/oye/actions/runs/38615125646) also passed; its log confirms eleven passing tests. No provider keys, paid requests or live databases were required. The existing realtime chunk-size warning remains. [CI evidence](evidence/m20-ci.json) records the run and scope.

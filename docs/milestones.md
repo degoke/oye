@@ -268,4 +268,6 @@ Added at the user's request after M19. Outcome: one repeatable gate locally and 
 - [x] Add `pnpm check` for sequential typecheck, existing package tests and build.
 - [x] Add CI on main pushes, pull requests and manual dispatch with pinned actions, Node/pnpm configuration, frozen install and caching.
 - [x] Include workflow files in the source handoff and document check scope.
-- [ ] Run the local check, push the workflow and verify a GitHub CI run.
+- [x] Run the local check, push the workflow and verify a GitHub CI run. See [CI evidence](evidence/m20-ci.json).
+
+M20 complete: local `pnpm check` and [GitHub CI](https://github.com/degoke/oye/actions/runs/38615125646) passed type checks, eleven package tests and the production build. No provider secrets were required.

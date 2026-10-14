@@ -485,8 +485,10 @@ D054 result: [degoke/oye](https://github.com/degoke/oye) was created privately, 
 
 ## D055 · One check command locally and in CI
 
-Date: 14 October 2026. Status: implemented, local/hosted acceptance pending.
+Date: 14 October 2026. Status: complete; local and hosted checks passed.
 
 The user requested GitHub CI for typecheck/tests/build and a local command doing all three. Define `pnpm check` as sequential `pnpm typecheck`, `pnpm test`, `pnpm build`, stopping at the first failure. Reuse that exact command in the workflow rather than maintaining a separate task order. Existing package tests use Vitest; browser checks remain their separate opt-in command and paid/device checks retain separate evidence.
 
 Use Ubuntu 24.04, Node from `.nvmrc`, pnpm's manifest-pinned version, frozen installation and dependency-store caching. Pin third-party actions to verified release commits, keep read-only repository permissions, bound run time and cancel superseded runs. Trigger main pushes, PRs and manual dispatch. No provider keys, live databases or migration generation are used in CI. Add `.github` to source packaging so an extracted handoff retains the same check configuration.
+
+D055 result: local `pnpm check` and [the hosted workflow](https://github.com/degoke/oye/actions/runs/38615125646) passed, including eleven package tests. Workflow/source-package checks passed.
