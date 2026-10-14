@@ -1,6 +1,6 @@
 # Walk through òye.
 
-[← Project home](../README.md) · [Run the app](getting-started.md) · [Watch the 4:10 demo](../deliverables/oye-demo-v2.mp4)
+[← Project home](../README.md) · [Run the app](getting-started.md)
 
 Start with a question. Learn in your language. Explain the idea in your own words, then use it somewhere new.
 

@@ -98,14 +98,6 @@ For schema changes, edit the TypeScript schema, run `pnpm db:generate`, review t
 
 See [Contributing](CONTRIBUTING.md), [the developer guide](docs/development.md) and [handoff](docs/handoff.md) for the working conventions, operational limits and retention.
 
-## Demo and reuse
+## Deployment and status
 
-The [4:10 pitch](docs/pitch.md) covers the problem, learning change, Yoruba voice/video, Codex's role and the proposed pilot. [Watch the demo](deliverables/oye-demo-v2.mp4).
-
-```sh
-pnpm package:source
-```
-
-This creates `deliverables/oye-source.zip` with source, generated migrations, documentation, walkthrough images and the current demo. It excludes credentials, saved learner data, dependencies and build outputs. Extract it and follow the same setup above.
-
-The project is a working prototype with a documented path to a hosted pilot. [Deployment](docs/deployment.md) covers one-origin serving, persistent storage, backups and growth beyond the prototype. [Language capabilities](docs/languages.md) and [status](docs/status.md) record the accepted demo scope and evidence.
+The project is a working prototype with a documented path to a hosted pilot. [Deployment](docs/deployment.md) covers one-origin serving, persistent storage, backups and growth beyond the prototype. [Language capabilities](docs/languages.md) and [status](docs/status.md) record current capabilities and verification evidence.

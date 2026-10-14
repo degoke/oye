@@ -320,3 +320,8 @@ M20 local acceptance: `pnpm check` passed all workspace type checks, both Vitest
 The root `pnpm check` runs typecheck, existing package tests and production build in order. GitHub CI runs the same command on main pushes, PRs and manual dispatch, using Node from `.nvmrc`, pnpm from the manifest, a frozen lockfile, dependency caching, immutable action pins and read-only repository permissions. The workflow is included in source packaging. README/contributor/developer guidance documents the shared gate and separate browser/provider/device checks.
 
 Local checks passed: all workspace types, two Vitest files with eleven passing tests, and production build. [Hosted run 38615125646](https://github.com/degoke/oye/actions/runs/38615125646) also passed; its log confirms eleven passing tests. No provider keys, paid requests or live databases were required. The existing realtime chunk-size warning remains. [CI evidence](evidence/m20-ci.json) records the run and scope.
+
+
+## README focus update
+
+Removed the capstone pitch/video and source-package promotion from the root README at the user's request. The README now ends with app deployment/status guidance. The screenshot walkthrough navigation also focuses on the app, while its video explainer images/playback links remain. Presentation and packaging documentation/assets are preserved in their dedicated locations. Checked the changed Markdown links and diff; application code was unchanged.

@@ -492,3 +492,10 @@ The user requested GitHub CI for typecheck/tests/build and a local command doing
 Use Ubuntu 24.04, Node from `.nvmrc`, pnpm's manifest-pinned version, frozen installation and dependency-store caching. Pin third-party actions to verified release commits, keep read-only repository permissions, bound run time and cancel superseded runs. Trigger main pushes, PRs and manual dispatch. No provider keys, live databases or migration generation are used in CI. Add `.github` to source packaging so an extracted handoff retains the same check configuration.
 
 D055 result: local `pnpm check` and [the hosted workflow](https://github.com/degoke/oye/actions/runs/38615125646) passed, including eleven package tests. Workflow/source-package checks passed.
+
+
+## D056 · Keep the README focused on the app
+
+Date: 14 October 2026. Status: implemented at the user's request.
+
+The user clarified that the capstone presentation is separate from the app. Remove the README's pitch/video and source-ZIP promotion block. Keep app features, product walkthrough, setup, providers, development checks and deployment/status guidance. Remove the presentation shortcut from the walkthrough navigation; retain the app's narrated video explainer sections. Presentation and packaging records remain in their dedicated documentation.
